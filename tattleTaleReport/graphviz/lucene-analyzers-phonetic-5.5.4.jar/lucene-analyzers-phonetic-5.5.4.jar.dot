@@ -1,0 +1,6 @@
+digraph lucene_analyzers_phonetic_5_5_4_dependencies {
+  node [shape = box, fontsize=10.0];
+  lucene_analyzers_phonetic_5_5_4 -> commons_codec_1_10_0_redhat_5;
+  lucene_analyzers_phonetic_5_5_4 -> lucene_analyzers_common_5_5_4;
+  lucene_analyzers_phonetic_5_5_4 -> lucene_core_5_5_4;
+}

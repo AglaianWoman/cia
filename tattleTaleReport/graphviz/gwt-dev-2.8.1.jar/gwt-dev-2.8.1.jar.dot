@@ -1,0 +1,12 @@
+digraph gwt_dev_2_8_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  gwt_dev_2_8_1 -> animal_sniffer_annotations_1_14;
+  gwt_dev_2_8_1 -> ant_1_10_1;
+  gwt_dev_2_8_1 -> asm_5_2;
+  gwt_dev_2_8_1 -> colt_2_1_4;
+  gwt_dev_2_8_1 -> gson_2_8_0;
+  gwt_dev_2_8_1 -> j2objc_annotations_1_1;
+  gwt_dev_2_8_1 -> jsr305_1_3_9;
+  gwt_dev_2_8_1 -> org_osgi_core_6_0_0;
+  gwt_dev_2_8_1 -> xml_apis_1_4_01;
+}

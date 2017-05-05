@@ -1,0 +1,4 @@
+digraph jna_platform_4_4_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  jna_platform_4_4_0 -> jna_4_4_0;
+}

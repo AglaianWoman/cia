@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: jwilson
+Created-By: Apache Maven 3.2.3
+Build-Jdk: 1.8.0_92
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.gson.internal.bind
+Bundle-Description: gson-2.8.0
+Bundle-Name: gson-2.8.0
+Bundle-Version: 0.0.0
+Export-Package: com.google.gson;uses:="com.google.gson.internal,com.go
+ ogle.gson.internal.bind,com.google.gson.internal.bind.util,com.google
+ .gson.reflect,com.google.gson.stream",com.google.gson.annotations,com
+ .google.gson.internal;uses:="com.google.gson,com.google.gson.annotati
+ ons,com.google.gson.internal.bind,com.google.gson.reflect,com.google.
+ gson.stream",com.google.gson.internal.bind;uses:="com.google.gson,com
+ .google.gson.annotations,com.google.gson.internal,com.google.gson.int
+ ernal.bind.util,com.google.gson.reflect,com.google.gson.stream",com.g
+ oogle.gson.internal.bind.util,com.google.gson.reflect;uses:="com.goog
+ le.gson.internal",com.google.gson.stream;uses:="com.google.gson.inter
+ nal,com.google.gson.internal.bind"
+Import-Package: java.io,java.lang,java.lang.annotation,java.lang.refle
+ ct,java.math,java.net,java.sql,java.text,java.util,java.util.concurre
+ nt,java.util.concurrent.atomic

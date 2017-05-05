@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+X-Compile-Elasticsearch-Version: 5.3.0
+Implementation-Title: org.elasticsearch.client#rest;5.3.0
+Module-Origin: git@github.com:elastic/elasticsearch.git
+Build-Date: 2017-03-23T03:33:23.398Z
+Implementation-Version: 5.3.0
+Built-By: vagrant
+Change: 3adb13b
+Module-Source: /client/rest
+Branch: 3adb13b1f49935973b974a2517caa0d4d59bf4d0
+Built-Status: integration
+Gradle-Version: 2.13
+Built-OS: Linux
+X-Compile-Target-JDK: 1.7
+X-Compile-Elasticsearch-Snapshot: false
+X-Compile-Lucene-Version: 6.4.1
+X-Compile-Source-JDK: 1.7
+Created-By: 1.8.0_121-b13 (Oracle Corporation)
+Build-Java-Version: 1.8
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.elasticsearch.client
+Bundle-Description: rest-5.3.0
+Bundle-Name: rest-5.3.0
+Bundle-Version: 5.3.0
+Export-Package: org.elasticsearch.client;uses:="java.nio.charset,java.
+ util,org.apache.http,org.apache.http.client.config,org.apache.http.cl
+ ient.methods,org.apache.http.client.protocol,org.apache.http.client.u
+ tils,org.apache.http.concurrent,org.apache.http.entity,org.apache.htt
+ p.impl.nio.client,org.apache.http.nio,org.apache.http.nio.client.meth
+ ods,org.apache.http.nio.entity,org.apache.http.nio.protocol,org.apach
+ e.http.nio.util"
+Import-Package: java.io,java.lang,java.net,java.nio.charset,java.util,
+ java.util.concurrent,java.util.concurrent.atomic,org.apache.commons.l
+ ogging;version="1.7.25",org.apache.http;version="4.4.6",org.apache.ht
+ tp.auth;version="4.5.3",org.apache.http.client;version="4.5.3",org.ap
+ ache.http.client.config;version="4.5.3",org.apache.http.client.method
+ s;version="4.5.3",org.apache.http.client.protocol;version="4.5.3",org
+ .apache.http.client.utils;version="4.5.3",org.apache.http.concurrent;
+ version="4.4.6",org.apache.http.entity;version="4.4.6",org.apache.htt
+ p.impl.auth;version="4.5.3",org.apache.http.impl.client;version="4.5.
+ 3",org.apache.http.impl.nio.client;version="4.1.2",org.apache.http.ni
+ o;version="4.4.5",org.apache.http.nio.client.methods;version="4.1.2",
+ org.apache.http.nio.entity;version="4.4.5",org.apache.http.nio.protoc
+ ol;version="4.4.5",org.apache.http.nio.util;version="4.4.5",org.apach
+ e.http.protocol;version="4.4.6",org.apache.http.util;version="4.4.6"

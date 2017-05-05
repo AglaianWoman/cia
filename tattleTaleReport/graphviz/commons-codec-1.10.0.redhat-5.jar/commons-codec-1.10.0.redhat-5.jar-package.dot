@@ -1,0 +1,6 @@
+digraph commons_codec_1_10_0_redhat_5_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  org_apache_commons_codec_binary -> org_apache_commons_codec;
+  org_apache_commons_codec_digest -> org_apache_commons_codec;
+  org_apache_commons_codec_net -> org_apache_commons_codec;
+}

@@ -1,0 +1,10 @@
+digraph hibernate_validator_5_4_1_Final_dependencies {
+  node [shape = box, fontsize=10.0];
+  hibernate_validator_5_4_1_Final -> classmate_1_3_3;
+  hibernate_validator_5_4_1_Final -> hibernate_jpa_2_1_api_1_0_0_Final;
+  hibernate_validator_5_4_1_Final -> jboss_logging_3_3_1_Final;
+  hibernate_validator_5_4_1_Final -> joda_time_2_9_9;
+  hibernate_validator_5_4_1_Final -> jsoup_1_10_2;
+  hibernate_validator_5_4_1_Final -> validation_api_1_1_0_Final;
+  hibernate_validator_5_4_1_Final -> xml_apis_1_4_01;
+}

@@ -1,0 +1,4 @@
+digraph jcl_over_slf4j_1_7_25_dependencies {
+  node [shape = box, fontsize=10.0];
+  jcl_over_slf4j_1_7_25 -> slf4j_api_1_7_25;
+}

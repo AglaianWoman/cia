@@ -1,0 +1,5 @@
+digraph jboss_logging_3_3_1_Final_dependencies {
+  node [shape = box, fontsize=10.0];
+  jboss_logging_3_3_1_Final -> log4j_over_slf4j_1_7_25;
+  jboss_logging_3_3_1_Final -> slf4j_api_1_7_25;
+}

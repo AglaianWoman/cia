@@ -1,0 +1,109 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: wicker
+Class-Path: lib/scala-library-2.10.2.jar lib/scala-swing-2.10.2.jar li
+ b/scalatest-maven-plugin-1.0-M2.jar lib/maven-plugin-api-2.0.9.jar li
+ b/maven-project-2.0.9.jar lib/maven-settings-2.0.9.jar lib/maven-prof
+ ile-2.0.9.jar lib/maven-model-2.0.9.jar lib/maven-artifact-manager-2.
+ 0.9.jar lib/maven-repository-metadata-2.0.9.jar lib/wagon-provider-ap
+ i-1.0-beta-2.jar lib/maven-plugin-registry-2.0.9.jar lib/maven-artifa
+ ct-2.0.9.jar lib/plexus-container-default-1.0-alpha-9-stable-1.jar li
+ b/classworlds-1.1-alpha-2.jar lib/maven-reporting-api-2.0.9.jar lib/d
+ oxia-sink-api-1.0.jar lib/plexus-utils-3.0.jar lib/jfreechart-1.0.13.
+ jar lib/jcommon-1.0.16.jar lib/ejml-0.22.jar lib/weka-dev-3.7.10.jar 
+ lib/java-cup-0.11a.jar lib/pentaho-package-manager-1.0.8.jar
+Created-By: Apache Maven 3.0.4
+Build-Jdk: 1.8.0_66
+Main-Class: edu.tyukiand.App
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.kramerlab.autoencoder.math.optimization
+Bundle-Description: autoencoder-0.1
+Bundle-Name: autoencoder-0.1
+Bundle-Version: 0.0.0
+Export-Package: org.kramerlab.autoencoder;uses:="org.kramerlab.autoenc
+ oder.experiments,org.kramerlab.autoencoder.math.matrix,org.kramerlab.
+ autoencoder.math.optimization,org.kramerlab.autoencoder.neuralnet,org
+ .kramerlab.autoencoder.neuralnet.autoencoder,org.kramerlab.autoencode
+ r.neuralnet.rbm,scala,scala.collection,scala.collection.generic,scala
+ .collection.immutable,scala.collection.mutable,scala.collection.paral
+ lel,scala.concurrent.forkjoin,scala.math,scala.reflect,scala.runtime"
+ ,org.kramerlab.autoencoder.demo;uses:="org.kramerlab.autoencoder,org.
+ kramerlab.autoencoder.experiments,org.kramerlab.autoencoder.math.matr
+ ix,org.kramerlab.autoencoder.neuralnet.autoencoder,org.kramerlab.auto
+ encoder.thresholding,org.kramerlab.autoencoder.visualization,org.kram
+ erlab.autoencoder.wekacompatibility,scala,scala.collection,scala.coll
+ ection.immutable,scala.collection.mutable,scala.io,scala.math,scala.r
+ eflect,scala.runtime,scala.swing",org.kramerlab.autoencoder.experimen
+ ts;uses:="org.kramerlab.autoencoder,org.kramerlab.autoencoder.math.ma
+ trix,org.kramerlab.autoencoder.math.random,org.kramerlab.autoencoder.
+ neuralnet.autoencoder,org.kramerlab.autoencoder.neuralnet.rbm,org.kra
+ merlab.autoencoder.thresholding,scala,scala.collection,scala.collecti
+ on.generic,scala.collection.immutable,scala.collection.mutable,scala.
+ math,scala.reflect,scala.runtime",org.kramerlab.autoencoder.math.comb
+ inatorics;uses:="scala,scala.collection,scala.collection.generic,scal
+ a.collection.immutable,scala.collection.mutable,scala.reflect,scala.r
+ untime",org.kramerlab.autoencoder.math.matrix;uses:="org.ejml.simple,
+ org.kramerlab.autoencoder.math.random,org.kramerlab.autoencoder.math.
+ structure,org.kramerlab.autoencoder.visualization,scala,scala.collect
+ ion,scala.collection.generic,scala.collection.immutable,scala.collect
+ ion.mutable,scala.collection.parallel,scala.collection.parallel.immut
+ able,scala.math,scala.reflect,scala.runtime,scala.util",org.kramerlab
+ .autoencoder.math.optimization;uses:="org.jfree.chart,org.jfree.chart
+ .axis,org.jfree.chart.plot,org.jfree.chart.renderer.xy,org.jfree.data
+ .xy,org.jfree.ui,org.kramerlab.autoencoder.math.matrix,org.kramerlab.
+ autoencoder.math.polynomial,org.kramerlab.autoencoder.math.structure,
+ org.kramerlab.autoencoder.visualization,scala,scala.collection,scala.
+ collection.generic,scala.collection.immutable,scala.collection.mutabl
+ e,scala.math,scala.reflect,scala.runtime",org.kramerlab.autoencoder.m
+ ath.polynomial;uses:="scala,scala.collection,scala.collection.immutab
+ le,scala.collection.mutable,scala.math,scala.reflect,scala.runtime",o
+ rg.kramerlab.autoencoder.math.random;uses:="scala,scala.collection.im
+ mutable,scala.math,scala.reflect,scala.runtime,scala.util",org.kramer
+ lab.autoencoder.math.structure;uses:="scala.math,scala.reflect",org.k
+ ramerlab.autoencoder.mnist;uses:="org.kramerlab.autoencoder.math.matr
+ ix,org.kramerlab.autoencoder.visualization,scala,scala.collection.imm
+ utable,scala.collection.mutable,scala.math,scala.reflect,scala.runtim
+ e",org.kramerlab.autoencoder.neuralnet;uses:="org.kramerlab.autoencod
+ er.math.matrix,org.kramerlab.autoencoder.math.optimization,org.kramer
+ lab.autoencoder.math.random,org.kramerlab.autoencoder.math.structure,
+ org.kramerlab.autoencoder.visualization,scala,scala.collection,scala.
+ collection.generic,scala.collection.immutable,scala.collection.mutabl
+ e,scala.math,scala.reflect,scala.runtime",org.kramerlab.autoencoder.n
+ euralnet.autoencoder;uses:="org.kramerlab.autoencoder,org.kramerlab.a
+ utoencoder.math.matrix,org.kramerlab.autoencoder.math.optimization,or
+ g.kramerlab.autoencoder.neuralnet,org.kramerlab.autoencoder.neuralnet
+ .rbm,org.kramerlab.autoencoder.visualization,scala,scala.collection,s
+ cala.collection.generic,scala.collection.immutable,scala.collection.m
+ utable,scala.reflect,scala.runtime",org.kramerlab.autoencoder.neuraln
+ et.rbm;uses:="org.kramerlab.autoencoder.experiments,org.kramerlab.aut
+ oencoder.math.matrix,org.kramerlab.autoencoder.math.optimization,org.
+ kramerlab.autoencoder.neuralnet,org.kramerlab.autoencoder.neuralnet.a
+ utoencoder,org.kramerlab.autoencoder.visualization,scala,scala.collec
+ tion,scala.collection.generic,scala.collection.immutable,scala.collec
+ tion.mutable,scala.math,scala.reflect,scala.runtime,scala.util",org.k
+ ramerlab.autoencoder.thresholding;uses:="org.kramerlab.autoencoder.ma
+ th.matrix,scala,scala.collection.generic,scala.collection.immutable,s
+ cala.math,scala.reflect,scala.runtime",org.kramerlab.autoencoder.visu
+ alization;uses:="org.kramerlab.autoencoder.math.matrix,org.kramerlab.
+ autoencoder.neuralnet.autoencoder,org.kramerlab.autoencoder.neuralnet
+ .rbm,scala,scala.collection,scala.math,scala.reflect,scala.runtime,sc
+ ala.swing",org.kramerlab.autoencoder.wekacompatibility;uses:="org.kra
+ merlab.autoencoder.math.matrix,scala,scala.collection,scala.collectio
+ n.generic,scala.collection.immutable,scala.collection.mutable,scala.i
+ o,scala.reflect,scala.runtime,weka.core"
+Import-Package: java.awt,java.awt.image,java.io,java.lang,java.lang.re
+ f,java.lang.reflect,java.util,org.ejml.simple;version="0.0.0",org.jfr
+ ee.chart;version="0.0.0",org.jfree.chart.axis;version="0.0.0",org.jfr
+ ee.chart.plot;version="0.0.0",org.jfree.chart.renderer.xy;version="0.
+ 0.0",org.jfree.data.xy;version="0.0.0",org.jfree.ui;version="0.0.0",s
+ cala;version="0.0.0",scala.collection;version="0.0.0",scala.collectio
+ n.generic;version="0.0.0",scala.collection.immutable;version="0.0.0",
+ scala.collection.mutable;version="0.0.0",scala.collection.parallel;ve
+ rsion="0.0.0",scala.collection.parallel.immutable;version="0.0.0",sca
+ la.concurrent.forkjoin;version="0.0.0",scala.io;version="0.0.0",scala
+ .math;version="0.0.0",scala.reflect;version="0.0.0",scala.runtime;ver
+ sion="0.0.0",scala.swing;version="0.0.0",scala.util;version="0.0.0",w
+ eka.core;version="0.0.0"

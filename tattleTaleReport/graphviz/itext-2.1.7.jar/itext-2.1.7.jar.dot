@@ -1,0 +1,6 @@
+digraph itext_2_1_7_dependencies {
+  node [shape = box, fontsize=10.0];
+  itext_2_1_7 -> bcpkix_jdk15on_1_56;
+  itext_2_1_7 -> bcprov_jdk15on_1_56;
+  itext_2_1_7 -> xml_apis_1_4_01;
+}

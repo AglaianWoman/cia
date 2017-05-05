@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.5
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Title: Java Transaction API Specification
+Extension-Name: javax.transaction
+Created-By: 1.5.0_06-b05 (Sun Microsystems Inc.)
+Specification-Version: 1.1
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: javax.transaction
+Bundle-Description: jta-1.1
+Bundle-Name: jta-1.1
+Bundle-Version: 1.1
+Export-Package: javax.transaction,javax.transaction.xa
+Import-Package: java.lang,java.rmi

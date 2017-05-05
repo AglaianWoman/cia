@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Implementation-Title: vaadin-server
+Bundle-Description: Vaadin server
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: com.vaadin.server
+Implementation-Version: 8.1.0.alpha6
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: com.vaadin.shared;bundle-version="8.1.0",com.vaadin.pu
+ sh;bundle-version="8.1.0";resolution:=optional,com.vaadin.sass-compil
+ er;bundle-version="0.9.13";resolution:=optional
+Bnd-LastModified: 1492681529199
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Implementation-Vendor-Id: com.vaadin
+Bundle-Vendor: Vaadin Ltd
+Import-Package: javax.servlet;version="3.0.0",javax.servlet.http;versi
+ on="3.0.0",javax.validation;version="1.0.0.GA";resolution:=optional,o
+ rg.jsoup;version="1.8.3",org.jsoup.parser;version="1.8.3",org.jsoup.n
+ odes;version="1.8.3",org.jsoup.select;version="1.8.3",javax.portlet;v
+ ersion="[2.0,3)";resolution:=optional,javax.portlet.filter;version="[
+ 2.0,3)";resolution:=optional,com.liferay.portal.kernel.util;version="
+ [7,8)";resolution:=optional,org.jsoup.helper;version="1.8.3",org.jsou
+ p.safety;version="1.8.3"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: Vaadin Ltd
+Export-Package: VAADIN;version="8.1.0",com.vaadin.annotations;version=
+ "8.1.0";uses:="com.vaadin.server,com.vaadin.ui",com.vaadin.data;versi
+ on="8.1.0";uses:="com.vaadin.data.provider,com.vaadin.event,com.vaadi
+ n.event.selection,com.vaadin.server,com.vaadin.ui",com.vaadin.data.co
+ nverter;version="8.1.0";uses:="com.vaadin.data",com.vaadin.data.provi
+ der;version="8.1.0";uses:="com.vaadin.data,com.vaadin.server,com.vaad
+ in.ui",com.vaadin.data.util;version="8.1.0",com.vaadin.data.validator
+ ;version="8.1.0";uses:="com.vaadin.data,javax.validation",com.vaadin.
+ event;version="8.1.0";uses:="com.vaadin.data.provider,com.vaadin.serv
+ er,com.vaadin.ui",com.vaadin.event.dd;version="8.1.0";uses:="com.vaad
+ in.event,com.vaadin.event.dd.acceptcriteria,com.vaadin.ui",com.vaadin
+ .event.dd.acceptcriteria;version="8.1.0";uses:="com.vaadin.event.dd,c
+ om.vaadin.server,com.vaadin.ui",com.vaadin.event.dnd;version="8.1.0";
+ uses:="com.vaadin.event,com.vaadin.server,com.vaadin.ui",com.vaadin.e
+ vent.dnd.grid;version="8.1.0";uses:="com.vaadin.event,com.vaadin.even
+ t.dnd,com.vaadin.ui",com.vaadin.event.selection;version="8.1.0";uses:
+ ="com.vaadin.data,com.vaadin.event,com.vaadin.ui",com.vaadin.icons;ve
+ rsion="8.1.0";uses:="com.vaadin.server",com.vaadin.navigator;version=
+ "8.1.0";uses:="com.vaadin.server,com.vaadin.ui",com.vaadin.server;ver
+ sion="8.1.0";uses:="com.vaadin.data,com.vaadin.data.provider,com.vaad
+ in.event,com.vaadin.ui,javax.portlet,javax.portlet.filter,javax.servl
+ et,javax.servlet.http,org.jsoup.nodes",com.vaadin.server.communicatio
+ n;version="8.1.0";uses:="com.vaadin.server,com.vaadin.ui,javax.servle
+ t",com.vaadin.server.themeutils;version="8.1.0",com.vaadin.server.wid
+ getsetutils;version="8.1.0",com.vaadin.ui;version="8.1.0";uses:="com.
+ vaadin.data,com.vaadin.data.provider,com.vaadin.data.validator,com.va
+ adin.event,com.vaadin.event.dd,com.vaadin.event.dnd,com.vaadin.event.
+ dnd.grid,com.vaadin.event.selection,com.vaadin.navigator,com.vaadin.s
+ erver,com.vaadin.server.communication,com.vaadin.ui.components.grid,c
+ om.vaadin.ui.declarative,com.vaadin.ui.renderers,org.jsoup.nodes,org.
+ jsoup.select",com.vaadin.ui.components.colorpicker;version="8.1.0";us
+ es:="com.vaadin.data,com.vaadin.ui",com.vaadin.ui.components.grid;ver
+ sion="8.1.0";uses:="com.vaadin.data,com.vaadin.data.provider,com.vaad
+ in.event,com.vaadin.event.selection,com.vaadin.server,com.vaadin.ui,c
+ om.vaadin.ui.declarative,org.jsoup.nodes",com.vaadin.ui.declarative;v
+ ersion="8.1.0";uses:="com.vaadin.data,com.vaadin.ui,org.jsoup.nodes",
+ com.vaadin.ui.declarative.converters;version="8.1.0";uses:="com.vaadi
+ n.data,com.vaadin.event,com.vaadin.server",com.vaadin.ui.doc-files;ve
+ rsion="8.1.0",com.vaadin.ui.renderers;version="8.1.0";uses:="com.vaad
+ in.event,com.vaadin.server,com.vaadin.ui",com.vaadin.ui.themes;versio
+ n="8.1.0",com.vaadin.util;version="8.1.0";uses:="com.vaadin.server,co
+ m.vaadin.ui"
+Bundle-Name: vaadin-server
+Bundle-Version: 8.1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://vaadin.com/
+

@@ -1,0 +1,14 @@
+digraph meka_1_9_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  meka_1_9_1 -> autoencoder_0_1;
+  meka_1_9_1 -> bmad_2_4;
+  meka_1_9_1 -> jama_1_0_3;
+  meka_1_9_1 -> jclipboardhelper_0_1_0;
+  meka_1_9_1 -> jfilechooser_bookmarks_0_1_5;
+  meka_1_9_1 -> markdownj_core_0_4;
+  meka_1_9_1 -> mst_4_0;
+  meka_1_9_1 -> mulan_1_4_0;
+  meka_1_9_1 -> scala_library_2_10_2;
+  meka_1_9_1 -> trove4j_3_0_3;
+  meka_1_9_1 -> weka_dev_3_9_1;
+}

@@ -1,0 +1,8 @@
+digraph jfilechooser_bookmarks_0_1_5_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  com_googlecode_jfilechooserbookmarks -> com_github_fracpete_jclipboardhelper;
+  com_googlecode_jfilechooserbookmarks -> com_googlecode_jfilechooserbookmarks_gui;
+  com_googlecode_jfilechooserbookmarks_example -> com_googlecode_jfilechooserbookmarks;
+  com_googlecode_jfilechooserbookmarks_gui -> com_googlecode_jfilechooserbookmarks_core;
+  com_googlecode_jfilechooserbookmarks_gui -> com_googlecode_jfilechooserbookmarks_event;
+}

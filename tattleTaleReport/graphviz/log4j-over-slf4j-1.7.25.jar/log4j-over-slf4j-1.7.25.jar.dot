@@ -1,0 +1,5 @@
+digraph log4j_over_slf4j_1_7_25_dependencies {
+  node [shape = box, fontsize=10.0];
+  log4j_over_slf4j_1_7_25 -> slf4j_api_1_7_25;
+  log4j_over_slf4j_1_7_25 -> xml_apis_1_4_01;
+}

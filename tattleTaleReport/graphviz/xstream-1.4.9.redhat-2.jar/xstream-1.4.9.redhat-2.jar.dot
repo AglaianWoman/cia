@@ -1,0 +1,10 @@
+digraph xstream_1_4_9_redhat_2_dependencies {
+  node [shape = box, fontsize=10.0];
+  xstream_1_4_9_redhat_2 -> activation_1_1;
+  xstream_1_4_9_redhat_2 -> cglib_3_2_5;
+  xstream_1_4_9_redhat_2 -> dom4j_1_6_1;
+  xstream_1_4_9_redhat_2 -> jdom2_2_0_6;
+  xstream_1_4_9_redhat_2 -> joda_time_2_9_9;
+  xstream_1_4_9_redhat_2 -> xml_apis_1_4_01;
+  xstream_1_4_9_redhat_2 -> xpp3_1_1_6;
+}

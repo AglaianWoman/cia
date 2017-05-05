@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: Alexey Valikov
+Build-Jdk: 1.7.0_51
+Created-By: Apache Maven 3.2.1
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jvnet.hyperjaxb3.xml.bind.annotation.adapters
+Bundle-Description: hyperjaxb3-ejb-runtime-0.6.1
+Bundle-Name: hyperjaxb3-ejb-runtime-0.6.1
+Bundle-Version: 0.0.0
+Export-Package: org.jvnet.hyperjaxb3.ejb.util,org.jvnet.hyperjaxb3.ite
+ m,org.jvnet.hyperjaxb3.transform;uses:="org.jvnet.hyperjaxb3.item,org
+ .jvnet.hyperjaxb3.xml.bind.annotation.adapters",org.jvnet.hyperjaxb3.
+ xml,org.jvnet.hyperjaxb3.xml.bind;uses:="org.jvnet.hyperjaxb3.xml.bin
+ d.annotation.adapters",org.jvnet.hyperjaxb3.xml.bind.annotation.adapt
+ ers;uses:="org.apache.commons.lang3,org.jvnet.hyperjaxb3.item",org.jv
+ net.hyperjaxb3.xml.datatype.util
+Import-Package: java.io,java.lang,java.lang.reflect,java.sql,java.util
+ ,javax.persistence;version="2.1",javax.xml.bind,javax.xml.bind.annota
+ tion.adapters,javax.xml.datatype;version="1.0",javax.xml.namespace;ve
+ rsion="1.0",javax.xml.parsers;version="1.0",javax.xml.transform;versi
+ on="1.0",javax.xml.transform.dom;version="1.0",javax.xml.transform.st
+ ream;version="1.0",org.apache.commons.lang3;version="3.5",org.w3c.dom
+ ;version="1.0",org.xml.sax;version="1.0"

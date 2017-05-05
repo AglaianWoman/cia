@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Implementation-Title: HttpComponents Apache HttpClient Fluent API
+Implementation-Version: 4.5.3
+Archiver-Version: Plexus Archiver
+Built-By: oleg
+Specification-Vendor: The Apache Software Foundation
+Implementation-Vendor-Id: org.apache
+Specification-Title: HttpComponents Apache HttpClient Fluent API
+url: http://hc.apache.org/httpcomponents-client
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Target-JDK: 1.6
+Implementation-Build: tags/4.5.3-RC1/fluent-hc@r1779741; 2017-01-21 16
+ :58:35+0100
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven 3.0.5
+Build-Jdk: 1.7.0_75
+Specification-Version: 4.5.3
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.http.client.fluent
+Bundle-Description: fluent-hc-4.5.3
+Bundle-Name: fluent-hc-4.5.3
+Bundle-Version: 4.5.3
+Export-Package: org.apache.http.client.fluent;uses:="org.apache.http,o
+ rg.apache.http.client.config,org.apache.http.client.methods,org.apach
+ e.http.client.protocol,org.apache.http.concurrent,org.apache.http.con
+ fig,org.apache.http.conn,org.apache.http.conn.socket,org.apache.http.
+ conn.ssl,org.apache.http.entity,org.apache.http.impl.client,org.apach
+ e.http.impl.conn,org.apache.http.util"
+Import-Package: java.io,java.lang,java.net,java.nio.charset,java.secur
+ ity,java.text,java.util,java.util.concurrent,java.util.concurrent.ato
+ mic,javax.net.ssl,org.apache.http;version="4.4.6",org.apache.http.aut
+ h;version="4.5.3",org.apache.http.client;version="4.5.3",org.apache.h
+ ttp.client.config;version="4.5.3",org.apache.http.client.methods;vers
+ ion="4.5.3",org.apache.http.client.protocol;version="4.5.3",org.apach
+ e.http.client.utils;version="4.5.3",org.apache.http.concurrent;versio
+ n="4.4.6",org.apache.http.config;version="4.4.6",org.apache.http.conn
+ ;version="4.5.3",org.apache.http.conn.scheme;version="4.5.3",org.apac
+ he.http.conn.socket;version="4.5.3",org.apache.http.conn.ssl;version=
+ "4.5.3",org.apache.http.entity;version="4.4.6",org.apache.http.impl.a
+ uth;version="4.5.3",org.apache.http.impl.client;version="4.5.3",org.a
+ pache.http.impl.conn;version="4.5.3",org.apache.http.message;version=
+ "4.4.6",org.apache.http.protocol;version="4.4.6",org.apache.http.util
+ ;version="4.4.6"

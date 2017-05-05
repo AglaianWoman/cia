@@ -1,0 +1,6 @@
+digraph commons_dbcp2_2_1_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  commons_dbcp2_2_1_1 -> commons_pool2_2_4_2;
+  commons_dbcp2_2_1_1 -> jboss_transaction_api_1_2_spec_1_0_1_Final;
+  commons_dbcp2_2_1_1 -> jcl_over_slf4j_1_7_25;
+}

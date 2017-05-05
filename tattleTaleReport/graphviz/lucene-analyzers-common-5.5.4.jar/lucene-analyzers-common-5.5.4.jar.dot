@@ -1,0 +1,5 @@
+digraph lucene_analyzers_common_5_5_4_dependencies {
+  node [shape = box, fontsize=10.0];
+  lucene_analyzers_common_5_5_4 -> lucene_core_5_5_4;
+  lucene_analyzers_common_5_5_4 -> xml_apis_1_4_01;
+}

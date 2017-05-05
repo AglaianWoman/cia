@@ -1,0 +1,33 @@
+digraph google_http_client_1_22_0_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  com_google_api_client_http -> com_google_api_client_repackaged_com_google_common_base;
+  com_google_api_client_http -> com_google_api_client_util;
+  com_google_api_client_http -> com_google_api_client_util_escape;
+  com_google_api_client_http_apache -> com_google_api_client_http;
+  com_google_api_client_http_apache -> com_google_api_client_util;
+  com_google_api_client_http_javanet -> com_google_api_client_http;
+  com_google_api_client_http_javanet -> com_google_api_client_util;
+  com_google_api_client_http_json -> com_google_api_client_http;
+  com_google_api_client_http_json -> com_google_api_client_json;
+  com_google_api_client_http_json -> com_google_api_client_util;
+  com_google_api_client_json -> com_google_api_client_util;
+  com_google_api_client_json_rpc2 -> com_google_api_client_util;
+  com_google_api_client_json_webtoken -> com_google_api_client_json;
+  com_google_api_client_json_webtoken -> com_google_api_client_util;
+  com_google_api_client_repackaged_com_google_common_base -> com_google_api_client_repackaged_com_google_common_annotations;
+  com_google_api_client_repackaged_com_google_common_base -> javax_annotation;
+  com_google_api_client_repackaged_org_apache_commons_codec_binary -> com_google_api_client_repackaged_org_apache_commons_codec;
+  com_google_api_client_testing_http -> com_google_api_client_http;
+  com_google_api_client_testing_http -> com_google_api_client_testing_util;
+  com_google_api_client_testing_http -> com_google_api_client_util;
+  com_google_api_client_testing_http_apache -> com_google_api_client_util;
+  com_google_api_client_testing_http_javanet -> com_google_api_client_util;
+  com_google_api_client_testing_json -> com_google_api_client_json;
+  com_google_api_client_testing_json -> com_google_api_client_util;
+  com_google_api_client_testing_json_webtoken -> com_google_api_client_json_webtoken;
+  com_google_api_client_testing_json_webtoken -> com_google_api_client_util;
+  com_google_api_client_testing_util -> com_google_api_client_util;
+  com_google_api_client_util -> com_google_api_client_repackaged_com_google_common_base;
+  com_google_api_client_util -> com_google_api_client_repackaged_org_apache_commons_codec_binary;
+  com_google_api_client_util_store -> com_google_api_client_util;
+}

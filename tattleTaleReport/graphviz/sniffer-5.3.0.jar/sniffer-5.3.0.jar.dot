@@ -1,0 +1,7 @@
+digraph sniffer_5_3_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  sniffer_5_3_0 -> httpcore_4_4_6;
+  sniffer_5_3_0 -> jackson_core_2_9_0_pr3;
+  sniffer_5_3_0 -> jcl_over_slf4j_1_7_25;
+  sniffer_5_3_0 -> rest_5_3_0;
+}

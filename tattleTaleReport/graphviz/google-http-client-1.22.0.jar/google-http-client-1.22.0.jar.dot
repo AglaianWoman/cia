@@ -1,0 +1,6 @@
+digraph google_http_client_1_22_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  google_http_client_1_22_0 -> httpclient_4_5_3;
+  google_http_client_1_22_0 -> httpcore_4_4_6;
+  google_http_client_1_22_0 -> jsr305_1_3_9;
+}

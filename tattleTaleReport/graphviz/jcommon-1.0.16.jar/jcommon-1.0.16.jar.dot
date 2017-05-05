@@ -1,0 +1,4 @@
+digraph jcommon_1_0_16_dependencies {
+  node [shape = box, fontsize=10.0];
+  jcommon_1_0_16 -> xml_apis_1_4_01;
+}

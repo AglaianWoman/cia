@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: wicker
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_85
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.kramerlab.bmad.algorithms
+Bundle-Description: bmad-2.4
+Bundle-Name: bmad-2.4
+Bundle-Version: 0.0.0
+Export-Package: org.kramerlab.bmad.algorithms;uses:="org.kramerlab.bma
+ d.general,org.kramerlab.bmad.matrix,weka.core",org.kramerlab.bmad.dem
+ o;uses:="org.kramerlab.bmad.algorithms,org.kramerlab.bmad.general,org
+ .kramerlab.bmad.matrix,org.kramerlab.bmad.visualization,weka.core,wek
+ a.core.converters",org.kramerlab.bmad.experiments;uses:="org.kramerla
+ b.bmad.algorithms,org.kramerlab.bmad.general,org.kramerlab.bmad.matri
+ x,weka.core,weka.core.converters",org.kramerlab.bmad.general,org.kram
+ erlab.bmad.general.layout;uses:="org.kramerlab.bmad.general",org.kram
+ erlab.bmad.matrix;uses:="org.kramerlab.bmad.general,org.kramerlab.bma
+ d.general.layout,weka.core",org.kramerlab.bmad.visualization;uses:="o
+ rg.kramerlab.bmad.general,org.kramerlab.bmad.matrix,weka.core"
+Import-Package: java.awt,java.awt.image,java.io,java.lang,java.util,ja
+ vax.swing,weka.core;version="0.0.0",weka.core.converters;version="0.0
+ .0"

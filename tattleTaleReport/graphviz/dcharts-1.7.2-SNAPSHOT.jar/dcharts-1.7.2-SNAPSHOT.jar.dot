@@ -1,0 +1,9 @@
+digraph dcharts_1_7_2_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  dcharts_1_7_2_SNAPSHOT -> commons_codec_1_10_0_redhat_5;
+  dcharts_1_7_2_SNAPSHOT -> commons_lang3_3_5;
+  dcharts_1_7_2_SNAPSHOT -> gwt_user_2_8_1;
+  dcharts_1_7_2_SNAPSHOT -> vaadin_client_8_1_0_alpha6;
+  dcharts_1_7_2_SNAPSHOT -> vaadin_server_8_1_0_alpha6;
+  dcharts_1_7_2_SNAPSHOT -> vaadin_shared_8_1_0_alpha6;
+}

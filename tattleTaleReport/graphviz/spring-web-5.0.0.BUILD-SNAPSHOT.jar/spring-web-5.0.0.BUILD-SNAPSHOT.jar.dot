@@ -1,0 +1,20 @@
+digraph spring_web_5_0_0_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_web_5_0_0_BUILD_SNAPSHOT -> gson_2_8_0;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> httpasyncclient_4_1_2;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> httpclient_4_5_3;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> httpcore_4_4_6;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> httpcore_nio_4_4_5;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> jackson_annotations_2_9_0_pr3;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> jackson_core_2_9_0_pr3;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> jackson_databind_2_9_0_pr3;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> javax_mail_1_6_0_rc1;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> spring_aop_5_0_0_BUILD_SNAPSHOT;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> spring_oxm_5_0_0_BUILD_SNAPSHOT;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> validation_api_1_1_0_Final;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+}

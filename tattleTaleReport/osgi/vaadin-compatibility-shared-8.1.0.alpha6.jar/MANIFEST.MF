@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Implementation-Title: vaadin-compatibility-shared
+Bundle-Description: Vaadin 7 compatibility package for Vaadin 8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
+Bundle-SymbolicName: com.vaadin.compatibility-shared
+Implementation-Version: 8.1.0.alpha6
+Archiver-Version: Plexus Archiver
+Built-By: root
+Require-Bundle: com.vaadin.shared;bundle-version="8.1.0"
+Bnd-LastModified: 1492681629920
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Implementation-Vendor-Id: com.vaadin
+Bundle-Vendor: Vaadin Ltd
+Import-Package: com.vaadin.shared;version="[8.1,9)",com.vaadin.shared.
+ communication;version="[8.1,9)",com.vaadin.shared.data.sort;version="
+ [8.1,9)",com.vaadin.shared.ui;version="[8.1,9)",com.vaadin.v7.shared;
+ version="[8.1,9)",com.vaadin.v7.shared.ui.select;version="[8.1,9)",co
+ m.vaadin.v7.shared.ui.table;version="[8.1,9)",com.vaadin.v7.shared.ui
+ .textfield;version="[8.1,9)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: Vaadin Ltd
+Export-Package: com.vaadin.v7.shared;version="8.1.0";uses:="com.vaadin
+ .shared",com.vaadin.v7.shared.form;version="8.1.0";uses:="com.vaadin.
+ shared,com.vaadin.v7.shared",com.vaadin.v7.shared.ui.calendar;version
+ ="8.1.0";uses:="com.vaadin.shared.communication,com.vaadin.v7.shared"
+ ,com.vaadin.v7.shared.ui.checkbox;version="8.1.0";uses:="com.vaadin.s
+ hared,com.vaadin.shared.communication,com.vaadin.v7.shared",com.vaadi
+ n.v7.shared.ui.colorpicker;version="8.1.0";uses:="com.vaadin.shared.c
+ ommunication,com.vaadin.v7.shared",com.vaadin.v7.shared.ui.combobox;v
+ ersion="8.1.0";uses:="com.vaadin.v7.shared.ui.select",com.vaadin.v7.s
+ hared.ui.datefield;version="8.1.0";uses:="com.vaadin.v7.shared",com.v
+ aadin.v7.shared.ui.grid;version="8.1.0";uses:="com.vaadin.shared,com.
+ vaadin.shared.communication,com.vaadin.shared.data.sort,com.vaadin.sh
+ ared.ui",com.vaadin.v7.shared.ui.grid.renderers;version="8.1.0";uses:
+ ="com.vaadin.shared,com.vaadin.shared.communication",com.vaadin.v7.sh
+ ared.ui.grid.selection;version="8.1.0";uses:="com.vaadin.shared.commu
+ nication",com.vaadin.v7.shared.ui.label;version="8.1.0";uses:="com.va
+ adin.v7.shared",com.vaadin.v7.shared.ui.optiongroup;version="8.1.0";u
+ ses:="com.vaadin.v7.shared.ui.select",com.vaadin.v7.shared.ui.progres
+ sindicator;version="8.1.0";uses:="com.vaadin.shared.communication,com
+ .vaadin.v7.shared",com.vaadin.v7.shared.ui.select;version="8.1.0";use
+ s:="com.vaadin.v7.shared",com.vaadin.v7.shared.ui.slider;version="8.1
+ .0";uses:="com.vaadin.shared.communication,com.vaadin.v7.shared",com.
+ vaadin.v7.shared.ui.table;version="8.1.0";uses:="com.vaadin.shared,co
+ m.vaadin.shared.communication,com.vaadin.v7.shared.ui.select",com.vaa
+ din.v7.shared.ui.textarea;version="8.1.0";uses:="com.vaadin.v7.shared
+ .ui.textfield",com.vaadin.v7.shared.ui.textfield;version="8.1.0";uses
+ :="com.vaadin.v7.shared",com.vaadin.v7.shared.ui.tree;version="8.1.0"
+ ;uses:="com.vaadin.shared,com.vaadin.shared.communication,com.vaadin.
+ v7.shared.ui.select",com.vaadin.v7.shared.ui.treetable;version="8.1.0
+ ";uses:="com.vaadin.v7.shared.ui.table",com.vaadin.v7.shared.ui.twinc
+ olselect;version="8.1.0";uses:="com.vaadin.v7.shared.ui.select",com.v
+ aadin.v7.shared.ui.upload;version="8.1.0";uses:="com.vaadin.shared.co
+ mmunication,com.vaadin.v7.shared"
+Bundle-Name: vaadin-compatibility-shared
+Bundle-Version: 8.1.0
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_121
+Implementation-URL: https://vaadin.com/
+

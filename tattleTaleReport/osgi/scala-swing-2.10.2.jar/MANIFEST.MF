@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.scala-lang.scala-swing
+Export-Package: scala.swing.event;uses:="scala.swing,scala,scala.refle
+ ct,scala.runtime,scala.collection,javax.swing,scala.collection.immuta
+ ble";version="2.10.2.v20130530-074427-VFINAL-60d462ef6e",scala.swing.
+ model;uses:="scala.reflect";version="2.10.2.v20130530-074427-VFINAL-6
+ 0d462ef6e",doc;version="2.10.2.v20130530-074427-VFINAL-60d462ef6e",sc
+ ala.swing;uses:="javax.swing,scala.swing.event,scala.runtime,scala,sc
+ ala.reflect,scala.collection,scala.collection.mutable,scala.collectio
+ n.immutable,scala.collection.parallel.mutable,scala.collection.parall
+ el,scala.collection.script,scala.math,scala.collection.generic,javax.
+ swing.border,javax.swing.text,javax.swing.filechooser,javax.swing.eve
+ nt,scala.sys,scala.ref,scala.util,scala.collection.convert,scala.acto
+ rs,javax.swing.table";version="2.10.2.v20130530-074427-VFINAL-60d462e
+ f6e"
+Bundle-Name: Scala Swing
+Bundle-Version: 2.10.2.v20130530-074427-VFINAL-60d462ef6e
+Bnd-LastModified: 1370541574876
+Bundle-ManifestVersion: 2
+Private-Package: .
+Import-Package: javax.swing,javax.swing.border,javax.swing.event,javax
+ .swing.filechooser,javax.swing.table,javax.swing.text,scala,scala.act
+ ors,scala.collection,scala.collection.convert,scala.collection.generi
+ c,scala.collection.immutable,scala.collection.mutable,scala.collectio
+ n.parallel,scala.collection.parallel.mutable,scala.collection.script,
+ scala.math,scala.ref,scala.reflect,scala.runtime,scala.sys,scala.util
+Created-By: 1.6.0_33 (Sun Microsystems Inc.)
+Tool: Bnd-1.50.0
+

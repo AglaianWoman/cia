@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>JBoss Tattletale 1.2.0.Beta2: OSGi - ejml-0.22.jar</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <link rel="stylesheet" type="text/css" href="../../style.css">
+</head>
+<body>
+
+<h1>OSGi - ejml-0.22.jar</h1>
+<a href="../index.html">Back</a>
+<p>
+<table>
+  <tr>
+     <th>Field</th>
+     <th>Value</th>
+  </tr>
+  <tr class="rowodd">
+     <td>OSGi</td>
+     <td style="color: red;">No</td>
+  </tr>
+  <tr class="roweven">
+     <td>Manifest</td>
+     <td><pre>Manifest-Version: 1.0<br>Archiver-Version: Plexus Archiver<br>Built-By: pja<br>Created-By: Apache Maven<br>Build-Jdk: 1.7.0_13<br><br></pre></td>
+  </tr>
+  <tr class="rowodd">
+     <td>OSGi Manifest</td>
+     <td><pre>Bundle-ManifestVersion: 2<br>Bundle-SymbolicName: org.ejml.ops<br>Bundle-Description: ejml-0.22<br>Bundle-Name: ejml-0.22<br>Bundle-Version: 0.0.0<br>Export-Package: org.ejml;uses:="org.ejml.data",org.ejml.alg.block;uses:="org.ejml.data,org.ejml.ops,org.ejml.simple",org.ejml.alg.block.decomposition.bidiagonal;uses:="org.ejml.alg.block.decomposition.qr,org.ejml.data",org.ejml.alg.block.decomposition.chol;uses:="org.ejml.alg.block,org.ejml.data,org.ejml.factory",org.ejml.alg.block.decomposition.hessenberg;uses:="org.ejml.alg.block,org.ejml.alg.block.decomposition.qr,org.ejml.alg.dense.decomposition.hessenberg,org.ejml.data,org.ejml.ops",org.ejml.alg.block.decomposition.qr;uses:="org.ejml.alg.block,org.ejml.data,org.ejml.factory",org.ejml.alg.block.linsol.chol;uses:="org.ejml.alg.block,org.ejml.alg.block.decomposition.chol,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.block.linsol.qr;uses:="org.ejml.alg.block,org.ejml.alg.block.decomposition.qr,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition;uses:="org.ejml.alg.block,org.ejml.data,org.ejml.factory",org.ejml.alg.dense.decomposition.bidiagonal;uses:="org.ejml,org.ejml.alg.dense.decomposition.qr,org.ejml.data,org.ejml.factory,org.ejml.ops,org.ejml.simple",org.ejml.alg.dense.decomposition.chol;uses:="org.ejml,org.ejml.alg.block,org.ejml.alg.block.decomposition.chol,org.ejml.alg.dense.decomposition,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.eig;uses:="org.ejml.alg.dense.decomposition.eig.symm,org.ejml.alg.dense.decomposition.eig.watched,org.ejml.alg.dense.decomposition.hessenberg,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.eig.symm;uses:="org.ejml,org.ejml.alg.dense.decomposition.eig,org.ejml.data,org.ejml.ops",org.ejml.alg.dense.decomposition.eig.watched;uses:="org.ejml,org.ejml.alg.dense.decomposition,org.ejml.alg.dense.decomposition.eig,org.ejml.alg.dense.decomposition.qr,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.hessenberg;uses:="org.ejml,org.ejml.alg.block.decomposition.hessenberg,org.ejml.alg.dense.decomposition,org.ejml.alg.dense.decomposition.qr,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.lu;uses:="org.ejml,org.ejml.alg.dense.decomposition,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.qr;uses:="org.ejml,org.ejml.alg.block,org.ejml.alg.block.decomposition.qr,org.ejml.alg.dense.decomposition,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.svd;uses:="org.ejml.alg.dense.decomposition.bidiagonal,org.ejml.alg.dense.decomposition.svd.implicitqr,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.decomposition.svd.implicitqr;uses:="org.ejml,org.ejml.alg.dense.decomposition.eig,org.ejml.data,org.ejml.simple",org.ejml.alg.dense.linsol;uses:="org.ejml.alg.block,org.ejml.alg.block.linsol.chol,org.ejml.alg.dense.misc,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.linsol.chol;uses:="org.ejml.alg.block,org.ejml.alg.block.linsol.chol,org.ejml.alg.dense.decomposition,org.ejml.alg.dense.decomposition.chol,org.ejml.alg.dense.linsol,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.linsol.lu;uses:="org.ejml.alg.dense.decomposition.lu,org.ejml.alg.dense.linsol,org.ejml.data,org.ejml.ops",org.ejml.alg.dense.linsol.qr;uses:="org.ejml,org.ejml.alg.block.linsol.qr,org.ejml.alg.dense.decomposition,org.ejml.alg.dense.decomposition.qr,org.ejml.alg.dense.linsol,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.linsol.svd;uses:="org.ejml,org.ejml.data,org.ejml.factory,org.ejml.ops",org.ejml.alg.dense.misc;uses:="org.ejml.data,org.ejml.factory",org.ejml.alg.dense.mult;uses:="org.ejml.data",org.ejml.alg.generic;uses:="org.ejml.data",org.ejml.data;uses:="org.ejml,org.ejml.alg.dense.mult,org.ejml.ops,org.ejml.simple",org.ejml.factory;uses:="org.ejml,org.ejml.alg.dense.decomposition.chol,org.ejml.alg.dense.decomposition.eig,org.ejml.alg.dense.decomposition.hessenberg,org.ejml.alg.dense.decomposition.lu,org.ejml.alg.dense.decomposition.qr,org.ejml.alg.dense.decomposition.svd,org.ejml.alg.dense.linsol,org.ejml.alg.dense.linsol.chol,org.ejml.alg.dense.linsol.lu,org.ejml.alg.dense.linsol.qr,org.ejml.alg.dense.linsol.svd,org.ejml.data,org.ejml.ops,org.ejml.simple",org.ejml.ops;uses:="org.ejml,org.ejml.alg.dense.decomposition.chol,org.ejml.alg.dense.decomposition.eig,org.ejml.alg.dense.decomposition.lu,org.ejml.alg.dense.linsol,org.ejml.alg.dense.linsol.lu,org.ejml.alg.dense.misc,org.ejml.alg.dense.mult,org.ejml.data,org.ejml.factory",org.ejml.simple;uses:="org.ejml,org.ejml.alg.dense.mult,org.ejml.alg.generic,org.ejml.data,org.ejml.factory,org.ejml.ops"<br>Import-Package: java.awt,java.awt.image,java.io,java.lang,java.util,javax.swing<br></pre></td>
+  </tr>
+</table>
+
+<p>
+<hr>
+Generated by: <a href="http://www.jboss.org/tattletale">JBoss Tattletale 1.2.0.Beta2</a>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Implementation-Title: Google OAuth Client Library for Java
+Implementation-Version: 1.22.0
+Archiver-Version: Plexus Archiver
+Built-By: ejona
+Implementation-Vendor-Id: com.google.oauth-client
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_75
+Implementation-Vendor: Google
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.api.client.auth.oauth2
+Bundle-Description: google-oauth-client-1.22.0
+Bundle-Name: google-oauth-client-1.22.0
+Bundle-Version: 1.22.0
+Export-Package: com.google.api.client.auth.oauth;uses:="com.google.api
+ .client.http,com.google.api.client.util,com.google.api.client.util.es
+ cape",com.google.api.client.auth.oauth2;uses:="com.google.api.client.
+ http,com.google.api.client.json,com.google.api.client.util,com.google
+ .api.client.util.store",com.google.api.client.auth.openidconnect;uses
+ :="com.google.api.client.auth.oauth2,com.google.api.client.http,com.g
+ oogle.api.client.json,com.google.api.client.json.webtoken,com.google.
+ api.client.util"
+Import-Package: com.google.api.client.http;version="1.22.0",com.google
+ .api.client.json;version="1.22.0",com.google.api.client.json.webtoken
+ ;version="1.22.0",com.google.api.client.util;version="1.22.0",com.goo
+ gle.api.client.util.escape;version="1.22.0",com.google.api.client.uti
+ l.store;version="1.22.0",java.io,java.lang,java.nio.charset,java.secu
+ rity,java.util,java.util.concurrent.locks,java.util.logging,java.util
+ .regex,javax.crypto,javax.crypto.spec

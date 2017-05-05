@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: wouter
+Build-Jdk: 1.7.0_51
+Created-By: Apache Maven 3.2.1
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.googlecode.gentyref
+Bundle-Description: gentyref-1.2.0
+Bundle-Name: gentyref-1.2.0
+Bundle-Version: 0.0.0
+Export-Package: com.googlecode.gentyref
+Import-Package: java.io,java.lang,java.lang.reflect,java.util

@@ -1,0 +1,17 @@
+digraph spring_security_web_4_2_3_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> jackson_annotations_2_9_0_pr3;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> jackson_core_2_9_0_pr3;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> jackson_databind_2_9_0_pr3;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_expression_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_jdbc_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_security_core_4_2_3_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_tx_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_web_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> spring_webmvc_5_0_0_BUILD_SNAPSHOT;
+  spring_security_web_4_2_3_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+}

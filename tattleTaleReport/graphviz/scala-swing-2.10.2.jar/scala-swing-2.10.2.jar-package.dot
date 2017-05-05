@@ -1,0 +1,26 @@
+digraph scala_swing_2_10_2_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  scala_swing -> scala;
+  scala_swing -> scala_actors;
+  scala_swing -> scala_collection;
+  scala_swing -> scala_collection_convert;
+  scala_swing -> scala_collection_generic;
+  scala_swing -> scala_collection_immutable;
+  scala_swing -> scala_collection_mutable;
+  scala_swing -> scala_collection_parallel;
+  scala_swing -> scala_collection_script;
+  scala_swing -> scala_math;
+  scala_swing -> scala_ref;
+  scala_swing -> scala_reflect;
+  scala_swing -> scala_runtime;
+  scala_swing -> scala_swing_event;
+  scala_swing -> scala_sys;
+  scala_swing -> scala_util;
+  scala_swing_event -> scala;
+  scala_swing_event -> scala_collection;
+  scala_swing_event -> scala_collection_immutable;
+  scala_swing_event -> scala_reflect;
+  scala_swing_event -> scala_runtime;
+  scala_swing_event -> scala_swing;
+  scala_swing_model -> scala_reflect;
+}

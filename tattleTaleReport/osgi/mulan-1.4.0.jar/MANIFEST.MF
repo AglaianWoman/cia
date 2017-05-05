@@ -1,0 +1,72 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Implementation-Title: Mulan - A Java library for multi-label learning
+Implementation-Version: 1.4.0
+Created-By: 16.0-b13 (Sun Microsystems Inc.)
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: mulan.evaluation.measure
+Bundle-Description: mulan-1.4.0
+Bundle-Name: mulan-1.4.0
+Bundle-Version: 1.4.0
+Export-Package: mulan.classifier;uses:="mulan.core,mulan.data,weka.cor
+ e",mulan.classifier.lazy;uses:="mulan.classifier,mulan.core,mulan.dat
+ a,weka.classifiers,weka.classifiers.functions,weka.classifiers.lazy,w
+ eka.core,weka.core.neighboursearch",mulan.classifier.meta;uses:="mula
+ n.classifier,mulan.classifier.transformation,mulan.core,mulan.data,mu
+ lan.transformations,weka.classifiers,weka.classifiers.meta,weka.class
+ ifiers.rules,weka.classifiers.trees,weka.clusterers,weka.core,weka.co
+ re.converters,weka.filters,weka.filters.unsupervised.attribute",mulan
+ .classifier.meta.thresholding;uses:="mulan.classifier,mulan.classifie
+ r.meta,mulan.classifier.transformation,mulan.core,mulan.data,mulan.ev
+ aluation.measure,mulan.transformations,weka.classifiers,weka.classifi
+ ers.trees,weka.core",mulan.classifier.neural;uses:="mulan.classifier,
+ mulan.classifier.neural.model,mulan.core,mulan.data,mulan.evaluation.
+ loss,weka.core,weka.core.matrix,weka.experiment,weka.filters,weka.fil
+ ters.unsupervised.attribute",mulan.classifier.neural.model;uses:="mul
+ an.core",mulan.classifier.transformation;uses:="mulan.classifier,mula
+ n.core,mulan.data,mulan.transformations,mulan.transformations.multicl
+ ass,weka.attributeSelection,weka.classifiers,weka.classifiers.lazy,we
+ ka.classifiers.meta,weka.classifiers.trees,weka.core,weka.core.neighb
+ oursearch,weka.filters,weka.filters.unsupervised.attribute,weka.filte
+ rs.unsupervised.instance",mulan.core;uses:="weka.core",mulan.data;use
+ s:="mulan.classifier,mulan.classifier.meta,mulan.core,mulan.evaluatio
+ n,mulan.evaluation.measure,mulan.transformations,weka.classifiers,wek
+ a.classifiers.meta,weka.core,weka.filters,weka.filters.unsupervised.a
+ ttribute",mulan.dimensionalityReduction;uses:="mulan.data,mulan.trans
+ formations,mulan.transformations.multiclass,weka.attributeSelection,w
+ eka.core",mulan.evaluation;uses:="mulan.classifier,mulan.data,mulan.e
+ valuation.measure,weka.core",mulan.evaluation.loss;uses:="mulan.class
+ ifier,mulan.core,mulan.data,weka.core",mulan.evaluation.measure;uses:
+ ="mulan.classifier,mulan.core,mulan.data,mulan.evaluation.loss,weka.c
+ lassifiers.evaluation,weka.core",mulan.examples;uses:="mulan.classifi
+ er,mulan.classifier.lazy,mulan.classifier.meta,mulan.classifier.trans
+ formation,mulan.data,mulan.dimensionalityReduction,mulan.evaluation,w
+ eka.attributeSelection,weka.classifiers,weka.classifiers.bayes,weka.c
+ lassifiers.trees,weka.core,weka.filters,weka.filters.unsupervised.att
+ ribute,weka.filters.unsupervised.instance",mulan.experiments;uses:="m
+ ulan.classifier,mulan.classifier.lazy,mulan.classifier.meta.threshold
+ ing,mulan.classifier.neural,mulan.classifier.transformation,mulan.dat
+ a,mulan.evaluation,mulan.evaluation.measure,weka.classifiers,weka.cla
+ ssifiers.functions,weka.classifiers.meta,weka.classifiers.trees,weka.
+ core",mulan.transformations;uses:="mulan.data,weka.core,weka.filters,
+ weka.filters.unsupervised.attribute",mulan.transformations.multiclass
+ ;uses:="mulan.data,mulan.transformations,weka.core"
+Import-Package: java.io,java.lang,java.lang.reflect,java.net,java.text
+ ,java.util,java.util.logging,javax.xml.bind,javax.xml.bind.annotation
+ ,javax.xml.bind.helpers,javax.xml.parsers;version="1.0",javax.xml.tra
+ nsform;version="1.0",javax.xml.transform.dom;version="1.0",javax.xml.
+ transform.stream;version="1.0",javax.xml.validation;version="1.0",org
+ .w3c.dom;version="1.0",org.xml.sax;version="1.0",weka.attributeSelect
+ ion;version="0.0.0",weka.classifiers;version="0.0.0",weka.classifiers
+ .bayes;version="0.0.0",weka.classifiers.evaluation;version="0.0.0",we
+ ka.classifiers.functions;version="0.0.0",weka.classifiers.lazy;versio
+ n="0.0.0",weka.classifiers.meta;version="0.0.0",weka.classifiers.rule
+ s;version="0.0.0",weka.classifiers.trees;version="0.0.0",weka.cluster
+ ers;version="0.0.0",weka.core;version="0.0.0",weka.core.converters;ve
+ rsion="0.0.0",weka.core.matrix;version="0.0.0",weka.core.neighboursea
+ rch;version="0.0.0",weka.experiment;version="0.0.0",weka.filters;vers
+ ion="0.0.0",weka.filters.unsupervised.attribute;version="0.0.0",weka.
+ filters.unsupervised.instance;version="0.0.0"

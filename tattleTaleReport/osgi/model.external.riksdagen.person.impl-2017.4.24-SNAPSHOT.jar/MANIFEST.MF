@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.hack23.cia.model.external.riksdagen.person.im
+ pl
+Bundle-Description: model.external.riksdagen.person.impl-2017.4.24-SNA
+ PSHOT
+Bundle-Name: model.external.riksdagen.person.impl-2017.4.24-SNAPSHOT
+Bundle-Version: 0.0.0
+Export-Package: com.hack23.cia.model.external.riksdagen.person.impl;us
+ es:="com.hack23.cia.model.common.api,org.jvnet.hyperjaxb3.ejb.test,or
+ g.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator,org.jvnet.
+ jaxb2_commons.locator.util,org.jvnet.jaxb2_commons.xml.bind,org.w3._2
+ 001.xmlschema",org.w3._2001.xmlschema;uses:="com.hack23.cia.model.com
+ mon.xml"
+Import-Package: com.hack23.cia.model.common.api;version="0.0.0",com.ha
+ ck23.cia.model.common.xml;version="0.0.0",java.io,java.lang,java.util
+ ,javax.persistence;version="2.1",javax.persistence.metamodel;version=
+ "2.1",javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotat
+ ion.adapters,javax.xml.namespace;version="1.0",org.jvnet.hyperjaxb3.e
+ jb.test;version="0.0.0",org.jvnet.jaxb2_commons.lang;version="0.0.0",
+ org.jvnet.jaxb2_commons.locator;version="0.0.0",org.jvnet.jaxb2_commo
+ ns.locator.util;version="0.0.0",org.jvnet.jaxb2_commons.xml.bind;vers
+ ion="0.0.0"

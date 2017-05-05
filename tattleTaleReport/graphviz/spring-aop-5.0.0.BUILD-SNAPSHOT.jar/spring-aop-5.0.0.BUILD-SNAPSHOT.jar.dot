@@ -1,0 +1,9 @@
+digraph spring_aop_5_0_0_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> aspectjweaver_1_9_0_BETA_4;
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> commons_pool2_2_4_2;
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_aop_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+}

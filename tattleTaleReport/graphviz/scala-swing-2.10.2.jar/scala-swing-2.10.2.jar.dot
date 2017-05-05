@@ -1,0 +1,4 @@
+digraph scala_swing_2_10_2_dependencies {
+  node [shape = box, fontsize=10.0];
+  scala_swing_2_10_2 -> scala_library_2_10_2;
+}

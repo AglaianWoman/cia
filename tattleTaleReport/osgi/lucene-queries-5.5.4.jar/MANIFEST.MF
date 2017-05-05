@@ -1,0 +1,46 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.4
+Implementation-Title: org.apache.lucene
+Implementation-Version: 5.5.4 31012120ebbd93744753eb37f1dbc5e654628291
+  - jpountz - 2017-02-08 19:08:42
+X-Compile-Target-JDK: 1.7
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: Lucene Search Engine: queries
+Extension-Name: org.apache.lucene
+X-Compile-Source-JDK: 1.7
+Created-By: 1.7.0_55-b13 (Oracle Corporation)
+Specification-Version: 5.5.4
+Implementation-Vendor: The Apache Software Foundation
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.lucene.queries.function.valuesource
+Bundle-Description: lucene-queries-5.5.4
+Bundle-Name: lucene-queries-5.5.4
+Bundle-Version: 5.5.4
+Export-Package: org.apache.lucene.queries;uses:="java.util,org.apache.
+ lucene.index,org.apache.lucene.queries.function,org.apache.lucene.sea
+ rch,org.apache.lucene.util",org.apache.lucene.queries.function;uses:=
+ "java.util,org.apache.lucene.index,org.apache.lucene.search,org.apach
+ e.lucene.util,org.apache.lucene.util.mutable",org.apache.lucene.queri
+ es.function.docvalues;uses:="org.apache.lucene.index,org.apache.lucen
+ e.queries.function,org.apache.lucene.util,org.apache.lucene.util.muta
+ ble",org.apache.lucene.queries.function.valuesource;uses:="org.apache
+ .lucene.index,org.apache.lucene.queries.function,org.apache.lucene.qu
+ eries.function.docvalues,org.apache.lucene.search,org.apache.lucene.s
+ earch.similarities,org.apache.lucene.util,org.apache.lucene.util.muta
+ ble",org.apache.lucene.queries.mlt;uses:="org.apache.lucene.analysis,
+ org.apache.lucene.analysis.tokenattributes,org.apache.lucene.document
+ ,org.apache.lucene.index,org.apache.lucene.search,org.apache.lucene.s
+ earch.similarities,org.apache.lucene.util",org.apache.lucene.queries.
+ payloads;uses:="java.util,org.apache.lucene.index,org.apache.lucene.s
+ earch,org.apache.lucene.search.similarities,org.apache.lucene.search.
+ spans,org.apache.lucene.util"
+Import-Package: java.io,java.lang,java.util,org.apache.lucene.analysis
+ ;version="5.5.4",org.apache.lucene.analysis.tokenattributes;version="
+ 5.5.4",org.apache.lucene.document;version="5.5.4",org.apache.lucene.i
+ ndex;version="5.5.4",org.apache.lucene.search;version="5.5.4",org.apa
+ che.lucene.search.similarities;version="5.5.4",org.apache.lucene.sear
+ ch.spans;version="5.5.4",org.apache.lucene.util;version="5.5.4",org.a
+ pache.lucene.util.mutable;version="5.5.4"

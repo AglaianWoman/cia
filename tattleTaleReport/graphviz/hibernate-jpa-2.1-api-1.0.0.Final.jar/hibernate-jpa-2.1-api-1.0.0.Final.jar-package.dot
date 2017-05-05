@@ -1,0 +1,4 @@
+digraph hibernate_jpa_2_1_api_1_0_0_Final_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  javax_persistence -> javax_persistence_criteria;
+}

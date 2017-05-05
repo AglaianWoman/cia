@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: fracpete
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_77
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.googlecode.jfilechooserbookmarks
+Bundle-Description: jfilechooser-bookmarks-0.1.5
+Bundle-Name: jfilechooser-bookmarks-0.1.5
+Bundle-Version: 0.0.0
+Export-Package: com.googlecode.jfilechooserbookmarks;uses:="com.github
+ .fracpete.jclipboardhelper,com.googlecode.jfilechooserbookmarks.gui",
+ com.googlecode.jfilechooserbookmarks.core,com.googlecode.jfilechooser
+ bookmarks.event,com.googlecode.jfilechooserbookmarks.example;uses:="c
+ om.googlecode.jfilechooserbookmarks",com.googlecode.jfilechooserbookm
+ arks.gui;uses:="com.googlecode.jfilechooserbookmarks.core,com.googlec
+ ode.jfilechooserbookmarks.event"
+Import-Package: com.github.fracpete.jclipboardhelper;version="0.0.0",j
+ ava.awt,java.awt.event,java.beans,java.io,java.lang,java.net,java.uti
+ l,javax.swing,javax.swing.border,javax.swing.event

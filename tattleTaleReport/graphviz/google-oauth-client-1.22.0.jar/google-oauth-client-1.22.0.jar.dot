@@ -1,0 +1,4 @@
+digraph google_oauth_client_1_22_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  google_oauth_client_1_22_0 -> google_http_client_1_22_0;
+}

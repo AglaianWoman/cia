@@ -1,0 +1,5 @@
+digraph xpp3_1_1_6_dependencies {
+  node [shape = box, fontsize=10.0];
+  xpp3_1_1_6 -> junit_4_12;
+  xpp3_1_1_6 -> xml_apis_1_4_01;
+}

@@ -1,0 +1,5 @@
+digraph jfreechart_1_0_13_dependencies {
+  node [shape = box, fontsize=10.0];
+  jfreechart_1_0_13 -> jcommon_1_0_16;
+  jfreechart_1_0_13 -> xml_apis_1_4_01;
+}

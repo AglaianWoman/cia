@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: smarru
+Created-By: Apache Maven
+Build-Jdk: 1.7.0_25
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.xmlpull.v1.builder.xpath.jaxen.expr
+Bundle-Description: xpp3-1.1.6
+Bundle-Name: xpp3-1.1.6
+Bundle-Version: 0.0.0
+Export-Package: javax.xml.namespace,org.xmlpull.mxp1;uses:="org.xmlpul
+ l.mxp1_serializer,org.xmlpull.v1",org.xmlpull.mxp1_serializer;uses:="
+ org.xmlpull.v1",org.xmlpull.v1,org.xmlpull.v1.builder;uses:="org.xmlp
+ ull.v1,org.xmlpull.v1.builder.impl",org.xmlpull.v1.builder.adapter;us
+ es:="org.xmlpull.v1.builder",org.xmlpull.v1.builder.impl;uses:="org.x
+ mlpull.v1,org.xmlpull.v1.builder",org.xmlpull.v1.builder.xpath;uses:=
+ "org.xmlpull.v1.builder.xpath.impl,org.xmlpull.v1.builder.xpath.jaxen
+ ",org.xmlpull.v1.builder.xpath.impl;uses:="org.xmlpull.v1.builder,org
+ .xmlpull.v1.builder.xpath,org.xmlpull.v1.builder.xpath.jaxen,org.xmlp
+ ull.v1.builder.xpath.jaxen.util,org.xmlpull.v1.builder.xpath.saxpath"
+ ,org.xmlpull.v1.builder.xpath.jaxen;uses:="org.xmlpull.v1.builder.xpa
+ th.jaxen.expr,org.xmlpull.v1.builder.xpath.jaxen.function,org.xmlpull
+ .v1.builder.xpath.jaxen.function.ext,org.xmlpull.v1.builder.xpath.jax
+ en.util,org.xmlpull.v1.builder.xpath.saxpath,org.xmlpull.v1.builder.x
+ path.saxpath.helpers",org.xmlpull.v1.builder.xpath.jaxen.expr;uses:="
+ org.xmlpull.v1.builder.xpath.jaxen,org.xmlpull.v1.builder.xpath.jaxen
+ .expr.iter,org.xmlpull.v1.builder.xpath.jaxen.function,org.xmlpull.v1
+ .builder.xpath.jaxen.util,org.xmlpull.v1.builder.xpath.saxpath",org.x
+ mlpull.v1.builder.xpath.jaxen.expr.iter;uses:="org.xmlpull.v1.builder
+ .xpath.jaxen",org.xmlpull.v1.builder.xpath.jaxen.function;uses:="org.
+ xmlpull.v1.builder.xpath.jaxen",org.xmlpull.v1.builder.xpath.jaxen.fu
+ nction.ext;uses:="org.xmlpull.v1.builder.xpath.jaxen,org.xmlpull.v1.b
+ uilder.xpath.jaxen.function,org.xmlpull.v1.builder.xpath.saxpath",org
+ .xmlpull.v1.builder.xpath.jaxen.pattern;uses:="org.xmlpull.v1.builder
+ .xpath.jaxen,org.xmlpull.v1.builder.xpath.jaxen.expr,org.xmlpull.v1.b
+ uilder.xpath.saxpath,org.xmlpull.v1.builder.xpath.saxpath.helpers",or
+ g.xmlpull.v1.builder.xpath.jaxen.util;uses:="org.xmlpull.v1.builder.x
+ path.jaxen",org.xmlpull.v1.builder.xpath.saxpath;uses:="org.xmlpull.v
+ 1.builder",org.xmlpull.v1.builder.xpath.saxpath.com.werken.saxpath;us
+ es:="org.xmlpull.v1.builder.xpath.saxpath",org.xmlpull.v1.builder.xpa
+ th.saxpath.conformance;uses:="org.xmlpull.v1.builder.xpath.saxpath",o
+ rg.xmlpull.v1.builder.xpath.saxpath.helpers;uses:="org.xmlpull.v1.bui
+ lder.xpath.saxpath",org.xmlpull.v1.dom2_builder;uses:="org.xmlpull.v1
+ ",org.xmlpull.v1.parser_pool;uses:="org.xmlpull.v1",org.xmlpull.v1.sa
+ mples;uses:="org.xmlpull.v1",org.xmlpull.v1.samples.eventlist;uses:="
+ org.xmlpull.v1",org.xmlpull.v1.samples.xpath;uses:="org.xmlpull.v1.bu
+ ilder,org.xmlpull.v1.builder.xpath,org.xmlpull.v1.builder.xpath.jaxen
+ ",org.xmlpull.v1.sax2;uses:="org.xmlpull.v1",org.xmlpull.v1.util;uses
+ :="org.xmlpull.v1",org.xmlpull.v1.wrapper;uses:="org.xmlpull.v1,org.x
+ mlpull.v1.wrapper.classic",org.xmlpull.v1.wrapper.classic;uses:="org.
+ xmlpull.v1,org.xmlpull.v1.util,org.xmlpull.v1.wrapper"
+Import-Package: java.io,java.lang,java.lang.reflect,java.net,java.text
+ ,java.util,javax.xml.parsers;version="1.0",junit.framework;version="4
+ .12",junit.textui;version="4.12",org.w3c.dom;version="1.0",org.xml.sa
+ x;version="1.0",org.xml.sax.helpers;version="1.0"

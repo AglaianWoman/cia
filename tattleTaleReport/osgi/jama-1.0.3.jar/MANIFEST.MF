@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_43 (Sun Microsystems Inc.)
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: Jama
+Bundle-Description: jama-1.0.3
+Bundle-Name: jama-1.0.3
+Bundle-Version: 0.0.0
+Export-Package: Jama;uses:="Jama.util",Jama.examples;uses:="Jama",Jama
+ .test;uses:="Jama",Jama.util
+Import-Package: java.io,java.lang,java.text,java.util

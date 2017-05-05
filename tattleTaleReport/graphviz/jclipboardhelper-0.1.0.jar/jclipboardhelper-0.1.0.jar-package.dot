@@ -1,0 +1,4 @@
+digraph jclipboardhelper_0_1_0_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  com_github_fracpete_jclipboardhelper_examples -> com_github_fracpete_jclipboardhelper;
+}

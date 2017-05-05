@@ -1,0 +1,19 @@
+digraph spring_webmvc_5_0_0_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> itext_2_1_7;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> jackson_annotations_2_9_0_pr3;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> jackson_core_2_9_0_pr3;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> jackson_databind_2_9_0_pr3;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> poi_3_16;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> poi_ooxml_3_16;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_aop_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_context_support_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_expression_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_oxm_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> spring_web_5_0_0_BUILD_SNAPSHOT;
+  spring_webmvc_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+}

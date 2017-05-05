@@ -1,0 +1,4 @@
+digraph bmad_2_4_dependencies {
+  node [shape = box, fontsize=10.0];
+  bmad_2_4 -> weka_dev_3_9_1;
+}

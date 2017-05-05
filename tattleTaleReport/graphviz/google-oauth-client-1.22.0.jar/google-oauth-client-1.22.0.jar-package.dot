@@ -1,0 +1,15 @@
+digraph google_oauth_client_1_22_0_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  com_google_api_client_auth_oauth -> com_google_api_client_http;
+  com_google_api_client_auth_oauth -> com_google_api_client_util;
+  com_google_api_client_auth_oauth -> com_google_api_client_util_escape;
+  com_google_api_client_auth_oauth2 -> com_google_api_client_http;
+  com_google_api_client_auth_oauth2 -> com_google_api_client_json;
+  com_google_api_client_auth_oauth2 -> com_google_api_client_util;
+  com_google_api_client_auth_oauth2 -> com_google_api_client_util_store;
+  com_google_api_client_auth_openidconnect -> com_google_api_client_auth_oauth2;
+  com_google_api_client_auth_openidconnect -> com_google_api_client_http;
+  com_google_api_client_auth_openidconnect -> com_google_api_client_json;
+  com_google_api_client_auth_openidconnect -> com_google_api_client_json_webtoken;
+  com_google_api_client_auth_openidconnect -> com_google_api_client_util;
+}

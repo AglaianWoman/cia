@@ -1,0 +1,49 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: Gili
+Created-By: Apache Maven
+Build-Jdk: 1.7.0
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.jfree.ui
+Bundle-Description: jcommon-1.0.16
+Bundle-Name: jcommon-1.0.16
+Bundle-Version: 0.0.0
+Export-Package: com.keypoint,org.jfree;uses:="org.jfree.base,org.jfree
+ .ui.about,org.jfree.util",org.jfree.base;uses:="org.jfree,org.jfree.b
+ ase.config,org.jfree.base.log,org.jfree.base.modules,org.jfree.ui.abo
+ ut,org.jfree.util",org.jfree.base.config;uses:="org.jfree.util",org.j
+ free.base.log;uses:="org.jfree.base,org.jfree.base.config,org.jfree.b
+ ase.modules,org.jfree.util",org.jfree.base.modules;uses:="org.jfree.b
+ ase,org.jfree.base.config,org.jfree.base.log,org.jfree.util",org.jfre
+ e.date,org.jfree.demo;uses:="org.jfree.text,org.jfree.ui",org.jfree.i
+ o,org.jfree.layout,org.jfree.resources,org.jfree.text;uses:="org.jfre
+ e.base,org.jfree.io,org.jfree.ui,org.jfree.util",org.jfree.threads,or
+ g.jfree.ui;uses:="org.jfree.date,org.jfree.util",org.jfree.ui.about;u
+ ses:="org.jfree.base,org.jfree.ui,org.jfree.util",org.jfree.ui.about.
+ resources,org.jfree.ui.action;uses:="org.jfree.ui,org.jfree.util",org
+ .jfree.ui.tabbedui;uses:="org.jfree.util",org.jfree.util;uses:="org.j
+ free.base.config,org.jfree.io,org.jfree.ui",org.jfree.xml;uses:="org.
+ jfree,org.jfree.base,org.jfree.ui.about,org.jfree.util",org.jfree.xml
+ .attributehandlers;uses:="org.jfree.util",org.jfree.xml.factory.objec
+ ts;uses:="org.jfree.io,org.jfree.ui,org.jfree.util",org.jfree.xml.gen
+ erator;uses:="org.jfree.io,org.jfree.ui,org.jfree.util,org.jfree.xml.
+ generator.model,org.jfree.xml.util,org.jfree.xml.writer",org.jfree.xm
+ l.generator.model;uses:="org.jfree.util",org.jfree.xml.parser;uses:="
+ org.jfree.util,org.jfree.xml,org.jfree.xml.parser.coretypes,org.jfree
+ .xml.util",org.jfree.xml.parser.coretypes;uses:="org.jfree.util,org.j
+ free.xml.attributehandlers,org.jfree.xml.parser,org.jfree.xml.util",o
+ rg.jfree.xml.util;uses:="org.jfree.util,org.jfree.xml,org.jfree.xml.a
+ ttributehandlers",org.jfree.xml.writer;uses:="org.jfree.util,org.jfre
+ e.xml.util,org.jfree.xml.writer.coretypes",org.jfree.xml.writer.coret
+ ypes;uses:="org.jfree.util,org.jfree.xml.attributehandlers,org.jfree.
+ xml.util,org.jfree.xml.writer"
+Import-Package: java.awt,java.awt.datatransfer,java.awt.event,java.awt
+ .font,java.awt.geom,java.awt.image,java.beans,java.io,java.lang,java.
+ lang.reflect,java.net,java.text,java.util,java.util.zip,javax.accessi
+ bility,javax.swing,javax.swing.border,javax.swing.event,javax.swing.f
+ ilechooser,javax.swing.plaf,javax.swing.table,javax.swing.text,javax.
+ xml.parsers;version="1.0",org.xml.sax;version="1.0",org.xml.sax.ext;v
+ ersion="1.0",org.xml.sax.helpers;version="1.0"

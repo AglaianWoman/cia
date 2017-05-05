@@ -1,0 +1,6 @@
+digraph jama_1_0_3_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  Jama -> Jama_util;
+  Jama_examples -> Jama;
+  Jama_test -> Jama;
+}

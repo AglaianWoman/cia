@@ -1,0 +1,9 @@
+digraph spring_oxm_5_0_0_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> activation_1_1;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> xstream_1_4_9_redhat_2;
+}

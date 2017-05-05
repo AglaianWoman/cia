@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Premain-Class: sizeof.agent.SizeOfAgent
+Archiver-Version: Plexus Archiver
+Built-By: fracpete
+Can-Redefine-Classes: false
+Boot-Class-Path: 
+Build-Jdk: 1.6.0_25
+Created-By: Apache Maven 3.0.4
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: sizeof.agent
+Bundle-Description: sizeofag-1.0.0
+Bundle-Name: sizeofag-1.0.0
+Bundle-Version: 0.0.0
+Export-Package: sizeof.agent
+Import-Package: java.io,java.lang,java.lang.instrument,java.lang.refle
+ ct,java.util

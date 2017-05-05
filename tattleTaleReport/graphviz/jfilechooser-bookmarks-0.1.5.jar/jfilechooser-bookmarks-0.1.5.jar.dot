@@ -1,0 +1,4 @@
+digraph jfilechooser_bookmarks_0_1_5_dependencies {
+  node [shape = box, fontsize=10.0];
+  jfilechooser_bookmarks_0_1_5 -> jclipboardhelper_0_1_0;
+}

@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.hack23.cia.service.api.action.admin
+Bundle-Description: service.api-2017.4.24-SNAPSHOT
+Bundle-Name: service.api-2017.4.24-SNAPSHOT
+Bundle-Version: 0.0.0
+Export-Package: com.hack23.cia.service.api;uses:="com.hack23.cia.model
+ .internal.application.data.impl,com.hack23.cia.model.internal.applica
+ tion.system.impl,com.hack23.cia.service.api.action.common,java.lang",
+ com.hack23.cia.service.api.action.admin;uses:="com.hack23.cia.service
+ .api.action.common",com.hack23.cia.service.api.action.application;use
+ s:="com.hack23.cia.model.internal.application.system.impl,com.hack23.
+ cia.model.internal.application.user.impl,com.hack23.cia.service.api.a
+ ction.common",com.hack23.cia.service.api.action.common;uses:="org.apa
+ che.commons.lang3.builder",com.hack23.cia.service.api.action.user;use
+ s:="com.hack23.cia.service.api.action.common,java.util.stream"
+Import-Package: com.hack23.cia.model.internal.application.data.impl;ve
+ rsion="0.0.0",com.hack23.cia.model.internal.application.system.impl;v
+ ersion="0.0.0",com.hack23.cia.model.internal.application.user.impl;ve
+ rsion="0.0.0",java.io,java.lang,java.util,java.util.concurrent,java.u
+ til.stream,javax.persistence.metamodel;version="2.1",org.apache.commo
+ ns.lang3.builder;version="3.5"

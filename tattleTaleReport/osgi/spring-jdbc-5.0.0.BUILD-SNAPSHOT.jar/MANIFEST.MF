@@ -1,0 +1,52 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-jdbc
+Implementation-Version: 5.0.0.BUILD-SNAPSHOT
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.jdbc.core
+Bundle-Description: spring-jdbc-5.0.0.BUILD-SNAPSHOT
+Bundle-Name: spring-jdbc-5.0.0.BUILD-SNAPSHOT
+Bundle-Version: 5.0.0.BUILD-SNAPSHOT
+Export-Package: org.springframework.jdbc,org.springframework.jdbc.conf
+ ig;uses:="org.springframework.jdbc.datasource.init",org.springframewo
+ rk.jdbc.core;uses:="java.lang,javax.sql.rowset,kotlin,kotlin.jvm,kotl
+ in.jvm.functions,kotlin.jvm.internal,kotlin.reflect,org.jetbrains.ann
+ otations,org.springframework.core,org.springframework.core.convert.su
+ pport",org.springframework.jdbc.core.metadata,org.springframework.jdb
+ c.core.namedparam;uses:="kotlin,kotlin.jvm.internal,org.jetbrains.ann
+ otations",org.springframework.jdbc.core.simple,org.springframework.jd
+ bc.core.support,org.springframework.jdbc.datasource,org.springframewo
+ rk.jdbc.datasource.embedded;uses:="org.apache.derby.jdbc,org.springfr
+ amework.jdbc.datasource.init",org.springframework.jdbc.datasource.ini
+ t;uses:="java.lang",org.springframework.jdbc.datasource.lookup;uses:=
+ "java.lang",org.springframework.jdbc.object,org.springframework.jdbc.
+ support;uses:="java.lang,org.springframework.dao,org.springframework.
+ util",org.springframework.jdbc.support.incrementer,org.springframewor
+ k.jdbc.support.lob;uses:="java.nio.charset",org.springframework.jdbc.
+ support.rowset,org.springframework.jdbc.support.xml
+Import-Package: java.beans,java.io,java.lang,java.lang.reflect,java.ma
+ th,java.net,java.nio.charset,java.sql,java.util,java.util.logging,jav
+ ax.naming,javax.sql,javax.sql.rowset,javax.xml.transform;version="1.0
+ ",javax.xml.transform.dom;version="1.0",kotlin,kotlin.jvm,kotlin.jvm.
+ functions,kotlin.jvm.internal,kotlin.reflect,org.apache.commons.loggi
+ ng;version="1.7.25",org.apache.derby.jdbc,org.jetbrains.annotations,o
+ rg.springframework.beans;version="5.0.0.BUILD-SNAPSHOT",org.springfra
+ mework.beans.factory;version="5.0.0.BUILD-SNAPSHOT",org.springframewo
+ rk.beans.factory.config;version="5.0.0.BUILD-SNAPSHOT",org.springfram
+ ework.beans.factory.support;version="5.0.0.BUILD-SNAPSHOT",org.spring
+ framework.beans.factory.xml;version="5.0.0.BUILD-SNAPSHOT",org.spring
+ framework.context;version="5.0.0.BUILD-SNAPSHOT",org.springframework.
+ core;version="5.0.0.BUILD-SNAPSHOT",org.springframework.core.convert;
+ version="5.0.0.BUILD-SNAPSHOT",org.springframework.core.convert.suppo
+ rt;version="5.0.0.BUILD-SNAPSHOT",org.springframework.core.io;version
+ ="5.0.0.BUILD-SNAPSHOT",org.springframework.core.io.support;version="
+ 5.0.0.BUILD-SNAPSHOT",org.springframework.dao;version="5.0.0.BUILD-SN
+ APSHOT",org.springframework.dao.support;version="5.0.0.BUILD-SNAPSHOT
+ ",org.springframework.jndi;version="5.0.0.BUILD-SNAPSHOT",org.springf
+ ramework.transaction;version="5.0.0.BUILD-SNAPSHOT",org.springframewo
+ rk.transaction.support;version="5.0.0.BUILD-SNAPSHOT",org.springframe
+ work.util;version="5.0.0.BUILD-SNAPSHOT",org.springframework.util.xml
+ ;version="5.0.0.BUILD-SNAPSHOT",org.w3c.dom;version="1.0"

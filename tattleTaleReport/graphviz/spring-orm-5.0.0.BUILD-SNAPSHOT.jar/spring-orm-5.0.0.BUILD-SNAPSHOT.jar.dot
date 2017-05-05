@@ -1,0 +1,15 @@
+digraph spring_orm_5_0_0_BUILD_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> hibernate_core_5_2_10_Final;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> jboss_transaction_api_1_2_spec_1_0_1_Final;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_aop_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_jdbc_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_tx_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> spring_web_5_0_0_BUILD_SNAPSHOT;
+  spring_orm_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
+}

@@ -1,0 +1,6 @@
+digraph validation_api_1_1_0_Final_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  javax_validation -> javax_validation_executable;
+  javax_validation_metadata -> javax_validation;
+  javax_validation_spi -> javax_validation;
+}

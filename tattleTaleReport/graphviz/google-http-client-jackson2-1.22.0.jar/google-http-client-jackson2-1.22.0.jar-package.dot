@@ -1,0 +1,6 @@
+digraph google_http_client_jackson2_1_22_0_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  com_google_api_client_json_jackson2 -> com_fasterxml_jackson_core;
+  com_google_api_client_json_jackson2 -> com_google_api_client_json;
+  com_google_api_client_json_jackson2 -> com_google_api_client_util;
+}

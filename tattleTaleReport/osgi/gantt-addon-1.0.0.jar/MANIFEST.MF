@@ -1,0 +1,63 @@
+Manifest-Version: 1.0
+Vaadin-License-Title: Apache License 2.0
+Vaadin-Stylesheets: VAADIN/addons/gantt/gantt.scss
+Implementation-Title: Gantt
+Implementation-Version: 1.0.0
+Vaadin-Widgetsets: org.tltv.gantt.WidgetSet
+Vaadin-Package-Version: 1
+Built-By: tltv
+Implementation-Vendor-Id: org.tltv.gantt
+Class-Path: vaadin-server-8.0.0.jar vaadin-sass-compiler-0.9.13.jar sa
+ c-1.3.jar flute-1.3.0.gg2.jar vaadin-shared-8.0.0.jar jsoup-1.8.3.jar
+  gentyref-1.2.0.jar vaadin-compatibility-server-8.0.0.jar vaadin-comp
+ atibility-client-8.0.0.jar vaadin-client-8.0.0.jar gwt-elemental-2.8.
+ 0.jar gwt-user-2.8.0.jar jsinterop-annotations-1.0.1.jar jsinterop-an
+ notations-1.0.1-sources.jar validation-api-1.0.0.GA.jar validation-ap
+ i-1.0.0.GA-sources.jar javax.servlet-api-3.1.0.jar mockito-core-1.9.5
+ .jar objenesis-1.0.jar vaadin-compatibility-shared-8.0.0.jar
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_66
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.tltv.gantt.client
+Bundle-Description: gantt-addon-1.0.0
+Bundle-Name: gantt-addon-1.0.0
+Bundle-Version: 1.0.0
+Export-Package: org.tltv.gantt;uses:="com.vaadin.server,com.vaadin.sha
+ red,com.vaadin.shared.communication,com.vaadin.ui,com.vaadin.util,com
+ .vaadin.v7.shared,com.vaadin.v7.ui,org.tltv.gantt.client.shared",org.
+ tltv.gantt.client;uses:="com.google.gwt.core.client,com.google.gwt.co
+ re.shared,com.google.gwt.dom.client,com.google.gwt.event.dom.client,c
+ om.google.gwt.event.logical.shared,com.google.gwt.event.shared,com.go
+ ogle.gwt.i18n.client,com.google.gwt.i18n.shared,com.google.gwt.touch.
+ client,com.google.gwt.user.client,com.google.gwt.user.client.ui,com.v
+ aadin.client,com.vaadin.client.communication,com.vaadin.client.event,
+ com.vaadin.client.ui,com.vaadin.client.ui.layout,com.vaadin.shared,co
+ m.vaadin.shared.communication,com.vaadin.shared.ui,com.vaadin.v7.clie
+ nt.ui,com.vaadin.v7.client.ui.table,org.tltv.gantt,org.tltv.gantt.cli
+ ent.shared",org.tltv.gantt.client.shared;uses:="com.google.gwt.core.c
+ lient,com.google.gwt.dom.client,com.google.gwt.i18n.client,com.google
+ .gwt.user.client.rpc,com.vaadin.shared,com.vaadin.shared.annotations,
+ com.vaadin.shared.communication,com.vaadin.v7.shared"
+Import-Package: com.google.gwt.core.client;version="0.0.0",com.google.
+ gwt.core.shared;version="0.0.0",com.google.gwt.dom.client;version="0.
+ 0.0",com.google.gwt.event.dom.client;version="0.0.0",com.google.gwt.e
+ vent.logical.shared;version="0.0.0",com.google.gwt.event.shared;versi
+ on="0.0.0",com.google.gwt.i18n.client;version="0.0.0",com.google.gwt.
+ i18n.shared;version="0.0.0",com.google.gwt.touch.client;version="0.0.
+ 0",com.google.gwt.user.client;version="0.0.0",com.google.gwt.user.cli
+ ent.rpc;version="0.0.0",com.google.gwt.user.client.ui;version="0.0.0"
+ ,com.vaadin.client;version="8.1.0.alpha6",com.vaadin.client.communica
+ tion;version="8.1.0.alpha6",com.vaadin.client.event;version="8.1.0.al
+ pha6",com.vaadin.client.ui;version="8.1.0.alpha6",com.vaadin.client.u
+ i.layout;version="8.1.0.alpha6",com.vaadin.server;version="8.1.0.alph
+ a6",com.vaadin.shared;version="8.1.0.alpha6",com.vaadin.shared.annota
+ tions;version="8.1.0.alpha6",com.vaadin.shared.communication;version=
+ "8.1.0.alpha6",com.vaadin.shared.ui;version="8.1.0.alpha6",com.vaadin
+ .ui;version="8.1.0.alpha6",com.vaadin.util;version="8.1.0.alpha6",com
+ .vaadin.v7.client.ui;version="8.1.0.alpha6",com.vaadin.v7.client.ui.t
+ able;version="8.1.0.alpha6",com.vaadin.v7.shared;version="8.1.0.alpha
+ 6",com.vaadin.v7.ui;version="8.1.0.alpha6",java.io,java.lang,java.lan
+ g.reflect,java.text,java.util,java.util.regex

@@ -1,0 +1,5 @@
+digraph googleauth_1_1_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  googleauth_1_1_1 -> commons_codec_1_10_0_redhat_5;
+  googleauth_1_1_1 -> httpclient_4_5_3;
+}

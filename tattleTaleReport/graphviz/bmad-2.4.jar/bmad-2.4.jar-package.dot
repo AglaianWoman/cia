@@ -1,0 +1,24 @@
+digraph bmad_2_4_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  org_kramerlab_bmad_algorithms -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_algorithms -> org_kramerlab_bmad_matrix;
+  org_kramerlab_bmad_algorithms -> weka_core;
+  org_kramerlab_bmad_demo -> org_kramerlab_bmad_algorithms;
+  org_kramerlab_bmad_demo -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_demo -> org_kramerlab_bmad_matrix;
+  org_kramerlab_bmad_demo -> org_kramerlab_bmad_visualization;
+  org_kramerlab_bmad_demo -> weka_core;
+  org_kramerlab_bmad_demo -> weka_core_converters;
+  org_kramerlab_bmad_experiments -> org_kramerlab_bmad_algorithms;
+  org_kramerlab_bmad_experiments -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_experiments -> org_kramerlab_bmad_matrix;
+  org_kramerlab_bmad_experiments -> weka_core;
+  org_kramerlab_bmad_experiments -> weka_core_converters;
+  org_kramerlab_bmad_general_layout -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_matrix -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_matrix -> org_kramerlab_bmad_general_layout;
+  org_kramerlab_bmad_matrix -> weka_core;
+  org_kramerlab_bmad_visualization -> org_kramerlab_bmad_general;
+  org_kramerlab_bmad_visualization -> org_kramerlab_bmad_matrix;
+  org_kramerlab_bmad_visualization -> weka_core;
+}

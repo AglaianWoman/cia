@@ -1,0 +1,5 @@
+digraph poi_scratchpad_3_16_dependencies {
+  node [shape = box, fontsize=10.0];
+  poi_scratchpad_3_16 -> poi_3_16;
+  poi_scratchpad_3_16 -> xml_apis_1_4_01;
+}

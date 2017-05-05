@@ -1,0 +1,44 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: com.fasterxml.jackson.core.jackson-core
+Built-By: tatu
+Bnd-LastModified: 1493098598060
+Implementation-Vendor-Id: com.fasterxml.jackson.core
+Specification-Title: Jackson-core
+Bundle-DocURL: https://github.com/FasterXML/jackson-core
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Implementation-Build-Date: 2017-04-25 05:36:24+0000
+Export-Package: com.fasterxml.jackson.core;version="2.9.0.pr3";uses:="
+ com.fasterxml.jackson.core.format,com.fasterxml.jackson.core.io,com.f
+ asterxml.jackson.core.sym,com.fasterxml.jackson.core.type,com.fasterx
+ ml.jackson.core.util",com.fasterxml.jackson.core.base;version="2.9.0.
+ pr3";uses:="com.fasterxml.jackson.core,com.fasterxml.jackson.core.io,
+ com.fasterxml.jackson.core.json,com.fasterxml.jackson.core.util",com.
+ fasterxml.jackson.core.filter;version="2.9.0.pr3";uses:="com.fasterxm
+ l.jackson.core,com.fasterxml.jackson.core.util",com.fasterxml.jackson
+ .core.format;version="2.9.0.pr3";uses:="com.fasterxml.jackson.core",c
+ om.fasterxml.jackson.core.io;version="2.9.0.pr3";uses:="com.fasterxml
+ .jackson.core,com.fasterxml.jackson.core.util",com.fasterxml.jackson.
+ core.json;version="2.9.0.pr3";uses:="com.fasterxml.jackson.core,com.f
+ asterxml.jackson.core.base,com.fasterxml.jackson.core.format,com.fast
+ erxml.jackson.core.io,com.fasterxml.jackson.core.sym",com.fasterxml.j
+ ackson.core.sym;version="2.9.0.pr3",com.fasterxml.jackson.core.type;v
+ ersion="2.9.0.pr3",com.fasterxml.jackson.core.util;version="2.9.0.pr3
+ ";uses:="com.fasterxml.jackson.core,com.fasterxml.jackson.core.io"
+Bundle-Name: Jackson-core
+Bundle-Description: Core Jackson processing abstractions (aka Streamin
+ g API), implementation for JSON
+Implementation-Title: Jackson-core
+Implementation-Version: 2.9.0.pr3
+Bundle-ManifestVersion: 2
+Specification-Vendor: FasterXML
+Bundle-Vendor: FasterXML
+Tool: Bnd-2.3.0.201405100607
+Implementation-Vendor: FasterXML
+Bundle-Version: 2.9.0.pr3
+X-Compile-Target-JDK: 1.6
+X-Compile-Source-JDK: 1.6
+Build-Jdk: 1.7.0_79
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 2.9.0.pr3
+

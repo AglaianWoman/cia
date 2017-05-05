@@ -1,0 +1,9 @@
+digraph vaadin_compatibility_server_8_1_0_alpha6_dependencies {
+  node [shape = box, fontsize=10.0];
+  vaadin_compatibility_server_8_1_0_alpha6 -> gwt_elemental_2_8_1;
+  vaadin_compatibility_server_8_1_0_alpha6 -> jsoup_1_10_2;
+  vaadin_compatibility_server_8_1_0_alpha6 -> vaadin_compatibility_shared_8_1_0_alpha6;
+  vaadin_compatibility_server_8_1_0_alpha6 -> vaadin_server_8_1_0_alpha6;
+  vaadin_compatibility_server_8_1_0_alpha6 -> vaadin_shared_8_1_0_alpha6;
+  vaadin_compatibility_server_8_1_0_alpha6 -> validation_api_1_1_0_Final;
+}

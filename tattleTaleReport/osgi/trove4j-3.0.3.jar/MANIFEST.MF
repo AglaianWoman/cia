@@ -1,0 +1,48 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Implementation-Title: Trove
+Implementation-Version: 3.0.3
+Built-By: root
+Sealed: false
+Created-By: 1.6.0_31-b04-415-11M3646 (Apple Inc.)
+Implementation-URL: http://trove4j.sourceforge.net/
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: gnu.trove.map.hash
+Bundle-Description: trove4j-3.0.3
+Bundle-Name: trove4j-3.0.3
+Bundle-Version: 3.0.3
+Export-Package: gnu.trove;uses:="gnu.trove.decorator,gnu.trove.impl.sy
+ nc,gnu.trove.impl.unmodifiable,gnu.trove.iterator,gnu.trove.list,gnu.
+ trove.map,gnu.trove.procedure,gnu.trove.set",gnu.trove.decorator;uses
+ :="gnu.trove.iterator,gnu.trove.list,gnu.trove.map,gnu.trove.set",gnu
+ .trove.function,gnu.trove.impl,gnu.trove.impl.hash;uses:="gnu.trove.i
+ mpl,gnu.trove.iterator,gnu.trove.procedure,gnu.trove.strategy",gnu.tr
+ ove.impl.sync;uses:="gnu.trove,gnu.trove.function,gnu.trove.iterator,
+ gnu.trove.list,gnu.trove.map,gnu.trove.procedure,gnu.trove.set",gnu.t
+ rove.impl.unmodifiable;uses:="gnu.trove,gnu.trove.function,gnu.trove.
+ iterator,gnu.trove.list,gnu.trove.map,gnu.trove.procedure,gnu.trove.s
+ et",gnu.trove.iterator,gnu.trove.iterator.hash;uses:="gnu.trove.impl.
+ hash",gnu.trove.list;uses:="gnu.trove,gnu.trove.function,gnu.trove.pr
+ ocedure",gnu.trove.list.array;uses:="gnu.trove,gnu.trove.function,gnu
+ .trove.impl,gnu.trove.iterator,gnu.trove.list,gnu.trove.procedure",gn
+ u.trove.list.linked;uses:="gnu.trove,gnu.trove.function,gnu.trove.imp
+ l,gnu.trove.iterator,gnu.trove.list,gnu.trove.procedure",gnu.trove.ma
+ p;uses:="gnu.trove,gnu.trove.function,gnu.trove.iterator,gnu.trove.pr
+ ocedure,gnu.trove.set",gnu.trove.map.custom_hash;uses:="gnu.trove,gnu
+ .trove.function,gnu.trove.impl,gnu.trove.impl.hash,gnu.trove.iterator
+ ,gnu.trove.iterator.hash,gnu.trove.map,gnu.trove.procedure,gnu.trove.
+ strategy",gnu.trove.map.hash;uses:="gnu.trove,gnu.trove.function,gnu.
+ trove.impl,gnu.trove.impl.hash,gnu.trove.iterator,gnu.trove.iterator.
+ hash,gnu.trove.map,gnu.trove.procedure,gnu.trove.set,gnu.trove.strate
+ gy",gnu.trove.procedure,gnu.trove.procedure.array;uses:="gnu.trove.pr
+ ocedure",gnu.trove.queue;uses:="gnu.trove",gnu.trove.set;uses:="gnu.t
+ rove,gnu.trove.iterator,gnu.trove.procedure",gnu.trove.set.hash;uses:
+ ="gnu.trove,gnu.trove.impl,gnu.trove.impl.hash,gnu.trove.iterator,gnu
+ .trove.iterator.hash,gnu.trove.list,gnu.trove.list.array,gnu.trove.li
+ st.linked,gnu.trove.procedure,gnu.trove.procedure.array,gnu.trove.set
+ ,gnu.trove.strategy",gnu.trove.stack,gnu.trove.stack.array;uses:="gnu
+ .trove,gnu.trove.list.array,gnu.trove.stack",gnu.trove.strategy
+Import-Package: java.io,java.lang,java.lang.reflect,java.util

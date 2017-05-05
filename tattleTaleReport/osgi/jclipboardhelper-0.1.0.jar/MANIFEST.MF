@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Built-By: fracpete
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_77
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.github.fracpete.jclipboardhelper
+Bundle-Description: jclipboardhelper-0.1.0
+Bundle-Name: jclipboardhelper-0.1.0
+Bundle-Version: 0.0.0
+Export-Package: com.github.fracpete.jclipboardhelper,com.github.fracpe
+ te.jclipboardhelper.examples;uses:="com.github.fracpete.jclipboardhel
+ per"
+Import-Package: java.awt,java.awt.datatransfer,java.awt.event,java.awt
+ .image,java.io,java.lang,javax.imageio,javax.swing

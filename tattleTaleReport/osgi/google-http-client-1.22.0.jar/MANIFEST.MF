@@ -1,0 +1,62 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.1
+Implementation-Title: Google HTTP Client Library for Java
+Implementation-Version: 1.22.0
+Archiver-Version: Plexus Archiver
+Built-By: Google
+Implementation-Vendor-Id: com.google.http-client
+Created-By: Apache Maven
+Build-Jdk: 1.6.x
+Implementation-Vendor: Google
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.api.client.repackaged.com.google.commo
+ n.base
+Bundle-Description: google-http-client-1.22.0
+Bundle-Name: google-http-client-1.22.0
+Bundle-Version: 1.22.0
+Export-Package: com.google.api.client.http;uses:="com.google.api.clien
+ t.repackaged.com.google.common.base,com.google.api.client.util,com.go
+ ogle.api.client.util.escape",com.google.api.client.http.apache;uses:=
+ "com.google.api.client.http,com.google.api.client.util",com.google.ap
+ i.client.http.javanet;uses:="com.google.api.client.http,com.google.ap
+ i.client.util",com.google.api.client.http.json;uses:="com.google.api.
+ client.http,com.google.api.client.json,com.google.api.client.util",co
+ m.google.api.client.json;uses:="com.google.api.client.util",com.googl
+ e.api.client.json.rpc2;uses:="com.google.api.client.util",com.google.
+ api.client.json.webtoken;uses:="com.google.api.client.json,com.google
+ .api.client.util",com.google.api.client.repackaged.com.google.common.
+ annotations,com.google.api.client.repackaged.com.google.common.base;u
+ ses:="com.google.api.client.repackaged.com.google.common.annotations,
+ javax.annotation",com.google.api.client.repackaged.org.apache.commons
+ .codec,com.google.api.client.repackaged.org.apache.commons.codec.bina
+ ry;uses:="com.google.api.client.repackaged.org.apache.commons.codec",
+ com.google.api.client.testing.http;uses:="com.google.api.client.http,
+ com.google.api.client.testing.util,com.google.api.client.util",com.go
+ ogle.api.client.testing.http.apache;uses:="com.google.api.client.util
+ ",com.google.api.client.testing.http.javanet;uses:="com.google.api.cl
+ ient.util",com.google.api.client.testing.json;uses:="com.google.api.c
+ lient.json,com.google.api.client.util",com.google.api.client.testing.
+ json.webtoken;uses:="com.google.api.client.json.webtoken,com.google.a
+ pi.client.util",com.google.api.client.testing.util;uses:="com.google.
+ api.client.util",com.google.api.client.util;uses:="com.google.api.cli
+ ent.repackaged.com.google.common.base,com.google.api.client.repackage
+ d.org.apache.commons.codec.binary",com.google.api.client.util.escape,
+ com.google.api.client.util.store;uses:="com.google.api.client.util"
+Import-Package: java.io,java.lang,java.lang.annotation,java.lang.ref,j
+ ava.lang.reflect,java.math,java.net,java.nio.charset,java.security,ja
+ va.security.cert,java.security.interfaces,java.security.spec,java.tex
+ t,java.util,java.util.concurrent,java.util.concurrent.atomic,java.uti
+ l.concurrent.locks,java.util.logging,java.util.regex,java.util.zip,ja
+ vax.annotation;version="0.0.0",javax.net.ssl,org.apache.http;version=
+ "4.4.6",org.apache.http.client;version="4.5.3",org.apache.http.client
+ .methods;version="4.5.3",org.apache.http.conn;version="4.5.3",org.apa
+ che.http.conn.params;version="4.5.3",org.apache.http.conn.routing;ver
+ sion="4.5.3",org.apache.http.conn.scheme;version="4.5.3",org.apache.h
+ ttp.conn.ssl;version="4.5.3",org.apache.http.entity;version="4.4.6",o
+ rg.apache.http.impl.client;version="4.5.3",org.apache.http.impl.conn;
+ version="4.5.3",org.apache.http.impl.conn.tsccm;version="4.5.3",org.a
+ pache.http.message;version="4.4.6",org.apache.http.params;version="4.
+ 4.6",org.apache.http.protocol;version="4.4.6"

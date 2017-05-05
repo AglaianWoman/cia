@@ -1,0 +1,51 @@
+Manifest-Version: 1.0
+Implementation-Title: ActiveMQ :: Spring
+Implementation-Version: 5.14.5
+Archiver-Version: Plexus Archiver
+Built-By: dejanb
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: ActiveMQ :: Spring
+Implementation-Vendor-Id: org.apache.activemq
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_66
+Specification-Version: 5.14.5
+Implementation-Vendor: The Apache Software Foundation
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.activemq.xbean
+Bundle-Description: activemq-spring-5.14.5
+Bundle-Name: activemq-spring-5.14.5
+Bundle-Version: 5.14.5
+Export-Package: org.apache.activemq.hooks,org.apache.activemq.hooks.os
+ gi;uses:="org.springframework.osgi.context.support",org.apache.active
+ mq.network.jms,org.apache.activemq.pool;uses:="org.apache.activemq.jm
+ s.pool",org.apache.activemq.security;uses:="org.apache.activemq.filte
+ r",org.apache.activemq.spring;uses:="org.apache.activemq,org.apache.a
+ ctivemq.broker",org.apache.activemq.store;uses:="org.apache.activemq.
+ store.journal",org.apache.activemq.xbean;uses:="org.apache.activemq.b
+ roker,org.apache.activemq.broker.scheduler,org.apache.activemq.spring
+ ,org.apache.activemq.store,org.apache.activemq.usage,org.apache.activ
+ emq.util,org.apache.xbean.spring.context,org.apache.xbean.spring.cont
+ ext.impl"
+Import-Package: java.beans,java.io,java.lang,java.net,java.security,ja
+ va.security.cert,java.util,javax.annotation,javax.jms;version="1.1.1"
+ ,javax.naming,javax.net.ssl,javax.transaction;version="1.2",org.apach
+ e.activemq;version="5.14.5",org.apache.activemq.broker;version="5.14.
+ 5",org.apache.activemq.broker.scheduler;version="5.14.5",org.apache.a
+ ctivemq.filter;version="5.14.5",org.apache.activemq.jms.pool;version=
+ "5.14.5",org.apache.activemq.network.jms;version="5.14.5",org.apache.
+ activemq.pool;version="5.14.5",org.apache.activemq.security;version="
+ 5.14.5",org.apache.activemq.store;version="5.14.5",org.apache.activem
+ q.store.journal,org.apache.activemq.usage;version="5.14.5",org.apache
+ .activemq.util;version="5.14.5",org.apache.xbean.spring.context;versi
+ on="4.5",org.apache.xbean.spring.context.impl;version="4.5",org.osgi.
+ framework;version="0.0.0",org.slf4j;version="1.7.25",org.springframew
+ ork.beans;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.fa
+ ctory;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.factor
+ y.xml;version="5.0.0.BUILD-SNAPSHOT",org.springframework.context;vers
+ ion="5.0.0.BUILD-SNAPSHOT",org.springframework.core.io;version="5.0.0
+ .BUILD-SNAPSHOT",org.springframework.jndi;version="5.0.0.BUILD-SNAPSH
+ OT",org.springframework.osgi.context.support,org.springframework.util
+ ;version="5.0.0.BUILD-SNAPSHOT"

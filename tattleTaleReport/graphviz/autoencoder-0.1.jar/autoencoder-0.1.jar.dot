@@ -1,0 +1,9 @@
+digraph autoencoder_0_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  autoencoder_0_1 -> ejml_0_22;
+  autoencoder_0_1 -> jcommon_1_0_16;
+  autoencoder_0_1 -> jfreechart_1_0_13;
+  autoencoder_0_1 -> scala_library_2_10_2;
+  autoencoder_0_1 -> scala_swing_2_10_2;
+  autoencoder_0_1 -> weka_dev_3_9_1;
+}

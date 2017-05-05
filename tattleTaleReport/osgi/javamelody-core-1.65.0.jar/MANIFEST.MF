@@ -1,0 +1,75 @@
+Manifest-Version: 1.0
+Implementation-Title: JavaMelody - Core
+Implementation-Version: 1.65.0
+Built-By: Emeric Vernat
+Build-Jdk: 1.7.0_80
+Created-By: Apache Maven 3.2.3
+Implementation-Vendor: Emeric Vernat
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: net.bull.javamelody
+Bundle-Description: javamelody-core-1.65.0
+Bundle-Name: javamelody-core-1.65.0
+Bundle-Version: 1.65.0
+Export-Package: net.bull.javamelody;uses:="ch.qos.logback.classic,ch.q
+ os.logback.classic.spi,ch.qos.logback.core,com.google.inject,com.goog
+ le.inject.matcher,com.lowagie.text,com.lowagie.text.pdf,com.mongodb.c
+ lient,com.opensymphony.xwork2,com.opensymphony.xwork2.interceptor,com
+ .thoughtworks.xstream,com.thoughtworks.xstream.converters,com.thought
+ works.xstream.converters.collections,com.thoughtworks.xstream.io,com.
+ thoughtworks.xstream.io.json,com.thoughtworks.xstream.io.xml,com.thou
+ ghtworks.xstream.mapper,javax.servlet,net.sf.ehcache,net.sf.ehcache.c
+ onfig,net.sf.ehcache.management,net.sf.ehcache.store,org.aopalliance.
+ aop,org.aopalliance.intercept,org.apache.commons.dbcp,org.apache.comm
+ ons.dbcp2,org.apache.logging.log4j,org.apache.logging.log4j.core,org.
+ apache.logging.log4j.core.appender,org.apache.logging.log4j.core.conf
+ ig,org.apache.logging.log4j.core.filter,org.apache.logging.log4j.core
+ .layout,org.apache.logging.log4j.core.pattern,org.apache.logging.log4
+ j.spi,org.apache.tomcat.dbcp.dbcp,org.apache.tomcat.dbcp.dbcp2,org.ap
+ ache.tomcat.jdbc.pool,org.hibernate.engine,org.hibernate.jdbc,org.jro
+ bin.core,org.jrobin.data,org.jrobin.graph,org.quartz,org.quartz.impl,
+ org.quartz.impl.matchers"
+Import-Package: ch.qos.logback.classic;version="0.0.0",ch.qos.logback.
+ classic.spi;version="0.0.0",ch.qos.logback.core;version="0.0.0",com.g
+ oogle.inject,com.google.inject.matcher,com.lowagie.text;version="0.0.
+ 0",com.lowagie.text.pdf;version="0.0.0",com.mongodb.client,com.opensy
+ mphony.xwork2,com.opensymphony.xwork2.interceptor,com.sun.management,
+ com.thoughtworks.xstream;version="1.4",com.thoughtworks.xstream.conve
+ rters;version="1.4",com.thoughtworks.xstream.converters.collections;v
+ ersion="1.4",com.thoughtworks.xstream.io;version="1.4",com.thoughtwor
+ ks.xstream.io.json;version="1.4",com.thoughtworks.xstream.io.xml;vers
+ ion="1.4",com.thoughtworks.xstream.mapper;version="1.4",java.awt,java
+ .awt.image,java.io,java.lang,java.lang.annotation,java.lang.managemen
+ t,java.lang.reflect,java.net,java.nio,java.nio.channels,java.nio.char
+ set,java.security,java.sql,java.text,java.util,java.util.concurrent,j
+ ava.util.concurrent.atomic,java.util.jar,java.util.logging,java.util.
+ regex,java.util.zip,javax.activation;version="1.1",javax.el,javax.fac
+ es.application,javax.faces.component,javax.faces.context,javax.faces.
+ event,javax.imageio,javax.interceptor;version="1.2",javax.mail;versio
+ n="1.5",javax.mail.internet;version="1.5",javax.management,javax.mana
+ gement.openmbean,javax.naming,javax.naming.spi,javax.persistence;vers
+ ion="2.1",javax.persistence.spi;version="2.1",javax.servlet,javax.ser
+ vlet.http,javax.sql,javax.xml.stream;version="1.0",net.sf.ehcache;ver
+ sion="2.10.4",net.sf.ehcache.config;version="2.10.4",net.sf.ehcache.m
+ anagement;version="2.10.4",net.sf.ehcache.store;version="2.10.4",org.
+ aopalliance.aop;version="5.0.0.BUILD-SNAPSHOT",org.aopalliance.interc
+ ept;version="5.0.0.BUILD-SNAPSHOT",org.apache.commons.dbcp,org.apache
+ .commons.dbcp2;version="2.1.1",org.apache.log4j;version="1.7.25",org.
+ apache.log4j.spi;version="1.7.25",org.apache.logging.log4j,org.apache
+ .logging.log4j.core,org.apache.logging.log4j.core.appender,org.apache
+ .logging.log4j.core.config,org.apache.logging.log4j.core.filter,org.a
+ pache.logging.log4j.core.layout,org.apache.logging.log4j.core.pattern
+ ,org.apache.logging.log4j.spi,org.apache.tomcat.dbcp.dbcp,org.apache.
+ tomcat.dbcp.dbcp2,org.apache.tomcat.jdbc.pool,org.hibernate;version="
+ 5.2.10.Final",org.hibernate.cfg;version="5.2.10.Final",org.hibernate.
+ engine,org.hibernate.jdbc,org.jrobin.core;version="1.6.0",org.jrobin.
+ data;version="1.6.0",org.jrobin.graph;version="1.6.0",org.quartz,org.
+ quartz.impl,org.quartz.impl.matchers,org.slf4j;version="1.7.25",org.s
+ pringframework.aop;version="5.0.0.BUILD-SNAPSHOT",org.springframework
+ .aop.support;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans
+ .factory;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.fac
+ tory.config;version="5.0.0.BUILD-SNAPSHOT",org.springframework.core;v
+ ersion="5.0.0.BUILD-SNAPSHOT",org.springframework.jndi;version="5.0.0
+ .BUILD-SNAPSHOT",sun.misc,sun.nio.ch

@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-expression
+Implementation-Version: 5.0.0.BUILD-SNAPSHOT
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.springframework.expression.spel.ast
+Bundle-Description: spring-expression-5.0.0.BUILD-SNAPSHOT
+Bundle-Name: spring-expression-5.0.0.BUILD-SNAPSHOT
+Bundle-Version: 5.0.0.BUILD-SNAPSHOT
+Export-Package: org.springframework.expression;uses:="java.lang",org.s
+ pringframework.expression.common,org.springframework.expression.spel;
+ uses:="java.lang,org.springframework.core",org.springframework.expres
+ sion.spel.ast;uses:="org.springframework.expression,org.springframewo
+ rk.expression.spel",org.springframework.expression.spel.standard;uses
+ :="org.springframework.expression.spel,org.springframework.expression
+ .spel.ast,org.springframework.util",org.springframework.expression.sp
+ el.support;uses:="java.lang.reflect,org.springframework.core.convert,
+ org.springframework.core.convert.support,org.springframework.expressi
+ on,org.springframework.expression.spel"
+Import-Package: java.io,java.lang,java.lang.reflect,java.math,java.net
+ ,java.text,java.util,java.util.concurrent,java.util.concurrent.atomic
+ ,java.util.regex,org.apache.commons.logging;version="1.7.25",org.spri
+ ngframework.asm;version="5.0.0.BUILD-SNAPSHOT",org.springframework.co
+ re;version="5.0.0.BUILD-SNAPSHOT",org.springframework.core.convert;ve
+ rsion="5.0.0.BUILD-SNAPSHOT",org.springframework.core.convert.support
+ ;version="5.0.0.BUILD-SNAPSHOT",org.springframework.util;version="5.0
+ .0.BUILD-SNAPSHOT"

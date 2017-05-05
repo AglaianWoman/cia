@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.hack23.cia.model.common.impl
+Bundle-Description: model.common.impl-2017.4.24-SNAPSHOT
+Bundle-Name: model.common.impl-2017.4.24-SNAPSHOT
+Bundle-Version: 0.0.0
+Export-Package: com.hack23.cia.model.common.impl;uses:="com.hack23.cia
+ .model.common.api",com.hack23.cia.model.common.xml
+Import-Package: com.hack23.cia.model.common.api;version="0.0.0",java.l
+ ang,java.text,java.util,javax.xml.bind,org.slf4j;version="1.7.25"

@@ -1,0 +1,7 @@
+digraph ehcache_clustered_3_3_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  ehcache_clustered_3_3_1 -> ehcache_2_10_4;
+  ehcache_clustered_3_3_1 -> ehcache_3_3_1;
+  ehcache_clustered_3_3_1 -> slf4j_api_1_7_25;
+  ehcache_clustered_3_3_1 -> xml_apis_1_4_01;
+}
