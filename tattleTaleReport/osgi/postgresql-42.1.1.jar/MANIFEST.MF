@@ -1,0 +1,93 @@
+Manifest-Version: 1.0
+Bundle-License: https://jdbc.postgresql.org/about/license.html
+Bundle-SymbolicName: org.postgresql.jdbc42
+Built-By: vladimirsitnikov
+Bnd-LastModified: 1494023019920
+Bundle-Copyright: Copyright (c) 2003-2015, PostgreSQL Global Developme
+ nt Group
+Implementation-Vendor-Id: org.postgresql
+Specification-Title: JDBC
+Bundle-DocURL: https://jdbc.postgresql.org/
+Import-Package: javax.sql,javax.transaction.xa,javax.naming,com.sun.jn
+ a;resolution:=optional,com.sun.jna.platform.win32;resolution:=optiona
+ l,com.sun.jna.ptr;resolution:=optional,com.sun.jna.win32;resolution:=
+ optional,javax.crypto;resolution:=optional,javax.crypto.spec;resoluti
+ on:=optional,javax.naming.ldap;resolution:=optional,javax.naming.spi;
+ resolution:=optional,javax.net;resolution:=optional,javax.net.ssl;res
+ olution:=optional,javax.security.auth;resolution:=optional,javax.secu
+ rity.auth.callback;resolution:=optional,javax.security.auth.login;res
+ olution:=optional,javax.security.auth.x500;resolution:=optional,javax
+ .xml.parsers;resolution:=optional,javax.xml.stream;resolution:=option
+ al,javax.xml.transform;resolution:=optional,javax.xml.transform.dom;r
+ esolution:=optional,javax.xml.transform.sax;resolution:=optional,java
+ x.xml.transform.stax;resolution:=optional,javax.xml.transform.stream;
+ resolution:=optional,org.ietf.jgss;resolution:=optional,org.osgi.fram
+ ework;resolution:=optional;version="[1.6,2)",org.osgi.service.jdbc;re
+ solution:=optional;version="[1.0,2)",org.w3c.dom;resolution:=optional
+ ,org.xml.sax;resolution:=optional,waffle.windows.auth;resolution:=opt
+ ional,waffle.windows.auth.impl;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(|(osgi.ee=J2SE)(osgi.ee=JavaSE
+ ))(version>=1.8))"
+Main-Class: org.postgresql.util.PGJDBCMain
+Export-Package: org.postgresql;version="42.1.1";uses:="org.postgresql.
+ copy,org.postgresql.fastpath,org.postgresql.jdbc,org.postgresql.large
+ object,org.postgresql.replication,org.postgresql.util",org.postgresql
+ .copy;version="42.1.1";uses:="org.postgresql,org.postgresql.core",org
+ .postgresql.core;version="42.1.1";uses:="javax.net,org.postgresql,org
+ .postgresql.copy,org.postgresql.core.v3,org.postgresql.jdbc,org.postg
+ resql.replication,org.postgresql.replication.fluent.logical,org.postg
+ resql.replication.fluent.physical,org.postgresql.util",org.postgresql
+ .core.v3;version="42.1.1";uses:="org.postgresql.copy,org.postgresql.c
+ ore,org.postgresql.jdbc,org.postgresql.util",org.postgresql.core.v3.r
+ eplication;version="42.1.1";uses:="org.postgresql.copy,org.postgresql
+ .core,org.postgresql.replication,org.postgresql.replication.fluent.lo
+ gical,org.postgresql.replication.fluent.physical",org.postgresql.ds;v
+ ersion="42.1.1";uses:="javax.naming,javax.sql,org.postgresql.ds.commo
+ n",org.postgresql.ds.common;version="42.1.1";uses:="javax.naming,java
+ x.naming.spi,javax.sql,org.postgresql,org.postgresql.jdbc",org.postgr
+ esql.fastpath;version="42.1.1";uses:="org.postgresql.core",org.postgr
+ esql.geometric;version="42.1.1";uses:="org.postgresql.util",org.postg
+ resql.gss;version="42.1.1";uses:="javax.security.auth.callback,org.po
+ stgresql.core",org.postgresql.hostchooser;version="42.1.1";uses:="org
+ .postgresql.util",org.postgresql.jdbc;version="42.1.1";uses:="javax.x
+ ml.transform,org.postgresql,org.postgresql.copy,org.postgresql.core,o
+ rg.postgresql.fastpath,org.postgresql.jdbc2,org.postgresql.largeobjec
+ t,org.postgresql.replication,org.postgresql.util",org.postgresql.jdbc
+ 2;version="42.1.1",org.postgresql.jdbc2.optional;version="42.1.1";use
+ s:="org.postgresql.ds",org.postgresql.jdbc3;version="42.1.1";uses:="o
+ rg.postgresql.ds",org.postgresql.largeobject;version="42.1.1";uses:="
+ org.postgresql.core,org.postgresql.fastpath",org.postgresql.osgi;vers
+ ion="42.1.1";uses:="javax.sql,org.osgi.framework,org.osgi.service.jdb
+ c",org.postgresql.replication;version="42.1.1";uses:="org.postgresql.
+ core,org.postgresql.replication.fluent",org.postgresql.replication.fl
+ uent;version="42.1.1";uses:="org.postgresql.core,org.postgresql.repli
+ cation,org.postgresql.replication.fluent.logical,org.postgresql.repli
+ cation.fluent.physical",org.postgresql.replication.fluent.logical;ver
+ sion="42.1.1";uses:="org.postgresql.core,org.postgresql.replication,o
+ rg.postgresql.replication.fluent",org.postgresql.replication.fluent.p
+ hysical;version="42.1.1";uses:="org.postgresql.core,org.postgresql.re
+ plication,org.postgresql.replication.fluent",org.postgresql.ssl;versi
+ on="42.1.1";uses:="javax.net.ssl,org.postgresql.core,org.postgresql.u
+ til",org.postgresql.ssl.jdbc4;version="42.1.1";uses:="javax.net.ssl,j
+ avax.security.auth.callback,org.postgresql.ssl,org.postgresql.util",o
+ rg.postgresql.sspi;version="42.1.1";uses:="com.sun.jna,org.postgresql
+ .core",org.postgresql.translation;version="42.1.1",org.postgresql.uti
+ l;version="42.1.1";uses:="org.postgresql.core",org.postgresql.xa;vers
+ ion="42.1.1";uses:="javax.naming,javax.sql,javax.transaction.xa,org.p
+ ostgresql.core,org.postgresql.ds,org.postgresql.ds.common"
+Bundle-Name: PostgreSQL JDBC Driver JDBC42
+Bundle-Activator: org.postgresql.osgi.PGBundleActivator
+Bundle-Description: Java JDBC 4.2 (JRE 8+) driver for PostgreSQL datab
+ ase
+Implementation-Title: PostgreSQL JDBC Driver - JDBC 4.2
+Implementation-Version: 42.1.1
+Bundle-ManifestVersion: 2
+Specification-Vendor: Oracle Corporation
+Bundle-Vendor: PostgreSQL Global Development Group
+Tool: Bnd-2.4.0.201411031534
+Implementation-Vendor: PostgreSQL Global Development Group
+Bundle-Version: 42.1.1
+Build-Jdk: 1.8.0_60
+Created-By: Apache Maven Bundle Plugin
+Specification-Version: 4.2
+

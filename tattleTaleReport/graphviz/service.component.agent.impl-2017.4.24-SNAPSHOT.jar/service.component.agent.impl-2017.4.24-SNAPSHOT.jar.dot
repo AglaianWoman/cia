@@ -20,8 +20,8 @@ digraph service_component_agent_impl_2017_4_24_SNAPSHOT_dependencies {
   service_component_agent_impl_2017_4_24_SNAPSHOT -> service_external_val_2017_4_24_SNAPSHOT;
   service_component_agent_impl_2017_4_24_SNAPSHOT -> service_external_worldbank_2017_4_24_SNAPSHOT;
   service_component_agent_impl_2017_4_24_SNAPSHOT -> slf4j_api_1_7_25;
-  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
-  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
-  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_jms_5_0_0_BUILD_SNAPSHOT;
-  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_tx_5_0_0_BUILD_SNAPSHOT;
+  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_beans_5_0_0_RC1;
+  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_context_5_0_0_RC1;
+  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_jms_5_0_0_RC1;
+  service_component_agent_impl_2017_4_24_SNAPSHOT -> spring_tx_5_0_0_RC1;
 }

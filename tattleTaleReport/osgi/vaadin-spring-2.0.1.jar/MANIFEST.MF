@@ -42,17 +42,15 @@ Import-Package: com.vaadin.navigator;version="8.1.0.alpha6",com.vaadin
  ang.annotation,java.lang.reflect,java.net,java.nio.charset,java.util,
  java.util.concurrent,javax.annotation,javax.servlet,javax.servlet.htt
  p,org.slf4j;version="1.7.25",org.springframework.beans;version="5.0.0
- .BUILD-SNAPSHOT",org.springframework.beans.factory;version="5.0.0.BUI
- LD-SNAPSHOT",org.springframework.beans.factory.annotation;version="5.
- 0.0.BUILD-SNAPSHOT",org.springframework.beans.factory.config;version=
- "5.0.0.BUILD-SNAPSHOT",org.springframework.beans.factory.support;vers
- ion="5.0.0.BUILD-SNAPSHOT",org.springframework.context;version="5.0.0
- .BUILD-SNAPSHOT",org.springframework.context.annotation;version="5.0.
- 0.BUILD-SNAPSHOT",org.springframework.core.annotation;version="5.0.0.
- BUILD-SNAPSHOT",org.springframework.core.env;version="5.0.0.BUILD-SNA
- PSHOT",org.springframework.core.type;version="5.0.0.BUILD-SNAPSHOT",o
- rg.springframework.stereotype;version="5.0.0.BUILD-SNAPSHOT",org.spri
- ngframework.util;version="5.0.0.BUILD-SNAPSHOT",org.springframework.w
- eb.context;version="5.0.0.BUILD-SNAPSHOT",org.springframework.web.con
- text.support;version="5.0.0.BUILD-SNAPSHOT",org.springframework.web.u
- til;version="5.0.0.BUILD-SNAPSHOT"
+ .RC1",org.springframework.beans.factory;version="5.0.0.RC1",org.sprin
+ gframework.beans.factory.annotation;version="5.0.0.RC1",org.springfra
+ mework.beans.factory.config;version="5.0.0.RC1",org.springframework.b
+ eans.factory.support;version="5.0.0.RC1",org.springframework.context;
+ version="5.0.0.RC1",org.springframework.context.annotation;version="5
+ .0.0.RC1",org.springframework.core.annotation;version="5.0.0.RC1",org
+ .springframework.core.env;version="5.0.0.RC1",org.springframework.cor
+ e.type;version="5.0.0.RC1",org.springframework.stereotype;version="5.
+ 0.0.RC1",org.springframework.util;version="5.0.0.RC1",org.springframe
+ work.web.context;version="5.0.0.RC1",org.springframework.web.context.
+ support;version="5.0.0.RC1",org.springframework.web.util;version="5.0
+ .0.RC1"

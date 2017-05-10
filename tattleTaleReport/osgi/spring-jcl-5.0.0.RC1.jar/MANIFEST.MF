@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-jcl
+Implementation-Version: 5.0.0.RC1
+Created-By: 1.8.0_121 (Oracle Corporation)
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.commons.logging
+Bundle-Description: spring-jcl-5.0.0.RC1
+Bundle-Name: spring-jcl-5.0.0.RC1
+Bundle-Version: 5.0.0.RC1
+Export-Package: org.apache.commons.logging;uses:="org.apache.logging.l
+ og4j,org.apache.logging.log4j.spi"
+Import-Package: java.io,java.lang,java.util,java.util.logging,org.apac
+ he.logging.log4j,org.apache.logging.log4j.spi,org.slf4j;version="1.7.
+ 25",org.slf4j.spi;version="1.7.25"

@@ -444,22 +444,20 @@ Import-Package: com.hack23.cia.model.common.api;version="0.0.0",com.ha
  in.dcharts.renderers.tick;version="0.0.0",org.joda.time;version="2.9"
  ,org.jsoup;version="0.0.0",org.jsoup.nodes;version="0.0.0",org.jsoup.
  safety;version="0.0.0",org.slf4j;version="1.7.25",org.springframework
- .aop.framework;version="5.0.0.BUILD-SNAPSHOT",org.springframework.bea
- ns.factory.annotation;version="5.0.0.BUILD-SNAPSHOT",org.springframew
- ork.context;version="5.0.0.BUILD-SNAPSHOT",org.springframework.contex
- t.annotation;version="5.0.0.BUILD-SNAPSHOT",org.springframework.secur
- ity.access;version="4.2.3.BUILD-SNAPSHOT",org.springframework.securit
- y.access.annotation;version="4.2.3.BUILD-SNAPSHOT",org.springframewor
- k.security.access.event;version="4.2.3.BUILD-SNAPSHOT",org.springfram
- ework.security.authentication;version="4.2.3.BUILD-SNAPSHOT",org.spri
- ngframework.security.core;version="4.2.3.BUILD-SNAPSHOT",org.springfr
- amework.security.core.authority;version="4.2.3.BUILD-SNAPSHOT",org.sp
- ringframework.security.core.context;version="4.2.3.BUILD-SNAPSHOT",or
- g.springframework.security.web.session;version="4.2.3.BUILD-SNAPSHOT"
- ,org.springframework.stereotype;version="5.0.0.BUILD-SNAPSHOT",org.sp
- ringframework.transaction.annotation;version="5.0.0.BUILD-SNAPSHOT",o
- rg.springframework.web.context;version="5.0.0.BUILD-SNAPSHOT",org.spr
- ingframework.web.context.request;version="5.0.0.BUILD-SNAPSHOT",org.s
- pringframework.web.context.support;version="5.0.0.BUILD-SNAPSHOT",org
- .tltv.gantt;version="1.0.0",org.tltv.gantt.client.shared;version="1.0
- .0",org.vaadin.gridutil.cell;version="0.0.0"
+ .aop.framework;version="5.0.0.RC1",org.springframework.beans.factory.
+ annotation;version="5.0.0.RC1",org.springframework.context;version="5
+ .0.0.RC1",org.springframework.context.annotation;version="5.0.0.RC1",
+ org.springframework.security.access;version="4.2.2.RELEASE",org.sprin
+ gframework.security.access.annotation;version="4.2.2.RELEASE",org.spr
+ ingframework.security.access.event;version="4.2.2.RELEASE",org.spring
+ framework.security.authentication;version="4.2.2.RELEASE",org.springf
+ ramework.security.core;version="4.2.2.RELEASE",org.springframework.se
+ curity.core.authority;version="4.2.2.RELEASE",org.springframework.sec
+ urity.core.context;version="4.2.2.RELEASE",org.springframework.securi
+ ty.web.session;version="4.2.2.RELEASE",org.springframework.stereotype
+ ;version="5.0.0.RC1",org.springframework.transaction.annotation;versi
+ on="5.0.0.RC1",org.springframework.web.context;version="5.0.0.RC1",or
+ g.springframework.web.context.request;version="5.0.0.RC1",org.springf
+ ramework.web.context.support;version="5.0.0.RC1",org.tltv.gantt;versi
+ on="1.0.0",org.tltv.gantt.client.shared;version="1.0.0",org.vaadin.gr
+ idutil.cell;version="0.0.0"

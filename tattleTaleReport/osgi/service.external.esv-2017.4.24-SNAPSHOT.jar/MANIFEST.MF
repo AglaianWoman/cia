@@ -19,5 +19,5 @@ Import-Package: java.io,java.lang,java.lang.invoke,java.util,java.util
  .function,java.util.stream,org.apache.commons.lang3.builder;version="
  3.5",org.apache.poi.hssf.usermodel;version="3.16",org.apache.poi.ss.u
  sermodel;version="3.16",org.slf4j;version="1.7.25",org.springframewor
- k.beans.factory.annotation;version="5.0.0.BUILD-SNAPSHOT",org.springf
- ramework.stereotype;version="5.0.0.BUILD-SNAPSHOT"
+ k.beans.factory.annotation;version="5.0.0.RC1",org.springframework.st
+ ereotype;version="5.0.0.RC1"

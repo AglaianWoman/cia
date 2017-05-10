@@ -13,10 +13,10 @@ digraph javamelody_core_1_65_0_dependencies {
   javamelody_core_1_65_0 -> logback_classic_1_2_3;
   javamelody_core_1_65_0 -> logback_core_1_2_3;
   javamelody_core_1_65_0 -> slf4j_api_1_7_25;
-  javamelody_core_1_65_0 -> spring_aop_5_0_0_BUILD_SNAPSHOT;
-  javamelody_core_1_65_0 -> spring_beans_5_0_0_BUILD_SNAPSHOT;
-  javamelody_core_1_65_0 -> spring_context_5_0_0_BUILD_SNAPSHOT;
-  javamelody_core_1_65_0 -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  javamelody_core_1_65_0 -> spring_aop_5_0_0_RC1;
+  javamelody_core_1_65_0 -> spring_beans_5_0_0_RC1;
+  javamelody_core_1_65_0 -> spring_context_5_0_0_RC1;
+  javamelody_core_1_65_0 -> spring_core_5_0_0_RC1;
   javamelody_core_1_65_0 -> xml_apis_1_4_01;
   javamelody_core_1_65_0 -> xstream_1_4_9_redhat_2;
 }

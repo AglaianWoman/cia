@@ -54,22 +54,21 @@ Import-Package: ch.qos.logback.classic;version="0.0.0",ch.qos.logback.
  vlet.http,javax.sql,javax.xml.stream;version="1.0",net.sf.ehcache;ver
  sion="2.10.4",net.sf.ehcache.config;version="2.10.4",net.sf.ehcache.m
  anagement;version="2.10.4",net.sf.ehcache.store;version="2.10.4",org.
- aopalliance.aop;version="5.0.0.BUILD-SNAPSHOT",org.aopalliance.interc
- ept;version="5.0.0.BUILD-SNAPSHOT",org.apache.commons.dbcp,org.apache
- .commons.dbcp2;version="2.1.1",org.apache.log4j;version="1.7.25",org.
- apache.log4j.spi;version="1.7.25",org.apache.logging.log4j,org.apache
- .logging.log4j.core,org.apache.logging.log4j.core.appender,org.apache
- .logging.log4j.core.config,org.apache.logging.log4j.core.filter,org.a
- pache.logging.log4j.core.layout,org.apache.logging.log4j.core.pattern
- ,org.apache.logging.log4j.spi,org.apache.tomcat.dbcp.dbcp,org.apache.
- tomcat.dbcp.dbcp2,org.apache.tomcat.jdbc.pool,org.hibernate;version="
- 5.2.10.Final",org.hibernate.cfg;version="5.2.10.Final",org.hibernate.
- engine,org.hibernate.jdbc,org.jrobin.core;version="1.6.0",org.jrobin.
- data;version="1.6.0",org.jrobin.graph;version="1.6.0",org.quartz,org.
- quartz.impl,org.quartz.impl.matchers,org.slf4j;version="1.7.25",org.s
- pringframework.aop;version="5.0.0.BUILD-SNAPSHOT",org.springframework
- .aop.support;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans
- .factory;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.fac
- tory.config;version="5.0.0.BUILD-SNAPSHOT",org.springframework.core;v
- ersion="5.0.0.BUILD-SNAPSHOT",org.springframework.jndi;version="5.0.0
- .BUILD-SNAPSHOT",sun.misc,sun.nio.ch
+ aopalliance.aop;version="5.0.0.RC1",org.aopalliance.intercept;version
+ ="5.0.0.RC1",org.apache.commons.dbcp,org.apache.commons.dbcp2;version
+ ="2.1.1",org.apache.log4j;version="1.7.25",org.apache.log4j.spi;versi
+ on="1.7.25",org.apache.logging.log4j,org.apache.logging.log4j.core,or
+ g.apache.logging.log4j.core.appender,org.apache.logging.log4j.core.co
+ nfig,org.apache.logging.log4j.core.filter,org.apache.logging.log4j.co
+ re.layout,org.apache.logging.log4j.core.pattern,org.apache.logging.lo
+ g4j.spi,org.apache.tomcat.dbcp.dbcp,org.apache.tomcat.dbcp.dbcp2,org.
+ apache.tomcat.jdbc.pool,org.hibernate;version="5.2.10.Final",org.hibe
+ rnate.cfg;version="5.2.10.Final",org.hibernate.engine,org.hibernate.j
+ dbc,org.jrobin.core;version="1.6.0",org.jrobin.data;version="1.6.0",o
+ rg.jrobin.graph;version="1.6.0",org.quartz,org.quartz.impl,org.quartz
+ .impl.matchers,org.slf4j;version="1.7.25",org.springframework.aop;ver
+ sion="5.0.0.RC1",org.springframework.aop.support;version="5.0.0.RC1",
+ org.springframework.beans.factory;version="5.0.0.RC1",org.springframe
+ work.beans.factory.config;version="5.0.0.RC1",org.springframework.cor
+ e;version="5.0.0.RC1",org.springframework.jndi;version="5.0.0.RC1",su
+ n.misc,sun.nio.ch
