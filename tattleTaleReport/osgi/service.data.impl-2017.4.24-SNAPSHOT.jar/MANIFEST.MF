@@ -62,10 +62,10 @@ Import-Package: com.hack23.cia.model.external.riksdagen.documentconten
  ng;version="5.2.10.Final",org.hibernate.collection.spi;version="5.2.1
  0.Final",org.hibernate.engine.jdbc.env.spi;version="5.2.10.Final",org
  .hibernate.proxy;version="5.2.10.Final",org.hibernate.search;version=
- "5.8.0.Beta1",org.hibernate.search.annotations;version="5.8.0.Beta1",
- org.hibernate.search.cfg;version="5.8.0.Beta1",org.hibernate.search.j
- pa;version="5.8.0.Beta1",org.hibernate.search.query.dsl;version="5.8.
- 0.Beta1",org.slf4j;version="1.7.25",org.springframework.beans.factory
+ "5.8.0.Beta2",org.hibernate.search.annotations;version="5.8.0.Beta2",
+ org.hibernate.search.cfg;version="5.8.0.Beta2",org.hibernate.search.j
+ pa;version="5.8.0.Beta2",org.hibernate.search.query.dsl;version="5.8.
+ 0.Beta2",org.slf4j;version="1.7.25",org.springframework.beans.factory
  .annotation;version="5.0.0.RC1",org.springframework.jdbc.core;version
  ="5.0.0.RC1",org.springframework.stereotype;version="5.0.0.RC1",org.s
  pringframework.transaction.annotation;version="5.0.0.RC1"

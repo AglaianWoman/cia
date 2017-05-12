@@ -5,8 +5,8 @@ digraph service_data_impl_2017_4_24_SNAPSHOT_dependencies {
   service_data_impl_2017_4_24_SNAPSHOT -> commons_lang3_3_5;
   service_data_impl_2017_4_24_SNAPSHOT -> hibernate_core_5_2_10_Final;
   service_data_impl_2017_4_24_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
-  service_data_impl_2017_4_24_SNAPSHOT -> hibernate_search_engine_5_8_0_Beta1;
-  service_data_impl_2017_4_24_SNAPSHOT -> hibernate_search_orm_5_8_0_Beta1;
+  service_data_impl_2017_4_24_SNAPSHOT -> hibernate_search_engine_5_8_0_Beta2;
+  service_data_impl_2017_4_24_SNAPSHOT -> hibernate_search_orm_5_8_0_Beta2;
   service_data_impl_2017_4_24_SNAPSHOT -> liquibase_core_3_5_3;
   service_data_impl_2017_4_24_SNAPSHOT -> lucene_analyzers_common_5_5_4;
   service_data_impl_2017_4_24_SNAPSHOT -> lucene_core_5_5_4;
