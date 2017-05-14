@@ -49,15 +49,15 @@ Import-Package: com.google.gwt.core.client;version="0.0.0",com.google.
  i18n.shared;version="0.0.0",com.google.gwt.touch.client;version="0.0.
  0",com.google.gwt.user.client;version="0.0.0",com.google.gwt.user.cli
  ent.rpc;version="0.0.0",com.google.gwt.user.client.ui;version="0.0.0"
- ,com.vaadin.client;version="8.1.0.alpha6",com.vaadin.client.communica
- tion;version="8.1.0.alpha6",com.vaadin.client.event;version="8.1.0.al
- pha6",com.vaadin.client.ui;version="8.1.0.alpha6",com.vaadin.client.u
- i.layout;version="8.1.0.alpha6",com.vaadin.server;version="8.1.0.alph
- a6",com.vaadin.shared;version="8.1.0.alpha6",com.vaadin.shared.annota
- tions;version="8.1.0.alpha6",com.vaadin.shared.communication;version=
- "8.1.0.alpha6",com.vaadin.shared.ui;version="8.1.0.alpha6",com.vaadin
- .ui;version="8.1.0.alpha6",com.vaadin.util;version="8.1.0.alpha6",com
- .vaadin.v7.client.ui;version="8.1.0.alpha6",com.vaadin.v7.client.ui.t
- able;version="8.1.0.alpha6",com.vaadin.v7.shared;version="8.1.0.alpha
- 6",com.vaadin.v7.ui;version="8.1.0.alpha6",java.io,java.lang,java.lan
+ ,com.vaadin.client;version="8.1.0.alpha7",com.vaadin.client.communica
+ tion;version="8.1.0.alpha7",com.vaadin.client.event;version="8.1.0.al
+ pha7",com.vaadin.client.ui;version="8.1.0.alpha7",com.vaadin.client.u
+ i.layout;version="8.1.0.alpha7",com.vaadin.server;version="8.1.0.alph
+ a7",com.vaadin.shared;version="8.1.0.alpha7",com.vaadin.shared.annota
+ tions;version="8.1.0.alpha7",com.vaadin.shared.communication;version=
+ "8.1.0.alpha7",com.vaadin.shared.ui;version="8.1.0.alpha7",com.vaadin
+ .ui;version="8.1.0.alpha7",com.vaadin.util;version="8.1.0.alpha7",com
+ .vaadin.v7.client.ui;version="8.1.0.alpha7",com.vaadin.v7.client.ui.t
+ able;version="8.1.0.alpha7",com.vaadin.v7.shared;version="8.1.0.alpha
+ 7",com.vaadin.v7.ui;version="8.1.0.alpha7",java.io,java.lang,java.lan
  g.reflect,java.text,java.util,java.util.regex

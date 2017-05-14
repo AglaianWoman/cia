@@ -5,6 +5,6 @@ digraph vaadin_spring_2_0_1_dependencies {
   vaadin_spring_2_0_1 -> spring_context_5_0_0_RC1;
   vaadin_spring_2_0_1 -> spring_core_5_0_0_RC1;
   vaadin_spring_2_0_1 -> spring_web_5_0_0_RC1;
-  vaadin_spring_2_0_1 -> vaadin_server_8_1_0_alpha6;
-  vaadin_spring_2_0_1 -> vaadin_shared_8_1_0_alpha6;
+  vaadin_spring_2_0_1 -> vaadin_server_8_1_0_alpha7;
+  vaadin_spring_2_0_1 -> vaadin_shared_8_1_0_alpha7;
 }

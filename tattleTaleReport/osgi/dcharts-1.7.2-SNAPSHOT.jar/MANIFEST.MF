@@ -162,12 +162,12 @@ Import-Package: com.google.gwt.core.client;version="0.0.0",com.google.
  gwt.resources.client;version="0.0.0",com.google.gwt.user.client;versi
  on="0.0.0",com.google.gwt.user.client.ui;version="0.0.0",com.google.w
  eb.bindery.event.shared;version="0.0.0",com.vaadin.client;version="8.
- 1.0.alpha6",com.vaadin.client.communication;version="8.1.0.alpha6",co
- m.vaadin.client.ui;version="8.1.0.alpha6",com.vaadin.client.ui.layout
- ;version="8.1.0.alpha6",com.vaadin.server;version="8.1.0.alpha6",com.
- vaadin.shared;version="8.1.0.alpha6",com.vaadin.shared.communication;
- version="8.1.0.alpha6",com.vaadin.shared.ui;version="8.1.0.alpha6",co
- m.vaadin.ui;version="8.1.0.alpha6",java.awt.image,java.io,java.lang,j
+ 1.0.alpha7",com.vaadin.client.communication;version="8.1.0.alpha7",co
+ m.vaadin.client.ui;version="8.1.0.alpha7",com.vaadin.client.ui.layout
+ ;version="8.1.0.alpha7",com.vaadin.server;version="8.1.0.alpha7",com.
+ vaadin.shared;version="8.1.0.alpha7",com.vaadin.shared.communication;
+ version="8.1.0.alpha7",com.vaadin.shared.ui;version="8.1.0.alpha7",co
+ m.vaadin.ui;version="8.1.0.alpha7",java.awt.image,java.io,java.lang,j
  ava.lang.reflect,java.net,java.text,java.util,java.util.jar,javax.ima
  geio,org.apache.commons.codec.binary;version="1.10.0.redhat-5",org.ap
  ache.commons.lang3;version="3.5",org.apache.commons.lang3.math;versio

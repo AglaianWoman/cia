@@ -34,11 +34,11 @@ Export-Package: com.vaadin.spring;uses:="com.vaadin.spring.annotation,
  om.vaadin.spring.internal,com.vaadin.spring.navigator,com.vaadin.ui,c
  om.vaadin.util,java.nio.charset,org.springframework.beans.factory,org
  .springframework.core.env"
-Import-Package: com.vaadin.navigator;version="8.1.0.alpha6",com.vaadin
- .server;version="8.1.0.alpha6",com.vaadin.server.communication;versio
- n="8.1.0.alpha6",com.vaadin.shared;version="8.1.0.alpha6",com.vaadin.
- ui;version="8.1.0.alpha6",com.vaadin.ui.declarative;version="8.1.0.al
- pha6",com.vaadin.util;version="8.1.0.alpha6",java.io,java.lang,java.l
+Import-Package: com.vaadin.navigator;version="8.1.0.alpha7",com.vaadin
+ .server;version="8.1.0.alpha7",com.vaadin.server.communication;versio
+ n="8.1.0.alpha7",com.vaadin.shared;version="8.1.0.alpha7",com.vaadin.
+ ui;version="8.1.0.alpha7",com.vaadin.ui.declarative;version="8.1.0.al
+ pha7",com.vaadin.util;version="8.1.0.alpha7",java.io,java.lang,java.l
  ang.annotation,java.lang.reflect,java.net,java.nio.charset,java.util,
  java.util.concurrent,javax.annotation,javax.servlet,javax.servlet.htt
  p,org.slf4j;version="1.7.25",org.springframework.beans;version="5.0.0

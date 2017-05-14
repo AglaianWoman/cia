@@ -414,17 +414,17 @@ Import-Package: com.hack23.cia.model.common.api;version="0.0.0",com.ha
  rsion="0.0.0",com.hack23.cia.service.api.action.common;version="0.0.0
  ",com.hack23.cia.service.api.action.user;version="0.0.0",com.hack23.c
  ia.service.external.esv.api;version="0.0.0",com.vaadin.annotations;ve
- rsion="8.1.0.alpha6",com.vaadin.navigator;version="8.1.0.alpha6",com.
- vaadin.server;version="8.1.0.alpha6",com.vaadin.shared;version="8.1.0
- .alpha6",com.vaadin.shared.ui.ui;version="8.1.0.alpha6",com.vaadin.sp
+ rsion="8.1.0.alpha7",com.vaadin.navigator;version="8.1.0.alpha7",com.
+ vaadin.server;version="8.1.0.alpha7",com.vaadin.shared;version="8.1.0
+ .alpha7",com.vaadin.shared.ui.ui;version="8.1.0.alpha7",com.vaadin.sp
  ring.annotation;version="2.0.1",com.vaadin.spring.navigator;version="
  2.0.1",com.vaadin.spring.server;version="2.0.1",com.vaadin.ui;version
- ="8.1.0.alpha6",com.vaadin.v7.data;version="8.1.0.alpha6",com.vaadin.
- v7.data.fieldgroup;version="8.1.0.alpha6",com.vaadin.v7.data.util;ver
- sion="8.1.0.alpha6",com.vaadin.v7.data.util.converter;version="8.1.0.
- alpha6",com.vaadin.v7.event;version="8.1.0.alpha6",com.vaadin.v7.shar
- ed.ui.label;version="8.1.0.alpha6",com.vaadin.v7.ui;version="8.1.0.al
- pha6",com.vaadin.v7.ui.renderers;version="8.1.0.alpha6",fi.jasoft.qrc
+ ="8.1.0.alpha7",com.vaadin.v7.data;version="8.1.0.alpha7",com.vaadin.
+ v7.data.fieldgroup;version="8.1.0.alpha7",com.vaadin.v7.data.util;ver
+ sion="8.1.0.alpha7",com.vaadin.v7.data.util.converter;version="8.1.0.
+ alpha7",com.vaadin.v7.event;version="8.1.0.alpha7",com.vaadin.v7.shar
+ ed.ui.label;version="8.1.0.alpha7",com.vaadin.v7.ui;version="8.1.0.al
+ pha7",com.vaadin.v7.ui.renderers;version="8.1.0.alpha7",fi.jasoft.qrc
  ode;version="2.1",java.io,java.lang,java.lang.invoke,java.lang.reflec
  t,java.math,java.net,java.text,java.util,java.util.concurrent,java.ut
  il.function,java.util.stream,javax.annotation,javax.persistence.metam

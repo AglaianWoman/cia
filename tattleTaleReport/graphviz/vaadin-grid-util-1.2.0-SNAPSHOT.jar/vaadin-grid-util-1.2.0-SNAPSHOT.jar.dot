@@ -1,10 +1,10 @@
 digraph vaadin_grid_util_1_2_0_SNAPSHOT_dependencies {
   node [shape = box, fontsize=10.0];
   vaadin_grid_util_1_2_0_SNAPSHOT -> gwt_user_2_8_1;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_client_8_1_0_alpha6;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_client_8_1_0_alpha6;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_server_8_1_0_alpha6;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_shared_8_1_0_alpha6;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_server_8_1_0_alpha6;
-  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_shared_8_1_0_alpha6;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_client_8_1_0_alpha7;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_client_8_1_0_alpha7;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_server_8_1_0_alpha7;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_compatibility_shared_8_1_0_alpha7;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_server_8_1_0_alpha7;
+  vaadin_grid_util_1_2_0_SNAPSHOT -> vaadin_shared_8_1_0_alpha7;
 }
