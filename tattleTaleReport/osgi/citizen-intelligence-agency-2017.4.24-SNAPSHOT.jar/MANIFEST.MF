@@ -447,17 +447,16 @@ Import-Package: com.hack23.cia.model.common.api;version="0.0.0",com.ha
  .aop.framework;version="5.0.0.RC1",org.springframework.beans.factory.
  annotation;version="5.0.0.RC1",org.springframework.context;version="5
  .0.0.RC1",org.springframework.context.annotation;version="5.0.0.RC1",
- org.springframework.security.access;version="4.2.2.RELEASE",org.sprin
- gframework.security.access.annotation;version="4.2.2.RELEASE",org.spr
- ingframework.security.access.event;version="4.2.2.RELEASE",org.spring
- framework.security.authentication;version="4.2.2.RELEASE",org.springf
- ramework.security.core;version="4.2.2.RELEASE",org.springframework.se
- curity.core.authority;version="4.2.2.RELEASE",org.springframework.sec
- urity.core.context;version="4.2.2.RELEASE",org.springframework.securi
- ty.web.session;version="4.2.2.RELEASE",org.springframework.stereotype
- ;version="5.0.0.RC1",org.springframework.transaction.annotation;versi
- on="5.0.0.RC1",org.springframework.web.context;version="5.0.0.RC1",or
- g.springframework.web.context.request;version="5.0.0.RC1",org.springf
- ramework.web.context.support;version="5.0.0.RC1",org.tltv.gantt;versi
- on="1.0.0",org.tltv.gantt.client.shared;version="1.0.0",org.vaadin.gr
- idutil.cell;version="0.0.0"
+ org.springframework.security.access;version="0.0.0",org.springframewo
+ rk.security.access.annotation;version="0.0.0",org.springframework.sec
+ urity.access.event;version="0.0.0",org.springframework.security.authe
+ ntication;version="0.0.0",org.springframework.security.core;version="
+ 0.0.0",org.springframework.security.core.authority;version="0.0.0",or
+ g.springframework.security.core.context;version="0.0.0",org.springfra
+ mework.security.web.session;version="0.0.0",org.springframework.stere
+ otype;version="5.0.0.RC1",org.springframework.transaction.annotation;
+ version="5.0.0.RC1",org.springframework.web.context;version="5.0.0.RC
+ 1",org.springframework.web.context.request;version="5.0.0.RC1",org.sp
+ ringframework.web.context.support;version="5.0.0.RC1",org.tltv.gantt;
+ version="1.0.0",org.tltv.gantt.client.shared;version="1.0.0",org.vaad
+ in.gridutil.cell;version="0.0.0"

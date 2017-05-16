@@ -8,7 +8,7 @@ Bundle-SymbolicName: org.vaadin.addons.vaadin-grid-util
 Implementation-Version: 1.2.0-SNAPSHOT
 Archiver-Version: Plexus Archiver
 Built-By: jenkins
-Bnd-LastModified: 1493936517423
+Bnd-LastModified: 1494905912788
 Bundle-ManifestVersion: 2
 Implementation-Vendor-Id: org.vaadin.addons
 Import-Package: com.vaadin.server,com.vaadin.shared,com.vaadin.shared.

@@ -84,15 +84,14 @@ Import-Package: com.google.api.client.googleapis.javanet;version="1.22
  g.springframework.context;version="5.0.0.RC1",org.springframework.mai
  l;version="5.0.0.RC1",org.springframework.mail.javamail;version="5.0.
  0.RC1",org.springframework.scheduling.annotation;version="5.0.0.RC1",
- org.springframework.security.access.annotation;version="4.2.2.RELEASE
- ",org.springframework.security.authentication;version="4.2.2.RELEASE"
- ,org.springframework.security.core;version="4.2.2.RELEASE",org.spring
- framework.security.core.authority;version="4.2.2.RELEASE",org.springf
- ramework.security.core.context;version="4.2.2.RELEASE",org.springfram
- ework.security.crypto.bcrypt;version="4.2.2.RELEASE",org.springframew
- ork.security.crypto.password;version="4.2.2.RELEASE",org.springframew
- ork.stereotype;version="5.0.0.RC1",org.springframework.transaction.an
- notation;version="5.0.0.RC1",weka.core;version="0.0.0",weka.core.stop
- words;version="0.0.0",weka.core.tokenizers;version="0.0.0",weka.filte
- rs;version="0.0.0",weka.filters.unsupervised.attribute;version="0.0.0
- "
+ org.springframework.security.access.annotation;version="0.0.0",org.sp
+ ringframework.security.authentication;version="0.0.0",org.springframe
+ work.security.core;version="0.0.0",org.springframework.security.core.
+ authority;version="0.0.0",org.springframework.security.core.context;v
+ ersion="0.0.0",org.springframework.security.crypto.bcrypt;version="0.
+ 0.0",org.springframework.security.crypto.password;version="0.0.0",org
+ .springframework.stereotype;version="5.0.0.RC1",org.springframework.t
+ ransaction.annotation;version="5.0.0.RC1",weka.core;version="0.0.0",w
+ eka.core.stopwords;version="0.0.0",weka.core.tokenizers;version="0.0.
+ 0",weka.filters;version="0.0.0",weka.filters.unsupervised.attribute;v
+ ersion="0.0.0"

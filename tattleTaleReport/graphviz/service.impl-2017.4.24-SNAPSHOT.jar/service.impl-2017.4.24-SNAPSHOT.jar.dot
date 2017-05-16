@@ -17,7 +17,7 @@ digraph service_impl_2017_4_24_SNAPSHOT_dependencies {
   service_impl_2017_4_24_SNAPSHOT -> spring_beans_5_0_0_RC1;
   service_impl_2017_4_24_SNAPSHOT -> spring_context_5_0_0_RC1;
   service_impl_2017_4_24_SNAPSHOT -> spring_context_support_5_0_0_RC1;
-  service_impl_2017_4_24_SNAPSHOT -> spring_security_core_4_2_2_RELEASE;
+  service_impl_2017_4_24_SNAPSHOT -> spring_security_core_5_0_0_M1;
   service_impl_2017_4_24_SNAPSHOT -> spring_tx_5_0_0_RC1;
   service_impl_2017_4_24_SNAPSHOT -> weka_dev_3_9_1;
 }
