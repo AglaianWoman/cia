@@ -1,0 +1,10 @@
+digraph vaadin_grid_util_1_2_0_hack23v7vaadin8r3_dependencies {
+  node [shape = box, fontsize=10.0];
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> gwt_user_2_8_1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_client_8_1_0_beta1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_compatibility_client_8_1_0_beta1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_compatibility_server_8_1_0_beta1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_compatibility_shared_8_1_0_beta1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_server_8_1_0_beta1;
+  vaadin_grid_util_1_2_0_hack23v7vaadin8r3 -> vaadin_shared_8_1_0_beta1;
+}

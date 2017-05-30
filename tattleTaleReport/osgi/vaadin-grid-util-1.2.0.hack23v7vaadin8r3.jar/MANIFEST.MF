@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Vaadin-License-Title: The MIT License (MIT)
+Implementation-Title: GridUtil
+Bundle-Description: GridUtil that simplify the use of filtering and so
+ me useful custom renderes
+Bundle-License: http://opensource.org/licenses/MIT
+Bundle-SymbolicName: org.vaadin.addons.vaadin-grid-util
+Implementation-Version: 1.2.0.hack23v7vaadin8r3
+Archiver-Version: Plexus Archiver
+Built-By: jenkins
+Bnd-LastModified: 1495046854516
+Bundle-ManifestVersion: 2
+Implementation-Vendor-Id: org.vaadin.addons
+Import-Package: com.vaadin.server,com.vaadin.shared,com.vaadin.shared.
+ communication,com.vaadin.shared.ui,com.vaadin.ui,com.vaadin.ui.themes
+ ,com.vaadin.v7.client.connectors,com.vaadin.v7.client.renderers,com.v
+ aadin.v7.client.widget.grid,com.vaadin.v7.data,com.vaadin.v7.data.fie
+ ldgroup,com.vaadin.v7.data.util,com.vaadin.v7.data.util.converter,com
+ .vaadin.v7.data.util.filter,com.vaadin.v7.event,com.vaadin.v7.shared.
+ ui.datefield,com.vaadin.v7.ui,com.vaadin.v7.ui.renderers
+Tool: Bnd-1.50.0
+Implementation-Vendor: Marten Prieß
+Export-Package: org.vaadin.gridutil.client.renderer.buttonvalue;uses:=
+ "com.vaadin.v7.client.renderers,com.vaadin.shared,com.vaadin.v7.clien
+ t.connectors,com.vaadin.shared.ui,org.vaadin.gridutil.renderer,com.va
+ adin.v7.client.widget.grid";version="1.2.0.hack23v7vaadin8r3",org.vaa
+ din.gridutil.client.renderer.indicator;uses:="com.vaadin.shared.ui,co
+ m.vaadin.v7.client.renderers,org.vaadin.gridutil.renderer,com.vaadin.
+ shared.communication,com.vaadin.v7.client.connectors,com.vaadin.v7.cl
+ ient.widget.grid";version="1.2.0.hack23v7vaadin8r3",org.vaadin.gridut
+ il.converter;uses:="com.vaadin.v7.data.util.converter";version="1.2.0
+ .hack23v7vaadin8r3",org.vaadin.gridutil.renderer;uses:="com.vaadin.v7
+ .ui,com.vaadin.v7.ui.renderers,org.vaadin.gridutil.client.renderer.bu
+ ttonvalue,org.vaadin.gridutil.client.renderer.indicator,com.vaadin.sh
+ ared.communication";version="1.2.0.hack23v7vaadin8r3",org.vaadin.grid
+ util.client.renderer;uses:="com.vaadin.v7.client.renderers,com.vaadin
+ .shared.ui,org.vaadin.gridutil.renderer,com.vaadin.v7.client.connecto
+ rs,com.vaadin.v7.client.widget.grid";version="1.2.0.hack23v7vaadin8r3
+ ",org.vaadin.gridutil.cell;uses:="com.vaadin.ui,com.vaadin.v7.data,co
+ m.vaadin.v7.ui,com.vaadin.v7.event,com.vaadin.v7.data.util.filter,com
+ .vaadin.ui.themes,com.vaadin.v7.data.util,com.vaadin.server,com.vaadi
+ n.v7.data.fieldgroup,com.vaadin.v7.data.util.converter,com.vaadin.v7.
+ shared.ui.datefield";version="1.2.0.hack23v7vaadin8r3",org.vaadin.gri
+ dutil;version="1.2.0.hack23v7vaadin8r3",org.vaadin.gridutil.public;ve
+ rsion="1.2.0.hack23v7vaadin8r3"
+Vaadin-Widgetsets: org.vaadin.gridutil.WidgetSet
+Bundle-Name: GridUtil
+Bundle-Version: 1.2.0.hack23v7vaadin8r3
+Vaadin-Addon: vaadin-grid-util-1.2.0.hack23v7vaadin8r3.jar
+Vaadin-Package-Version: 1
+Ignore-Package: com.vaadin.client.communication,com.google.gwt.event.s
+ hared,com.google.web.bindery.event.shared,com.google.gwt.core.shared,
+ elemental.json,com.google.gwt.i18n.client,com.google.gwt.user.client.
+ ui,com.google.gwt.event.dom.client,com.vaadin.client,com.google.gwt.d
+ om.client
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_131
+

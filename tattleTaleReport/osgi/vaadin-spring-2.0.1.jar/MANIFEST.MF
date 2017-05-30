@@ -34,23 +34,22 @@ Export-Package: com.vaadin.spring;uses:="com.vaadin.spring.annotation,
  om.vaadin.spring.internal,com.vaadin.spring.navigator,com.vaadin.ui,c
  om.vaadin.util,java.nio.charset,org.springframework.beans.factory,org
  .springframework.core.env"
-Import-Package: com.vaadin.navigator;version="8.1.0.alpha7",com.vaadin
- .server;version="8.1.0.alpha7",com.vaadin.server.communication;versio
- n="8.1.0.alpha7",com.vaadin.shared;version="8.1.0.alpha7",com.vaadin.
- ui;version="8.1.0.alpha7",com.vaadin.ui.declarative;version="8.1.0.al
- pha7",com.vaadin.util;version="8.1.0.alpha7",java.io,java.lang,java.l
- ang.annotation,java.lang.reflect,java.net,java.nio.charset,java.util,
- java.util.concurrent,javax.annotation,javax.servlet,javax.servlet.htt
- p,org.slf4j;version="1.7.25",org.springframework.beans;version="5.0.0
- .RC1",org.springframework.beans.factory;version="5.0.0.RC1",org.sprin
- gframework.beans.factory.annotation;version="5.0.0.RC1",org.springfra
- mework.beans.factory.config;version="5.0.0.RC1",org.springframework.b
- eans.factory.support;version="5.0.0.RC1",org.springframework.context;
- version="5.0.0.RC1",org.springframework.context.annotation;version="5
- .0.0.RC1",org.springframework.core.annotation;version="5.0.0.RC1",org
- .springframework.core.env;version="5.0.0.RC1",org.springframework.cor
- e.type;version="5.0.0.RC1",org.springframework.stereotype;version="5.
- 0.0.RC1",org.springframework.util;version="5.0.0.RC1",org.springframe
- work.web.context;version="5.0.0.RC1",org.springframework.web.context.
- support;version="5.0.0.RC1",org.springframework.web.util;version="5.0
- .0.RC1"
+Import-Package: com.vaadin.navigator;version="8.1.0.beta1",com.vaadin.
+ server;version="8.1.0.beta1",com.vaadin.server.communication;version=
+ "8.1.0.beta1",com.vaadin.shared;version="8.1.0.beta1",com.vaadin.ui;v
+ ersion="8.1.0.beta1",com.vaadin.ui.declarative;version="8.1.0.beta1",
+ com.vaadin.util;version="8.1.0.beta1",java.io,java.lang,java.lang.ann
+ otation,java.lang.reflect,java.net,java.nio.charset,java.util,java.ut
+ il.concurrent,javax.annotation,javax.servlet,javax.servlet.http,org.s
+ lf4j;version="1.7.25",org.springframework.beans;version="5.0.0.RC1",o
+ rg.springframework.beans.factory;version="5.0.0.RC1",org.springframew
+ ork.beans.factory.annotation;version="5.0.0.RC1",org.springframework.
+ beans.factory.config;version="5.0.0.RC1",org.springframework.beans.fa
+ ctory.support;version="5.0.0.RC1",org.springframework.context;version
+ ="5.0.0.RC1",org.springframework.context.annotation;version="5.0.0.RC
+ 1",org.springframework.core.annotation;version="5.0.0.RC1",org.spring
+ framework.core.env;version="5.0.0.RC1",org.springframework.core.type;
+ version="5.0.0.RC1",org.springframework.stereotype;version="5.0.0.RC1
+ ",org.springframework.util;version="5.0.0.RC1",org.springframework.we
+ b.context;version="5.0.0.RC1",org.springframework.web.context.support
+ ;version="5.0.0.RC1",org.springframework.web.util;version="5.0.0.RC1"

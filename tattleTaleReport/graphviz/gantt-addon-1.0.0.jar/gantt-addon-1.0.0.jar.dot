@@ -1,10 +1,10 @@
 digraph gantt_addon_1_0_0_dependencies {
   node [shape = box, fontsize=10.0];
   gantt_addon_1_0_0 -> gwt_user_2_8_1;
-  gantt_addon_1_0_0 -> vaadin_client_8_1_0_alpha7;
-  gantt_addon_1_0_0 -> vaadin_compatibility_client_8_1_0_alpha7;
-  gantt_addon_1_0_0 -> vaadin_compatibility_server_8_1_0_alpha7;
-  gantt_addon_1_0_0 -> vaadin_compatibility_shared_8_1_0_alpha7;
-  gantt_addon_1_0_0 -> vaadin_server_8_1_0_alpha7;
-  gantt_addon_1_0_0 -> vaadin_shared_8_1_0_alpha7;
+  gantt_addon_1_0_0 -> vaadin_client_8_1_0_beta1;
+  gantt_addon_1_0_0 -> vaadin_compatibility_client_8_1_0_beta1;
+  gantt_addon_1_0_0 -> vaadin_compatibility_server_8_1_0_beta1;
+  gantt_addon_1_0_0 -> vaadin_compatibility_shared_8_1_0_beta1;
+  gantt_addon_1_0_0 -> vaadin_server_8_1_0_beta1;
+  gantt_addon_1_0_0 -> vaadin_shared_8_1_0_beta1;
 }

@@ -9,6 +9,6 @@ digraph gwt_user_2_8_1_dependencies {
   gwt_user_2_8_1 -> jsr305_1_3_9;
   gwt_user_2_8_1 -> junit_4_12;
   gwt_user_2_8_1 -> sac_1_3;
-  gwt_user_2_8_1 -> validation_api_1_1_0_Final;
+  gwt_user_2_8_1 -> validation_api_2_0_0_Beta2;
   gwt_user_2_8_1 -> xml_apis_1_4_01;
 }

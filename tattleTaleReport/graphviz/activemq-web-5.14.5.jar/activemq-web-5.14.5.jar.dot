@@ -10,5 +10,5 @@ digraph activemq_web_5_14_5_dependencies {
   activemq_web_5_14_5 -> spring_core_5_0_0_RC1;
   activemq_web_5_14_5 -> spring_web_5_0_0_RC1;
   activemq_web_5_14_5 -> spring_webmvc_5_0_0_RC1;
-  activemq_web_5_14_5 -> xstream_1_4_9_redhat_2;
+  activemq_web_5_14_5 -> xstream_1_4_10;
 }

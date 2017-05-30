@@ -8,13 +8,13 @@ digraph spring_web_5_0_0_RC1_dependencies {
   spring_web_5_0_0_RC1 -> jackson_annotations_2_9_0_pr3;
   spring_web_5_0_0_RC1 -> jackson_core_2_9_0_pr3;
   spring_web_5_0_0_RC1 -> jackson_databind_2_9_0_pr3;
-  spring_web_5_0_0_RC1 -> javax_mail_1_6_0_rc1;
+  spring_web_5_0_0_RC1 -> javax_mail_1_6_0_rc2;
   spring_web_5_0_0_RC1 -> jcl_over_slf4j_1_7_25;
   spring_web_5_0_0_RC1 -> spring_aop_5_0_0_RC1;
   spring_web_5_0_0_RC1 -> spring_beans_5_0_0_RC1;
   spring_web_5_0_0_RC1 -> spring_context_5_0_0_RC1;
   spring_web_5_0_0_RC1 -> spring_core_5_0_0_RC1;
   spring_web_5_0_0_RC1 -> spring_oxm_5_0_0_RC1;
-  spring_web_5_0_0_RC1 -> validation_api_1_1_0_Final;
+  spring_web_5_0_0_RC1 -> validation_api_2_0_0_Beta2;
   spring_web_5_0_0_RC1 -> xml_apis_1_4_01;
 }

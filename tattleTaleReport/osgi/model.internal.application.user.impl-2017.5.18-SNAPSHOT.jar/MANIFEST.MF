@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Built-By: jenkins
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_131
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.hack23.cia.model.internal.application.data.co
+ mmittee.impl
+Bundle-Description: model.internal.application.user.impl-2017.5.18-SNA
+ PSHOT
+Bundle-Name: model.internal.application.user.impl-2017.5.18-SNAPSHOT
+Bundle-Version: 0.0.0
+Export-Package: com.hack23.cia.model.external.worldbank.countries.impl
+ ;uses:="com.hack23.cia.model.common.api,org.jvnet.jaxb2_commons.lang,
+ org.jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons.locator.util"
+ ,com.hack23.cia.model.internal.application.data.committee.impl;uses:=
+ "com.hack23.cia.model.common.api,org.jvnet.jaxb2_commons.lang,org.jvn
+ et.jaxb2_commons.locator,org.jvnet.jaxb2_commons.locator.util,org.w3.
+ _2001.xmlschema",com.hack23.cia.model.internal.application.data.docum
+ ent.impl;uses:="com.hack23.cia.model.common.api,org.jvnet.jaxb2_commo
+ ns.lang,org.jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons.locat
+ or.util,org.w3._2001.xmlschema",com.hack23.cia.model.internal.applica
+ tion.data.impl;uses:="com.hack23.cia.model.common.api,org.jvnet.jaxb2
+ _commons.lang,org.jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons
+ .locator.util,org.w3._2001.xmlschema",com.hack23.cia.model.internal.a
+ pplication.data.ministry.impl;uses:="com.hack23.cia.model.common.api,
+ org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.locator,org.jvne
+ t.jaxb2_commons.locator.util,org.w3._2001.xmlschema",com.hack23.cia.m
+ odel.internal.application.data.party.impl;uses:="com.hack23.cia.model
+ .common.api,org.jvnet.jaxb2_commons.lang,org.jvnet.jaxb2_commons.loca
+ tor,org.jvnet.jaxb2_commons.locator.util,org.w3._2001.xmlschema",com.
+ hack23.cia.model.internal.application.data.politician.impl;uses:="com
+ .hack23.cia.model.common.api,org.jvnet.jaxb2_commons.lang,org.jvnet.j
+ axb2_commons.locator,org.jvnet.jaxb2_commons.locator.util,org.w3._200
+ 1.xmlschema",com.hack23.cia.model.internal.application.system.impl;us
+ es:="com.hack23.cia.model.common.api,org.jvnet.jaxb2_commons.lang,org
+ .jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons.locator.util,org
+ .w3._2001.xmlschema",com.hack23.cia.model.internal.application.user.i
+ mpl;uses:="com.hack23.cia.model.common.api,org.jvnet.jaxb2_commons.la
+ ng,org.jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons.locator.ut
+ il,org.w3._2001.xmlschema",com.hack23.cia.model.internal.application.
+ view.impl;uses:="com.hack23.cia.model.common.api,org.jvnet.jaxb2_comm
+ ons.lang,org.jvnet.jaxb2_commons.locator,org.jvnet.jaxb2_commons.loca
+ tor.util",org.w3._2001.xmlschema;uses:="com.hack23.cia.model.common.x
+ ml"
+Import-Package: com.hack23.cia.model.common.api;version="0.0.0",com.ha
+ ck23.cia.model.common.xml;version="0.0.0",java.io,java.lang,java.math
+ ,java.util,javax.persistence;version="2.1",javax.persistence.metamode
+ l;version="2.1",javax.xml.bind,javax.xml.bind.annotation,javax.xml.bi
+ nd.annotation.adapters,javax.xml.namespace;version="1.0",org.jvnet.ja
+ xb2_commons.lang;version="0.0.0",org.jvnet.jaxb2_commons.locator;vers
+ ion="0.0.0",org.jvnet.jaxb2_commons.locator.util;version="0.0.0"

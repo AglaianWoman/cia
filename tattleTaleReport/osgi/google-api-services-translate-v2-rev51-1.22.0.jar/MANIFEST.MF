@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Archiver-Version: jar
+Built-By: Google, Inc.
+Created-By: googleapis.com
+Build-Jdk: 1.7.0_101
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.google.api.services.translate
+Bundle-Description: google-api-services-translate-v2-rev51-1.22.0
+Bundle-Name: google-api-services-translate-v2-rev51-1.22.0
+Bundle-Version: 0.0.0
+Export-Package: com.google.api.services.translate;uses:="com.google.ap
+ i.client.googleapis,com.google.api.client.googleapis.services,com.goo
+ gle.api.client.googleapis.services.json,com.google.api.client.http,co
+ m.google.api.client.json,com.google.api.client.util,com.google.api.se
+ rvices.translate.model",com.google.api.services.translate.model;uses:
+ ="com.google.api.client.json,com.google.api.client.util"
+Import-Package: com.google.api.client.googleapis;version="1.22.0",com.
+ google.api.client.googleapis.services;version="1.22.0",com.google.api
+ .client.googleapis.services.json;version="1.22.0",com.google.api.clie
+ nt.http;version="1.22.0",com.google.api.client.json;version="1.22.0",
+ com.google.api.client.util;version="1.22.0",java.io,java.lang,java.ut
+ il
