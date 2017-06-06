@@ -1,6 +1,6 @@
 digraph spring_web_5_0_0_RC1_dependencies {
   node [shape = box, fontsize=10.0];
-  spring_web_5_0_0_RC1 -> gson_2_8_0;
+  spring_web_5_0_0_RC1 -> gson_2_8_1;
   spring_web_5_0_0_RC1 -> httpasyncclient_4_1_2;
   spring_web_5_0_0_RC1 -> httpclient_4_5_3;
   spring_web_5_0_0_RC1 -> httpcore_4_4_6;

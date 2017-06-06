@@ -1,6 +1,6 @@
 digraph hibernate_search_elasticsearch_5_8_0_Beta2_dependencies {
   node [shape = box, fontsize=10.0];
-  hibernate_search_elasticsearch_5_8_0_Beta2 -> gson_2_8_0;
+  hibernate_search_elasticsearch_5_8_0_Beta2 -> gson_2_8_1;
   hibernate_search_elasticsearch_5_8_0_Beta2 -> hibernate_commons_annotations_5_0_1_Final;
   hibernate_search_elasticsearch_5_8_0_Beta2 -> hibernate_search_engine_5_8_0_Beta2;
   hibernate_search_elasticsearch_5_8_0_Beta2 -> httpasyncclient_4_1_2;

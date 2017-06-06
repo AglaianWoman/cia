@@ -1,0 +1,8 @@
+digraph model_internal_application_user_impl_2017_6_7_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  model_internal_application_user_impl_2017_6_7_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
+  model_internal_application_user_impl_2017_6_7_SNAPSHOT -> jaxb2_basics_runtime_0_11_1;
+  model_internal_application_user_impl_2017_6_7_SNAPSHOT -> model_common_api_2017_6_7_SNAPSHOT;
+  model_internal_application_user_impl_2017_6_7_SNAPSHOT -> model_common_impl_2017_6_7_SNAPSHOT;
+  model_internal_application_user_impl_2017_6_7_SNAPSHOT -> xml_apis_1_4_01;
+}

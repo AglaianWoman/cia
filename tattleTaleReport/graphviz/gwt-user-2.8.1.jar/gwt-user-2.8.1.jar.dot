@@ -2,7 +2,7 @@ digraph gwt_user_2_8_1_dependencies {
   node [shape = box, fontsize=10.0];
   gwt_user_2_8_1 -> asm_5_2;
   gwt_user_2_8_1 -> commons_io_2_5;
-  gwt_user_2_8_1 -> gson_2_8_0;
+  gwt_user_2_8_1 -> gson_2_8_1;
   gwt_user_2_8_1 -> gwt_dev_2_8_1;
   gwt_user_2_8_1 -> icu4j_59_1;
   gwt_user_2_8_1 -> jsinterop_annotations_1_0_1;
