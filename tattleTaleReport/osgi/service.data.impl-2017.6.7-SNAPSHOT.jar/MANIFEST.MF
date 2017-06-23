@@ -53,7 +53,7 @@ Import-Package: com.hack23.cia.model.external.riksdagen.documentconten
  ax.persistence.metamodel;version="2.1",javax.sql,liquibase.exception;
  version="0.0.0",liquibase.integration.spring;version="0.0.0",org.apac
  he.commons.beanutils;version="1.9.3",org.apache.commons.lang;version=
- "2.6.0.redhat-6",org.apache.commons.lang3.exception;version="3.5",org
+ "2.6.0.redhat-6",org.apache.commons.lang3.exception;version="3.6",org
  .apache.lucene.analysis.core;version="5.5.4",org.apache.lucene.analys
  is.en;version="5.5.4",org.apache.lucene.analysis.ngram;version="5.5.4
  ",org.apache.lucene.analysis.standard;version="5.5.4",org.apache.luce
@@ -62,10 +62,11 @@ Import-Package: com.hack23.cia.model.external.riksdagen.documentconten
  ng;version="5.2.10.Final",org.hibernate.collection.spi;version="5.2.1
  0.Final",org.hibernate.engine.jdbc.env.spi;version="5.2.10.Final",org
  .hibernate.proxy;version="5.2.10.Final",org.hibernate.search;version=
- "5.8.0.Beta2",org.hibernate.search.annotations;version="5.8.0.Beta2",
- org.hibernate.search.cfg;version="5.8.0.Beta2",org.hibernate.search.j
- pa;version="5.8.0.Beta2",org.hibernate.search.query.dsl;version="5.8.
- 0.Beta2",org.slf4j;version="1.7.25",org.springframework.beans.factory
- .annotation;version="5.0.0.RC1",org.springframework.jdbc.core;version
- ="5.0.0.RC1",org.springframework.stereotype;version="5.0.0.RC1",org.s
- pringframework.transaction.annotation;version="5.0.0.RC1"
+ "5.8.0.Beta3",org.hibernate.search.annotations;version="5.8.0.Beta3",
+ org.hibernate.search.cfg;version="5.8.0.Beta3",org.hibernate.search.j
+ pa;version="5.8.0.Beta3",org.hibernate.search.query.dsl;version="5.8.
+ 0.Beta3",org.slf4j;version="1.7.25",org.springframework.beans.factory
+ .annotation;version="5.0.0.BUILD-SNAPSHOT",org.springframework.jdbc.c
+ ore;version="5.0.0.BUILD-SNAPSHOT",org.springframework.stereotype;ver
+ sion="5.0.0.BUILD-SNAPSHOT",org.springframework.transaction.annotatio
+ n;version="5.0.0.BUILD-SNAPSHOT"

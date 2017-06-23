@@ -1,6 +1,6 @@
 digraph hyperjaxb3_ejb_runtime_0_6_1_dependencies {
   node [shape = box, fontsize=10.0];
-  hyperjaxb3_ejb_runtime_0_6_1 -> commons_lang3_3_5;
+  hyperjaxb3_ejb_runtime_0_6_1 -> commons_lang3_3_6;
   hyperjaxb3_ejb_runtime_0_6_1 -> hibernate_jpa_2_1_api_1_0_0_Final;
   hyperjaxb3_ejb_runtime_0_6_1 -> xml_apis_1_4_01;
 }

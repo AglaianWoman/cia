@@ -26,6 +26,6 @@ Import-Package: ch.qos.logback.access,ch.qos.logback.access.spi,ch.qos
  .logback.classic;version="0.0.0",ch.qos.logback.classic.spi;version="
  0.0.0",ch.qos.logback.core;version="0.0.0",ch.qos.logback.core.patter
  n;version="0.0.0",ch.qos.logback.core.spi;version="0.0.0",com.fasterx
- ml.jackson.core;version="2.9.0.pr3",java.io,java.lang,java.net,java.u
+ ml.jackson.core;version="2.9.0.pr4",java.io,java.lang,java.net,java.u
  til,java.util.concurrent.atomic,javax.xml.bind,org.slf4j;version="1.7
  .25"

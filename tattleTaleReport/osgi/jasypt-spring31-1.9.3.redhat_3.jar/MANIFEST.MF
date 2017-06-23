@@ -26,11 +26,12 @@ Import-Package: java.beans,java.io,java.lang,java.security,java.util,j
  g.jasypt.encryption.pbe.config;version="0.0.0",org.jasypt.properties;
  version="0.0.0",org.jasypt.salt;version="0.0.0",org.jasypt.util.passw
  ord;version="0.0.0",org.jasypt.util.text;version="0.0.0",org.springfr
- amework.beans.factory;version="5.0.0.RC1",org.springframework.beans.f
- actory.config;version="5.0.0.RC1",org.springframework.beans.factory.s
- upport;version="5.0.0.RC1",org.springframework.beans.factory.xml;vers
- ion="5.0.0.RC1",org.springframework.context.support;version="5.0.0.RC
- 1",org.springframework.core.env;version="5.0.0.RC1",org.springframewo
- rk.core.io.support;version="5.0.0.RC1",org.springframework.util;versi
- on="5.0.0.RC1",org.springframework.web.context.support,org.w3c.dom;ve
- rsion="1.0"
+ amework.beans.factory;version="5.0.0.BUILD-SNAPSHOT",org.springframew
+ ork.beans.factory.config;version="5.0.0.BUILD-SNAPSHOT",org.springfra
+ mework.beans.factory.support;version="5.0.0.BUILD-SNAPSHOT",org.sprin
+ gframework.beans.factory.xml;version="5.0.0.BUILD-SNAPSHOT",org.sprin
+ gframework.context.support;version="5.0.0.BUILD-SNAPSHOT",org.springf
+ ramework.core.env;version="5.0.0.BUILD-SNAPSHOT",org.springframework.
+ core.io.support;version="5.0.0.BUILD-SNAPSHOT",org.springframework.ut
+ il;version="5.0.0.BUILD-SNAPSHOT",org.springframework.web.context.sup
+ port,org.w3c.dom;version="1.0"

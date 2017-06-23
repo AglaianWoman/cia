@@ -42,9 +42,10 @@ Import-Package: java.beans,java.io,java.lang,java.net,java.security,ja
  .activemq.util;version="5.14.5",org.apache.xbean.spring.context;versi
  on="4.5",org.apache.xbean.spring.context.impl;version="4.5",org.osgi.
  framework;version="0.0.0",org.slf4j;version="1.7.25",org.springframew
- ork.beans;version="5.0.0.RC1",org.springframework.beans.factory;versi
- on="5.0.0.RC1",org.springframework.beans.factory.xml;version="5.0.0.R
- C1",org.springframework.context;version="5.0.0.RC1",org.springframewo
- rk.core.io;version="5.0.0.RC1",org.springframework.jndi;version="5.0.
- 0.RC1",org.springframework.osgi.context.support,org.springframework.u
- til;version="5.0.0.RC1"
+ ork.beans;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.fa
+ ctory;version="5.0.0.BUILD-SNAPSHOT",org.springframework.beans.factor
+ y.xml;version="5.0.0.BUILD-SNAPSHOT",org.springframework.context;vers
+ ion="5.0.0.BUILD-SNAPSHOT",org.springframework.core.io;version="5.0.0
+ .BUILD-SNAPSHOT",org.springframework.jndi;version="5.0.0.BUILD-SNAPSH
+ OT",org.springframework.osgi.context.support,org.springframework.util
+ ;version="5.0.0.BUILD-SNAPSHOT"

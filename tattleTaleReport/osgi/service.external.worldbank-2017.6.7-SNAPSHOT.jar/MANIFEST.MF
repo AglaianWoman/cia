@@ -23,6 +23,6 @@ Import-Package: com.hack23.cia.model.external.worldbank.countries.impl
  ;version="0.0.0",com.hack23.cia.model.external.worldbank.topic.impl;v
  ersion="0.0.0",com.hack23.cia.service.external.common.api;version="0.
  0.0",java.lang,java.math,java.util,org.slf4j;version="1.7.25",org.spr
- ingframework.beans.factory.annotation;version="5.0.0.RC1",org.springf
- ramework.oxm;version="5.0.0.RC1",org.springframework.stereotype;versi
- on="5.0.0.RC1"
+ ingframework.beans.factory.annotation;version="5.0.0.BUILD-SNAPSHOT",
+ org.springframework.oxm;version="5.0.0.BUILD-SNAPSHOT",org.springfram
+ ework.stereotype;version="5.0.0.BUILD-SNAPSHOT"

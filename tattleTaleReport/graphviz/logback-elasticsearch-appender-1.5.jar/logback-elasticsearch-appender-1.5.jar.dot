@@ -1,6 +1,6 @@
 digraph logback_elasticsearch_appender_1_5_dependencies {
   node [shape = box, fontsize=10.0];
-  logback_elasticsearch_appender_1_5 -> jackson_core_2_9_0_pr3;
+  logback_elasticsearch_appender_1_5 -> jackson_core_2_9_0_pr4;
   logback_elasticsearch_appender_1_5 -> logback_classic_1_2_3;
   logback_elasticsearch_appender_1_5 -> logback_core_1_2_3;
   logback_elasticsearch_appender_1_5 -> slf4j_api_1_7_25;

@@ -6,9 +6,9 @@ digraph activemq_web_5_14_5_dependencies {
   activemq_web_5_14_5 -> geronimo_jms_1_1_spec_1_1_1;
   activemq_web_5_14_5 -> rome_1_0;
   activemq_web_5_14_5 -> slf4j_api_1_7_25;
-  activemq_web_5_14_5 -> spring_beans_5_0_0_RC1;
-  activemq_web_5_14_5 -> spring_core_5_0_0_RC1;
-  activemq_web_5_14_5 -> spring_web_5_0_0_RC1;
-  activemq_web_5_14_5 -> spring_webmvc_5_0_0_RC1;
+  activemq_web_5_14_5 -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  activemq_web_5_14_5 -> spring_core_5_0_0_BUILD_SNAPSHOT;
+  activemq_web_5_14_5 -> spring_web_5_0_0_BUILD_SNAPSHOT;
+  activemq_web_5_14_5 -> spring_webmvc_5_0_0_BUILD_SNAPSHOT;
   activemq_web_5_14_5 -> xstream_1_4_10;
 }

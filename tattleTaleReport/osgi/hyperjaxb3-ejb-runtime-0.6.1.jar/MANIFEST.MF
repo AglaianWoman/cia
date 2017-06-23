@@ -23,5 +23,5 @@ Import-Package: java.io,java.lang,java.lang.reflect,java.sql,java.util
  tion.adapters,javax.xml.datatype;version="1.0",javax.xml.namespace;ve
  rsion="1.0",javax.xml.parsers;version="1.0",javax.xml.transform;versi
  on="1.0",javax.xml.transform.dom;version="1.0",javax.xml.transform.st
- ream;version="1.0",org.apache.commons.lang3;version="3.5",org.w3c.dom
+ ream;version="1.0",org.apache.commons.lang3;version="3.6",org.w3c.dom
  ;version="1.0",org.xml.sax;version="1.0"

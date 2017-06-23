@@ -6,31 +6,35 @@ Created-By: 1.8.0_121 (Oracle Corporation)
 
 ### OSGi information
 Bundle-ManifestVersion: 2
-Bundle-SymbolicName: org.springframework.orm.hibernate5
+Bundle-SymbolicName: org.springframework.orm.jpa
 Bundle-Description: spring-orm-5.0.0.BUILD-SNAPSHOT
 Bundle-Name: spring-orm-5.0.0.BUILD-SNAPSHOT
 Bundle-Version: 5.0.0.BUILD-SNAPSHOT
-Export-Package: org.springframework.orm,org.springframework.orm.hibern
- ate5;uses:="java.lang,javax.persistence,org.hibernate.boot,org.hibern
- ate.boot.model.naming,org.hibernate.boot.registry,org.hibernate.conte
- xt.spi,org.hibernate.engine.jdbc.connections.spi,org.hibernate.engine
- .transaction.jta.platform.spi,org.hibernate.resource.jdbc.spi,org.hib
- ernate.resource.transaction.spi,org.springframework.dao",org.springfr
- amework.orm.hibernate5.support;uses:="org.aopalliance.intercept,org.s
- pringframework.orm.hibernate5,org.springframework.web.context.request
- ,org.springframework.web.context.request.async",org.springframework.o
- rm.jpa;uses:="javax.persistence,org.springframework.dao,org.springfra
- mework.orm.jpa.persistenceunit",org.springframework.orm.jpa.persisten
- ceunit;uses:="java.lang.invoke,java.util.function,javax.persistence,o
- rg.springframework.context.index",org.springframework.orm.jpa.support
- ;uses:="javax.persistence,org.springframework.beans.factory.config,or
- g.springframework.jndi,org.springframework.web.context.request,org.sp
- ringframework.web.context.request.async",org.springframework.orm.jpa.
- vendor;uses:="org.eclipse.persistence.config,org.eclipse.persistence.
- jpa,org.eclipse.persistence.logging,org.eclipse.persistence.sessions,
- org.hibernate.dialect,org.hibernate.jpa,org.hibernate.jpa.boot.intern
- al,org.hibernate.jpa.boot.spi,org.springframework.dao,org.springframe
- work.orm.jpa.persistenceunit"
+Export-Package: org.springframework.orm;uses:="org.springframework.lan
+ g",org.springframework.orm.hibernate5;uses:="java.lang,java.lang.invo
+ ke,javax.persistence,org.hibernate.boot,org.hibernate.boot.model.nami
+ ng,org.hibernate.boot.registry,org.hibernate.context.spi,org.hibernat
+ e.engine.jdbc.connections.spi,org.hibernate.engine.transaction.jta.pl
+ atform.spi,org.hibernate.resource.jdbc.spi,org.hibernate.resource.tra
+ nsaction.spi,org.springframework.dao,org.springframework.lang",org.sp
+ ringframework.orm.hibernate5.support;uses:="org.aopalliance.intercept
+ ,org.springframework.lang,org.springframework.orm.hibernate5,org.spri
+ ngframework.web.context.request,org.springframework.web.context.reque
+ st.async",org.springframework.orm.jpa;uses:="java.lang.invoke,java.ut
+ il.function,javax.persistence,org.springframework.dao,org.springframe
+ work.lang,org.springframework.orm.jpa.persistenceunit",org.springfram
+ ework.orm.jpa.persistenceunit;uses:="java.lang.invoke,java.util.funct
+ ion,javax.persistence,org.springframework.context.index,org.springfra
+ mework.lang",org.springframework.orm.jpa.support;uses:="java.lang.inv
+ oke,javax.persistence,org.springframework.beans.factory.config,org.sp
+ ringframework.jndi,org.springframework.lang,org.springframework.web.c
+ ontext.request,org.springframework.web.context.request.async",org.spr
+ ingframework.orm.jpa.vendor;uses:="org.eclipse.persistence.config,org
+ .eclipse.persistence.jpa,org.eclipse.persistence.logging,org.eclipse.
+ persistence.sessions,org.hibernate.dialect,org.hibernate.jpa,org.hibe
+ rnate.jpa.boot.internal,org.hibernate.jpa.boot.spi,org.springframewor
+ k.dao,org.springframework.lang,org.springframework.orm.jpa.persistenc
+ eunit"
 Import-Package: java.beans,java.io,java.lang,java.lang.annotation,java
  .lang.instrument,java.lang.invoke,java.lang.reflect,java.net,java.sec
  urity,java.sql,java.util,java.util.concurrent,java.util.function,java
@@ -76,15 +80,16 @@ Import-Package: java.beans,java.io,java.lang,java.lang.annotation,java
  k.instrument.classloading;version="5.0.0.BUILD-SNAPSHOT",org.springfr
  amework.jdbc.datasource;version="5.0.0.BUILD-SNAPSHOT",org.springfram
  ework.jdbc.datasource.lookup;version="5.0.0.BUILD-SNAPSHOT",org.sprin
- gframework.jndi;version="5.0.0.BUILD-SNAPSHOT",org.springframework.tr
- ansaction;version="5.0.0.BUILD-SNAPSHOT",org.springframework.transact
- ion.jta;version="5.0.0.BUILD-SNAPSHOT",org.springframework.transactio
- n.support;version="5.0.0.BUILD-SNAPSHOT",org.springframework.ui;versi
- on="5.0.0.BUILD-SNAPSHOT",org.springframework.util;version="5.0.0.BUI
- LD-SNAPSHOT",org.springframework.util.xml;version="5.0.0.BUILD-SNAPSH
- OT",org.springframework.web.context;version="5.0.0.BUILD-SNAPSHOT",or
- g.springframework.web.context.request;version="5.0.0.BUILD-SNAPSHOT",
- org.springframework.web.context.request.async;version="5.0.0.BUILD-SN
- APSHOT",org.springframework.web.context.support;version="5.0.0.BUILD-
- SNAPSHOT",org.springframework.web.filter;version="5.0.0.BUILD-SNAPSHO
- T",org.w3c.dom;version="1.0",org.xml.sax;version="1.0"
+ gframework.jndi;version="5.0.0.BUILD-SNAPSHOT",org.springframework.la
+ ng;version="5.0.0.BUILD-SNAPSHOT",org.springframework.transaction;ver
+ sion="5.0.0.BUILD-SNAPSHOT",org.springframework.transaction.jta;versi
+ on="5.0.0.BUILD-SNAPSHOT",org.springframework.transaction.support;ver
+ sion="5.0.0.BUILD-SNAPSHOT",org.springframework.ui;version="5.0.0.BUI
+ LD-SNAPSHOT",org.springframework.util;version="5.0.0.BUILD-SNAPSHOT",
+ org.springframework.util.xml;version="5.0.0.BUILD-SNAPSHOT",org.sprin
+ gframework.web.context;version="5.0.0.BUILD-SNAPSHOT",org.springframe
+ work.web.context.request;version="5.0.0.BUILD-SNAPSHOT",org.springfra
+ mework.web.context.request.async;version="5.0.0.BUILD-SNAPSHOT",org.s
+ pringframework.web.context.support;version="5.0.0.BUILD-SNAPSHOT",org
+ .springframework.web.filter;version="5.0.0.BUILD-SNAPSHOT",org.w3c.do
+ m;version="1.0",org.xml.sax;version="1.0"

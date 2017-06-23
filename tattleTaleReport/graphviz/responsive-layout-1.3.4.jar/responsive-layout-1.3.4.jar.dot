@@ -1,4 +1,4 @@
 digraph responsive_layout_1_3_4_dependencies {
   node [shape = box, fontsize=10.0];
-  responsive_layout_1_3_4 -> vaadin_server_8_1_0_beta1;
+  responsive_layout_1_3_4 -> vaadin_server_8_1_0_beta3;
 }

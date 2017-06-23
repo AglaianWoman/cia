@@ -1,8 +1,8 @@
 digraph spring_jms_5_0_0_BUILD_SNAPSHOT_dependencies {
   node [shape = box, fontsize=10.0];
   spring_jms_5_0_0_BUILD_SNAPSHOT -> geronimo_jms_1_1_spec_1_1_1;
-  spring_jms_5_0_0_BUILD_SNAPSHOT -> jackson_annotations_2_9_0_pr3;
-  spring_jms_5_0_0_BUILD_SNAPSHOT -> jackson_databind_2_9_0_pr3;
+  spring_jms_5_0_0_BUILD_SNAPSHOT -> jackson_annotations_2_9_0_pr4;
+  spring_jms_5_0_0_BUILD_SNAPSHOT -> jackson_databind_2_9_0_pr4;
   spring_jms_5_0_0_BUILD_SNAPSHOT -> jboss_connector_api_1_7_spec_1_0_0_Final;
   spring_jms_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
   spring_jms_5_0_0_BUILD_SNAPSHOT -> spring_aop_5_0_0_BUILD_SNAPSHOT;

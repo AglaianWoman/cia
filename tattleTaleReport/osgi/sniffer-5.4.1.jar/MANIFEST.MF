@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+X-Compile-Elasticsearch-Version: 5.4.1
+Implementation-Title: org.elasticsearch.client#sniffer;5.4.1
+Module-Origin: git@github.com:elastic/elasticsearch.git
+Build-Date: 2017-05-29T16:07:57.488Z
+Implementation-Version: 5.4.1
+Built-By: vagrant
+Change: 2cfe0df
+Module-Source: /client/sniffer
+Branch: 2cfe0dfa0304be2f9b6fc4508ddeb08e42d15678
+Built-Status: integration
+Gradle-Version: 3.3
+Built-OS: Linux
+X-Compile-Target-JDK: 1.7
+X-Compile-Elasticsearch-Snapshot: false
+X-Compile-Lucene-Version: 6.5.1
+X-Compile-Source-JDK: 1.7
+Created-By: 1.8.0_131-8u131-b11-0ubuntu1.16.04.2-b11 (Oracle Corporati
+ on)
+Build-Java-Version: 1.8
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.elasticsearch.client.sniff
+Bundle-Description: sniffer-5.4.1
+Bundle-Name: sniffer-5.4.1
+Bundle-Version: 5.4.1
+Export-Package: org.elasticsearch.client.sniff;uses:="com.fasterxml.ja
+ ckson.core,java.util,org.elasticsearch.client"
+Import-Package: com.fasterxml.jackson.core;version="2.9.0.pr4",java.io
+ ,java.lang,java.net,java.util,java.util.concurrent,java.util.concurre
+ nt.atomic,org.apache.commons.logging;version="1.7.25",org.apache.http
+ ;version="4.4.6",org.elasticsearch.client;version="5.4.1"

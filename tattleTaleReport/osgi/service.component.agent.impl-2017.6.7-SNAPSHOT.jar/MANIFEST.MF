@@ -90,10 +90,11 @@ Import-Package: com.hack23.cia.model.external.riksdagen.documentconten
  m.hack23.cia.service.external.worldbank.api;version="0.0.0",java.io,j
  ava.lang,java.nio.charset,java.text,java.util,java.util.concurrent,ja
  vax.annotation,javax.jms;version="1.1.1",javax.persistence.metamodel;
- version="2.1",org.apache.commons.lang3;version="3.5",org.joda.time;ve
+ version="2.1",org.apache.commons.lang3;version="3.6",org.joda.time;ve
  rsion="2.9",org.joda.time.format;version="2.9",org.slf4j;version="1.7
- .25",org.springframework.beans.factory.annotation;version="5.0.0.RC1"
- ,org.springframework.context;version="5.0.0.RC1",org.springframework.
- jms;version="5.0.0.RC1",org.springframework.jms.core;version="5.0.0.R
- C1",org.springframework.stereotype;version="5.0.0.RC1",org.springfram
- ework.transaction.annotation;version="5.0.0.RC1"
+ .25",org.springframework.beans.factory.annotation;version="5.0.0.BUIL
+ D-SNAPSHOT",org.springframework.context;version="5.0.0.BUILD-SNAPSHOT
+ ",org.springframework.jms;version="5.0.0.BUILD-SNAPSHOT",org.springfr
+ amework.jms.core;version="5.0.0.BUILD-SNAPSHOT",org.springframework.s
+ tereotype;version="5.0.0.BUILD-SNAPSHOT",org.springframework.transact
+ ion.annotation;version="5.0.0.BUILD-SNAPSHOT"

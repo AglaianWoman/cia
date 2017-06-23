@@ -23,7 +23,7 @@ Import-Package: java.io,java.lang,java.net,java.security,java.util,jav
  n="1.0",javax.xml.namespace;version="1.0",javax.xml.transform.dom;ver
  sion="1.0",junit.framework;version="4.12",org.apache.commons.io;versi
  on="2.5",org.apache.commons.io.filefilter;version="2.5",org.apache.co
- mmons.lang3;version="3.5",org.apache.commons.logging;version="1.7.25"
+ mmons.lang3;version="3.6",org.apache.commons.logging;version="1.7.25"
  ,org.custommonkey.xmlunit;version="0.0.0",org.jvnet.hyperjaxb3.ejb.ut
  il;version="0.0.0",org.jvnet.hyperjaxb3.xml.datatype.util;version="0.
  0.0",org.jvnet.jaxb2_commons.lang;version="0.0.0",org.jvnet.jaxb2_com

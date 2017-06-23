@@ -2,7 +2,7 @@ digraph citizen_intelligence_agency_2017_6_7_SNAPSHOT_dependencies {
   node [shape = box, fontsize=10.0];
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> commons_beanutils_1_9_3;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> commons_lang_2_6_0_redhat_6;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> commons_lang3_3_5;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> commons_lang3_3_6;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> dcharts_2_0_0_hack23;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> ehcache_2_10_4;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> ehcache_web_2_0_4;
@@ -23,17 +23,17 @@ digraph citizen_intelligence_agency_2017_6_7_SNAPSHOT_dependencies {
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> service_api_2017_6_7_SNAPSHOT;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> service_external_esv_2017_6_7_SNAPSHOT;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> slf4j_api_1_7_25;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_aop_5_0_0_RC1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_beans_5_0_0_RC1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_context_5_0_0_RC1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_security_core_5_0_0_M1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_security_web_5_0_0_M1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_tx_5_0_0_RC1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_web_5_0_0_RC1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_compatibility_server_8_1_0_beta1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_compatibility_shared_8_1_0_beta1;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_aop_5_0_0_BUILD_SNAPSHOT;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_security_core_5_0_0_M2;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_security_web_5_0_0_M2;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_tx_5_0_0_BUILD_SNAPSHOT;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> spring_web_5_0_0_BUILD_SNAPSHOT;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_compatibility_server_8_1_0_beta3;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_compatibility_shared_8_1_0_beta3;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_grid_util_1_2_0_hack23v7vaadin8r3;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_server_8_1_0_beta1;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_shared_8_1_0_beta1;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_server_8_1_0_beta3;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_shared_8_1_0_beta3;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_spring_2_0_1;
 }

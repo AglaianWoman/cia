@@ -78,20 +78,21 @@ Import-Package: com.google.api.client.googleapis.javanet;version="1.22
  ="0.0.0",com.warrenstrange.googleauth;version="0.0.0",java.io,java.la
  ng,java.security,java.text,java.util,java.util.concurrent,javax.annot
  ation,javax.persistence.metamodel;version="2.1",org.apache.commons.la
- ng;version="2.6.0.redhat-6",org.apache.commons.lang3;version="3.5",or
- g.slf4j;version="1.7.25",org.springframework.beans;version="5.0.0.RC1
- ",org.springframework.beans.factory.annotation;version="5.0.0.RC1",or
- g.springframework.context;version="5.0.0.RC1",org.springframework.mai
- l;version="5.0.0.RC1",org.springframework.mail.javamail;version="5.0.
- 0.RC1",org.springframework.scheduling.annotation;version="5.0.0.RC1",
- org.springframework.security.access.annotation;version="0.0.0",org.sp
- ringframework.security.authentication;version="0.0.0",org.springframe
- work.security.core;version="0.0.0",org.springframework.security.core.
- authority;version="0.0.0",org.springframework.security.core.context;v
- ersion="0.0.0",org.springframework.security.crypto.bcrypt;version="0.
- 0.0",org.springframework.security.crypto.password;version="0.0.0",org
- .springframework.stereotype;version="5.0.0.RC1",org.springframework.t
- ransaction.annotation;version="5.0.0.RC1",weka.core;version="0.0.0",w
- eka.core.stopwords;version="0.0.0",weka.core.tokenizers;version="0.0.
- 0",weka.filters;version="0.0.0",weka.filters.unsupervised.attribute;v
- ersion="0.0.0"
+ ng;version="2.6.0.redhat-6",org.apache.commons.lang3;version="3.6",or
+ g.slf4j;version="1.7.25",org.springframework.beans;version="5.0.0.BUI
+ LD-SNAPSHOT",org.springframework.beans.factory.annotation;version="5.
+ 0.0.BUILD-SNAPSHOT",org.springframework.context;version="5.0.0.BUILD-
+ SNAPSHOT",org.springframework.mail;version="5.0.0.BUILD-SNAPSHOT",org
+ .springframework.mail.javamail;version="5.0.0.BUILD-SNAPSHOT",org.spr
+ ingframework.scheduling.annotation;version="5.0.0.BUILD-SNAPSHOT",org
+ .springframework.security.access.annotation;version="0.0.0",org.sprin
+ gframework.security.authentication;version="0.0.0",org.springframewor
+ k.security.core;version="0.0.0",org.springframework.security.core.aut
+ hority;version="0.0.0",org.springframework.security.core.context;vers
+ ion="0.0.0",org.springframework.security.crypto.bcrypt;version="0.0.0
+ ",org.springframework.security.crypto.password;version="0.0.0",org.sp
+ ringframework.stereotype;version="5.0.0.BUILD-SNAPSHOT",org.springfra
+ mework.transaction.annotation;version="5.0.0.BUILD-SNAPSHOT",weka.cor
+ e;version="0.0.0",weka.core.stopwords;version="0.0.0",weka.core.token
+ izers;version="0.0.0",weka.filters;version="0.0.0",weka.filters.unsup
+ ervised.attribute;version="0.0.0"

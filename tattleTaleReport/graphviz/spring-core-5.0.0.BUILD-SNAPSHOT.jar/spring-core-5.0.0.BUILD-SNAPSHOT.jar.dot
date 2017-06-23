@@ -3,5 +3,6 @@ digraph spring_core_5_0_0_BUILD_SNAPSHOT_dependencies {
   spring_core_5_0_0_BUILD_SNAPSHOT -> ant_1_10_1;
   spring_core_5_0_0_BUILD_SNAPSHOT -> aspectjweaver_1_9_0_BETA_4;
   spring_core_5_0_0_BUILD_SNAPSHOT -> jcl_over_slf4j_1_7_25;
+  spring_core_5_0_0_BUILD_SNAPSHOT -> jsr305_1_3_9;
   spring_core_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
 }

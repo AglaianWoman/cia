@@ -5,5 +5,5 @@ digraph spring_oxm_5_0_0_BUILD_SNAPSHOT_dependencies {
   spring_oxm_5_0_0_BUILD_SNAPSHOT -> spring_beans_5_0_0_BUILD_SNAPSHOT;
   spring_oxm_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
   spring_oxm_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
-  spring_oxm_5_0_0_BUILD_SNAPSHOT -> xstream_1_4_9_redhat_2;
+  spring_oxm_5_0_0_BUILD_SNAPSHOT -> xstream_1_4_10;
 }

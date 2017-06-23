@@ -19,6 +19,6 @@ Bundle-Version: 1.22.0
 Export-Package: com.google.api.client.json.jackson2;uses:="com.fasterx
  ml.jackson.core,com.google.api.client.json,com.google.api.client.util
  "
-Import-Package: com.fasterxml.jackson.core;version="2.9.0.pr3",com.goo
+Import-Package: com.fasterxml.jackson.core;version="2.9.0.pr4",com.goo
  gle.api.client.json;version="1.22.0",com.google.api.client.util;versi
  on="1.22.0",java.io,java.lang,java.math,java.nio.charset
