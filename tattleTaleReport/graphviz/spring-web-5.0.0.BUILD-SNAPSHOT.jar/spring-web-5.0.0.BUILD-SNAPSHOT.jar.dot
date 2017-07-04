@@ -15,6 +15,6 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_dependencies {
   spring_web_5_0_0_BUILD_SNAPSHOT -> spring_context_5_0_0_BUILD_SNAPSHOT;
   spring_web_5_0_0_BUILD_SNAPSHOT -> spring_core_5_0_0_BUILD_SNAPSHOT;
   spring_web_5_0_0_BUILD_SNAPSHOT -> spring_oxm_5_0_0_BUILD_SNAPSHOT;
-  spring_web_5_0_0_BUILD_SNAPSHOT -> validation_api_2_0_0_Beta2;
+  spring_web_5_0_0_BUILD_SNAPSHOT -> validation_api_2_0_0_CR1;
   spring_web_5_0_0_BUILD_SNAPSHOT -> xml_apis_1_4_01;
 }

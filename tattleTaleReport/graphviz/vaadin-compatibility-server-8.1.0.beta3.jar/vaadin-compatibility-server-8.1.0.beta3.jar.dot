@@ -5,5 +5,5 @@ digraph vaadin_compatibility_server_8_1_0_beta3_dependencies {
   vaadin_compatibility_server_8_1_0_beta3 -> vaadin_compatibility_shared_8_1_0_beta3;
   vaadin_compatibility_server_8_1_0_beta3 -> vaadin_server_8_1_0_beta3;
   vaadin_compatibility_server_8_1_0_beta3 -> vaadin_shared_8_1_0_beta3;
-  vaadin_compatibility_server_8_1_0_beta3 -> validation_api_2_0_0_Beta2;
+  vaadin_compatibility_server_8_1_0_beta3 -> validation_api_2_0_0_CR1;
 }

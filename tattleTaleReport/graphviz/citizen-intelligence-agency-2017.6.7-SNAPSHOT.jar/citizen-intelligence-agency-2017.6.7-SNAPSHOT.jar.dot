@@ -35,5 +35,5 @@ digraph citizen_intelligence_agency_2017_6_7_SNAPSHOT_dependencies {
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_grid_util_1_2_0_hack23v7vaadin8r3;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_server_8_1_0_beta3;
   citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_shared_8_1_0_beta3;
-  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_spring_2_0_1;
+  citizen_intelligence_agency_2017_6_7_SNAPSHOT -> vaadin_spring_2_1_0_beta2;
 }

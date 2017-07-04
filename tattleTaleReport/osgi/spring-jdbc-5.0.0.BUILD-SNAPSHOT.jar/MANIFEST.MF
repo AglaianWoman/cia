@@ -33,9 +33,9 @@ Export-Package: org.springframework.jdbc;uses:="org.springframework.la
  ort;uses:="java.lang,java.lang.invoke,org.springframework.dao,org.spr
  ingframework.lang,org.springframework.util",org.springframework.jdbc.
  support.incrementer,org.springframework.jdbc.support.lob;uses:="java.
- nio.charset,org.springframework.lang",org.springframework.jdbc.suppor
- t.rowset;uses:="org.springframework.lang",org.springframework.jdbc.su
- pport.xml;uses:="org.springframework.lang"
+ nio.charset,org.springframework.lang,org.springframework.util",org.sp
+ ringframework.jdbc.support.rowset;uses:="org.springframework.lang",or
+ g.springframework.jdbc.support.xml;uses:="org.springframework.lang"
 Import-Package: java.beans,java.io,java.lang,java.lang.invoke,java.lan
  g.reflect,java.math,java.net,java.nio.charset,java.sql,java.util,java
  .util.function,java.util.logging,javax.naming,javax.sql,javax.sql.row

@@ -44,6 +44,7 @@ digraph spring_jdbc_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_jdbc_support -> org_springframework_util;
   org_springframework_jdbc_support_lob -> java_nio_charset;
   org_springframework_jdbc_support_lob -> org_springframework_lang;
+  org_springframework_jdbc_support_lob -> org_springframework_util;
   org_springframework_jdbc_support_rowset -> org_springframework_lang;
   org_springframework_jdbc_support_xml -> org_springframework_lang;
 }

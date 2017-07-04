@@ -81,14 +81,15 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_http_codec -> reactor_core_publisher;
   org_springframework_http_codec_json -> com_fasterxml_jackson_annotation;
   org_springframework_http_codec_json -> com_fasterxml_jackson_core;
+  org_springframework_http_codec_json -> com_fasterxml_jackson_core_async;
   org_springframework_http_codec_json -> com_fasterxml_jackson_core_util;
   org_springframework_http_codec_json -> com_fasterxml_jackson_databind;
   org_springframework_http_codec_json -> com_fasterxml_jackson_databind_exc;
   org_springframework_http_codec_json -> com_fasterxml_jackson_databind_type;
-  org_springframework_http_codec_json -> io_netty_buffer;
+  org_springframework_http_codec_json -> com_fasterxml_jackson_databind_util;
+  org_springframework_http_codec_json -> java_io;
   org_springframework_http_codec_json -> java_lang_invoke;
   org_springframework_http_codec_json -> java_nio_charset;
-  org_springframework_http_codec_json -> java_util;
   org_springframework_http_codec_json -> java_util_function;
   org_springframework_http_codec_json -> java_util_stream;
   org_springframework_http_codec_json -> org_reactivestreams;
@@ -214,9 +215,11 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_http_server_reactive -> org_springframework_core_io_buffer;
   org_springframework_http_server_reactive -> org_springframework_http;
   org_springframework_http_server_reactive -> org_springframework_lang;
+  org_springframework_http_server_reactive -> reactor_core;
   org_springframework_http_server_reactive -> reactor_core_publisher;
   org_springframework_http_server_reactive -> reactor_ipc_netty;
   org_springframework_http_server_reactive -> reactor_ipc_netty_http_server;
+  org_springframework_http_server_reactive -> reactor_util_context;
   org_springframework_remoting_caucho -> com_caucho_hessian;
   org_springframework_remoting_caucho -> com_caucho_hessian_client;
   org_springframework_remoting_caucho -> com_caucho_hessian_io;
@@ -289,6 +292,7 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_web_context_request -> org_springframework_lang;
   org_springframework_web_context_request_async -> java_lang;
   org_springframework_web_context_request_async -> java_lang_invoke;
+  org_springframework_web_context_request_async -> java_util_function;
   org_springframework_web_context_request_async -> org_springframework_lang;
   org_springframework_web_context_support -> groovy_lang;
   org_springframework_web_context_support -> org_springframework_beans_factory_groovy;
@@ -335,6 +339,7 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_web_method_annotation -> org_springframework_core;
   org_springframework_web_method_annotation -> org_springframework_core_annotation;
   org_springframework_web_method_annotation -> org_springframework_lang;
+  org_springframework_web_method_annotation -> org_springframework_util;
   org_springframework_web_method_annotation -> org_springframework_validation_annotation;
   org_springframework_web_method_annotation -> org_springframework_web_bind_annotation;
   org_springframework_web_method_annotation -> org_springframework_web_bind_support;
@@ -359,7 +364,6 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_web_multipart_support -> org_springframework_core;
   org_springframework_web_multipart_support -> org_springframework_lang;
   org_springframework_web_server -> java_time;
-  org_springframework_web_server -> java_util;
   org_springframework_web_server -> java_util_function;
   org_springframework_web_server -> org_springframework_http_server_reactive;
   org_springframework_web_server -> org_springframework_lang;
@@ -394,7 +398,6 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_web_server_session -> java_lang_invoke;
   org_springframework_web_server_session -> java_time;
   org_springframework_web_server_session -> java_time_temporal;
-  org_springframework_web_server_session -> java_util;
   org_springframework_web_server_session -> java_util_function;
   org_springframework_web_server_session -> java_util_stream;
   org_springframework_web_server_session -> org_reactivestreams;
@@ -411,6 +414,10 @@ digraph spring_web_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_web_util -> org_springframework_http;
   org_springframework_web_util -> org_springframework_lang;
   org_springframework_web_util -> org_springframework_util;
+  org_springframework_web_util_pattern -> java_lang_invoke;
   org_springframework_web_util_pattern -> java_nio_charset;
+  org_springframework_web_util_pattern -> java_util_function;
+  org_springframework_web_util_pattern -> java_util_stream;
+  org_springframework_web_util_pattern -> org_springframework_http_server_reactive;
   org_springframework_web_util_pattern -> org_springframework_lang;
 }

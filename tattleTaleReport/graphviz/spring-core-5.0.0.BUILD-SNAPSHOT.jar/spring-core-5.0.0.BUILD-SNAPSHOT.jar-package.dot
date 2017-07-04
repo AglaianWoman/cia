@@ -134,6 +134,7 @@ digraph spring_core_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_objenesis_instantiator_basic -> org_springframework_objenesis;
   org_springframework_objenesis_instantiator_basic -> org_springframework_objenesis_instantiator;
   org_springframework_objenesis_instantiator_basic -> org_springframework_objenesis_instantiator_annotations;
+  org_springframework_objenesis_instantiator_basic -> org_springframework_objenesis_instantiator_util;
   org_springframework_objenesis_instantiator_gcj -> org_springframework_objenesis;
   org_springframework_objenesis_instantiator_gcj -> org_springframework_objenesis_instantiator;
   org_springframework_objenesis_instantiator_gcj -> org_springframework_objenesis_instantiator_annotations;
@@ -143,7 +144,8 @@ digraph spring_core_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_objenesis_instantiator_sun -> org_springframework_objenesis;
   org_springframework_objenesis_instantiator_sun -> org_springframework_objenesis_instantiator;
   org_springframework_objenesis_instantiator_sun -> org_springframework_objenesis_instantiator_annotations;
-  org_springframework_objenesis_instantiator_sun -> org_springframework_objenesis_instantiator_basic;
+  org_springframework_objenesis_instantiator_sun -> org_springframework_objenesis_instantiator_util;
+  org_springframework_objenesis_instantiator_util -> org_springframework_objenesis;
   org_springframework_objenesis_strategy -> org_springframework_objenesis;
   org_springframework_objenesis_strategy -> org_springframework_objenesis_instantiator;
   org_springframework_objenesis_strategy -> org_springframework_objenesis_instantiator_android;

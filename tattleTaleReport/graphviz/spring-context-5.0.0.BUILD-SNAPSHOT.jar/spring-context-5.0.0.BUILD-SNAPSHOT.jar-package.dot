@@ -204,6 +204,7 @@ digraph spring_context_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_scheduling_annotation -> java_lang;
   org_springframework_scheduling_annotation -> java_lang_annotation;
   org_springframework_scheduling_annotation -> java_lang_invoke;
+  org_springframework_scheduling_annotation -> java_util_concurrent;
   org_springframework_scheduling_annotation -> java_util_function;
   org_springframework_scheduling_annotation -> org_aopalliance_aop;
   org_springframework_scheduling_annotation -> org_springframework_aop_framework_autoproxy;

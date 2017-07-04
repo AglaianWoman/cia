@@ -47,6 +47,7 @@ digraph spring_messaging_5_0_0_BUILD_SNAPSHOT_package_dependencies {
   org_springframework_messaging_handler_invocation -> org_springframework_messaging;
   org_springframework_messaging_handler_invocation -> org_springframework_messaging_handler;
   org_springframework_messaging_handler_invocation -> org_springframework_messaging_support;
+  org_springframework_messaging_handler_invocation -> org_springframework_util;
   org_springframework_messaging_handler_invocation -> org_springframework_util_concurrent;
   org_springframework_messaging_simp -> org_springframework_lang;
   org_springframework_messaging_simp -> org_springframework_messaging;

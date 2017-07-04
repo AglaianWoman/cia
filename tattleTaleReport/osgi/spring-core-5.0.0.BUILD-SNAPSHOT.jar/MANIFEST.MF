@@ -77,29 +77,30 @@ Export-Package: org.springframework.asm,org.springframework.cglib,org.
  k.objenesis.instantiator.annotations,org.springframework.objenesis.in
  stantiator.basic;uses:="org.springframework.objenesis,org.springframe
  work.objenesis.instantiator,org.springframework.objenesis.instantiato
- r.annotations",org.springframework.objenesis.instantiator.gcj;uses:="
- org.springframework.objenesis,org.springframework.objenesis.instantia
- tor,org.springframework.objenesis.instantiator.annotations",org.sprin
- gframework.objenesis.instantiator.perc;uses:="org.springframework.obj
- enesis,org.springframework.objenesis.instantiator,org.springframework
- .objenesis.instantiator.annotations",org.springframework.objenesis.in
- stantiator.sun;uses:="org.springframework.objenesis,org.springframewo
- rk.objenesis.instantiator,org.springframework.objenesis.instantiator.
- annotations,org.springframework.objenesis.instantiator.basic",org.spr
- ingframework.objenesis.strategy;uses:="org.springframework.objenesis,
- org.springframework.objenesis.instantiator,org.springframework.objene
- sis.instantiator.android,org.springframework.objenesis.instantiator.b
- asic,org.springframework.objenesis.instantiator.gcj,org.springframewo
- rk.objenesis.instantiator.perc,org.springframework.objenesis.instanti
- ator.sun",org.springframework.util;uses:="java.lang,java.lang.invoke,
- java.nio.charset,java.util,java.util.function,org.springframework.lan
- g",org.springframework.util.backoff;uses:="java.lang,java.lang.invoke
- ,java.util.function,org.springframework.lang",org.springframework.uti
- l.comparator;uses:="org.springframework.lang",org.springframework.uti
- l.concurrent;uses:="java.lang,java.lang.invoke,java.util.concurrent,j
- ava.util.function,org.springframework.lang",org.springframework.util.
- xml;uses:="java.lang.invoke,java.util.function,org.springframework.la
- ng"
+ r.annotations,org.springframework.objenesis.instantiator.util",org.sp
+ ringframework.objenesis.instantiator.gcj;uses:="org.springframework.o
+ bjenesis,org.springframework.objenesis.instantiator,org.springframewo
+ rk.objenesis.instantiator.annotations",org.springframework.objenesis.
+ instantiator.perc;uses:="org.springframework.objenesis,org.springfram
+ ework.objenesis.instantiator,org.springframework.objenesis.instantiat
+ or.annotations",org.springframework.objenesis.instantiator.sun;uses:=
+ "org.springframework.objenesis,org.springframework.objenesis.instanti
+ ator,org.springframework.objenesis.instantiator.annotations,org.sprin
+ gframework.objenesis.instantiator.util",org.springframework.objenesis
+ .instantiator.util;uses:="org.springframework.objenesis",org.springfr
+ amework.objenesis.strategy;uses:="org.springframework.objenesis,org.s
+ pringframework.objenesis.instantiator,org.springframework.objenesis.i
+ nstantiator.android,org.springframework.objenesis.instantiator.basic,
+ org.springframework.objenesis.instantiator.gcj,org.springframework.ob
+ jenesis.instantiator.perc,org.springframework.objenesis.instantiator.
+ sun",org.springframework.util;uses:="java.lang,java.lang.invoke,java.
+ nio.charset,java.util,java.util.function,org.springframework.lang",or
+ g.springframework.util.backoff;uses:="java.lang,java.lang.invoke,java
+ .util.function,org.springframework.lang",org.springframework.util.com
+ parator;uses:="org.springframework.lang",org.springframework.util.con
+ current;uses:="java.lang,java.lang.invoke,java.util.concurrent,java.u
+ til.function,org.springframework.lang",org.springframework.util.xml;u
+ ses:="java.lang.invoke,java.util.function,org.springframework.lang"
 Import-Package: io.netty.buffer,io.netty.util,io.reactivex,java.beans,
  java.io,java.lang,java.lang.annotation,java.lang.invoke,java.lang.ref
  ,java.lang.reflect,java.math,java.net,java.nio,java.nio.channels,java
