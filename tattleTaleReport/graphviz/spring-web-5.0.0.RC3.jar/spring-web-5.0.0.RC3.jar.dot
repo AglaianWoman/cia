@@ -1,0 +1,21 @@
+digraph spring_web_5_0_0_RC3_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_web_5_0_0_RC3 -> gson_2_8_1;
+  spring_web_5_0_0_RC3 -> httpasyncclient_4_1_2;
+  spring_web_5_0_0_RC3 -> httpclient_4_5_3;
+  spring_web_5_0_0_RC3 -> httpcore_4_4_6;
+  spring_web_5_0_0_RC3 -> httpcore_nio_4_4_5;
+  spring_web_5_0_0_RC3 -> jackson_annotations_2_9_0_pr4;
+  spring_web_5_0_0_RC3 -> jackson_core_2_9_0_pr4;
+  spring_web_5_0_0_RC3 -> jackson_databind_2_9_0_pr4;
+  spring_web_5_0_0_RC3 -> javax_mail_1_6_0;
+  spring_web_5_0_0_RC3 -> jaxb_api_2_2_11;
+  spring_web_5_0_0_RC3 -> jcl_over_slf4j_1_7_25;
+  spring_web_5_0_0_RC3 -> spring_aop_5_0_0_RC3;
+  spring_web_5_0_0_RC3 -> spring_beans_5_0_0_RC3;
+  spring_web_5_0_0_RC3 -> spring_context_5_0_0_RC3;
+  spring_web_5_0_0_RC3 -> spring_core_5_0_0_RC3;
+  spring_web_5_0_0_RC3 -> spring_oxm_5_0_0_RC3;
+  spring_web_5_0_0_RC3 -> validation_api_2_0_0_CR3;
+  spring_web_5_0_0_RC3 -> xml_apis_1_4_01;
+}

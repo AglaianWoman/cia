@@ -1,0 +1,28 @@
+digraph service_component_agent_impl_2017_7_25_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> commons_lang3_3_6;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> geronimo_jms_1_1_spec_1_1_1;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> joda_time_2_9_9;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_documentcontent_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_dokumentlista_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_dokumentstatus_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_person_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_personlista_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_utskottsforslag_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_votering_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_riksdagen_voteringlista_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_external_worldbank_indicators_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> model_internal_application_user_impl_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_component_agent_api_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_data_api_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_external_common_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_external_riksdagen_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_external_val_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> service_external_worldbank_2017_7_25_SNAPSHOT;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> slf4j_api_1_7_25;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> spring_beans_5_0_0_RC3;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> spring_context_5_0_0_RC3;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> spring_jms_5_0_0_RC3;
+  service_component_agent_impl_2017_7_25_SNAPSHOT -> spring_tx_5_0_0_RC3;
+}

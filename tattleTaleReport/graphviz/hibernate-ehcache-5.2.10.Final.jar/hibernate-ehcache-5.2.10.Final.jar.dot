@@ -1,6 +1,6 @@
 digraph hibernate_ehcache_5_2_10_Final_dependencies {
   node [shape = box, fontsize=10.0];
-  hibernate_ehcache_5_2_10_Final -> ehcache_2_10_4;
+  hibernate_ehcache_5_2_10_Final -> ehcache_2_10_4_1_4;
   hibernate_ehcache_5_2_10_Final -> hibernate_core_5_2_10_Final;
   hibernate_ehcache_5_2_10_Final -> jboss_logging_3_3_1_Final_redhat_1;
   hibernate_ehcache_5_2_10_Final -> jboss_transaction_api_1_2_spec_1_0_1_Final;

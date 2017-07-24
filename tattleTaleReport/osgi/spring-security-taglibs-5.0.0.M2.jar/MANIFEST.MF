@@ -18,17 +18,16 @@ Export-Package: org.springframework.security.taglibs,org.springframewo
  mework.security.web.csrf"
 Import-Package: java.io,java.lang,java.util,javax.servlet,javax.servle
  t.http,javax.servlet.jsp,javax.servlet.jsp.tagext,org.apache.commons.
- logging;version="1.7.25",org.springframework.beans;version="5.0.0.BUI
- LD-SNAPSHOT",org.springframework.context;version="5.0.0.BUILD-SNAPSHO
- T",org.springframework.core;version="5.0.0.BUILD-SNAPSHOT",org.spring
- framework.expression;version="5.0.0.BUILD-SNAPSHOT",org.springframewo
- rk.security.access;version="0.0.0",org.springframework.security.acces
- s.expression;version="0.0.0",org.springframework.security.core;versio
- n="0.0.0",org.springframework.security.core.context;version="0.0.0",o
- rg.springframework.security.web;version="0.0.0",org.springframework.s
- ecurity.web.access;version="0.0.0",org.springframework.security.web.c
- ontext.support;version="0.0.0",org.springframework.security.web.csrf;
- version="0.0.0",org.springframework.security.web.util;version="0.0.0"
- ,org.springframework.util;version="5.0.0.BUILD-SNAPSHOT",org.springfr
- amework.web.context;version="5.0.0.BUILD-SNAPSHOT",org.springframewor
- k.web.util;version="5.0.0.BUILD-SNAPSHOT"
+ logging;version="1.7.25",org.springframework.beans;version="5.0.0.RC3
+ ",org.springframework.context;version="5.0.0.RC3",org.springframework
+ .core;version="5.0.0.RC3",org.springframework.expression;version="5.0
+ .0.RC3",org.springframework.security.access;version="0.0.0",org.sprin
+ gframework.security.access.expression;version="0.0.0",org.springframe
+ work.security.core;version="0.0.0",org.springframework.security.core.
+ context;version="0.0.0",org.springframework.security.web;version="0.0
+ .0",org.springframework.security.web.access;version="0.0.0",org.sprin
+ gframework.security.web.context.support;version="0.0.0",org.springfra
+ mework.security.web.csrf;version="0.0.0",org.springframework.security
+ .web.util;version="0.0.0",org.springframework.util;version="5.0.0.RC3
+ ",org.springframework.web.context;version="5.0.0.RC3",org.springframe
+ work.web.util;version="5.0.0.RC3"

@@ -26,18 +26,17 @@ Export-Package: org.springframework.security.acls;uses:="org.aopallian
  xt,org.springframework.security.util",org.springframework.security.ac
  ls.model;uses:="org.springframework.security.core"
 Import-Package: java.io,java.lang,java.lang.reflect,java.sql,java.util
- ,javax.sql,net.sf.ehcache;version="2.10.4",org.aopalliance.intercept;
- version="5.0.0.BUILD-SNAPSHOT",org.apache.commons.logging;version="1.
- 7.25",org.springframework.cache;version="5.0.0.BUILD-SNAPSHOT",org.sp
- ringframework.context;version="5.0.0.BUILD-SNAPSHOT",org.springframew
- ork.context.support;version="5.0.0.BUILD-SNAPSHOT",org.springframewor
- k.dao;version="5.0.0.BUILD-SNAPSHOT",org.springframework.jdbc.core;ve
- rsion="5.0.0.BUILD-SNAPSHOT",org.springframework.security.access;vers
- ion="0.0.0",org.springframework.security.access.hierarchicalroles;ver
- sion="0.0.0",org.springframework.security.access.vote;version="0.0.0"
- ,org.springframework.security.core;version="0.0.0",org.springframewor
- k.security.core.authority;version="0.0.0",org.springframework.securit
- y.core.context;version="0.0.0",org.springframework.security.core.user
- details;version="0.0.0",org.springframework.security.util;version="0.
- 0.0",org.springframework.transaction.support;version="5.0.0.BUILD-SNA
- PSHOT",org.springframework.util;version="5.0.0.BUILD-SNAPSHOT"
+ ,javax.sql,net.sf.ehcache;version="0.0.0",org.aopalliance.intercept;v
+ ersion="5.0.0.RC3",org.apache.commons.logging;version="1.7.25",org.sp
+ ringframework.cache;version="5.0.0.RC3",org.springframework.context;v
+ ersion="5.0.0.RC3",org.springframework.context.support;version="5.0.0
+ .RC3",org.springframework.dao;version="5.0.0.RC3",org.springframework
+ .jdbc.core;version="5.0.0.RC3",org.springframework.security.access;ve
+ rsion="0.0.0",org.springframework.security.access.hierarchicalroles;v
+ ersion="0.0.0",org.springframework.security.access.vote;version="0.0.
+ 0",org.springframework.security.core;version="0.0.0",org.springframew
+ ork.security.core.authority;version="0.0.0",org.springframework.secur
+ ity.core.context;version="0.0.0",org.springframework.security.core.us
+ erdetails;version="0.0.0",org.springframework.security.util;version="
+ 0.0.0",org.springframework.transaction.support;version="5.0.0.RC3",or
+ g.springframework.util;version="5.0.0.RC3"

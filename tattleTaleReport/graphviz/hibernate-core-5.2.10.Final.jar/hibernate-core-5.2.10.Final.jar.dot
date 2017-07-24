@@ -9,8 +9,9 @@ digraph hibernate_core_5_2_10_Final_dependencies {
   hibernate_core_5_2_10_Final -> hibernate_jpa_2_1_api_1_0_0_Final;
   hibernate_core_5_2_10_Final -> jandex_2_0_3_Final;
   hibernate_core_5_2_10_Final -> javassist_3_22_0_CR2;
+  hibernate_core_5_2_10_Final -> jaxb_api_2_2_11;
   hibernate_core_5_2_10_Final -> jboss_logging_3_3_1_Final_redhat_1;
   hibernate_core_5_2_10_Final -> jboss_transaction_api_1_2_spec_1_0_1_Final;
-  hibernate_core_5_2_10_Final -> validation_api_2_0_0_CR1;
+  hibernate_core_5_2_10_Final -> validation_api_2_0_0_CR3;
   hibernate_core_5_2_10_Final -> xml_apis_1_4_01;
 }

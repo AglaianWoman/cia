@@ -1,0 +1,8 @@
+digraph rest_5_5_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  rest_5_5_0 -> httpasyncclient_4_1_2;
+  rest_5_5_0 -> httpclient_4_5_3;
+  rest_5_5_0 -> httpcore_4_4_6;
+  rest_5_5_0 -> httpcore_nio_4_4_5;
+  rest_5_5_0 -> jcl_over_slf4j_1_7_25;
+}

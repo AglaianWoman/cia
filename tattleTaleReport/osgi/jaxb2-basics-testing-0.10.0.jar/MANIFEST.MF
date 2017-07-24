@@ -14,9 +14,9 @@ Bundle-Version: 0.0.0
 Export-Package: org.jvnet.jaxb2_commons.lang;uses:="org.custommonkey.x
  mlunit,org.jvnet.jaxb2_commons.locator",org.jvnet.jaxb2_commons.test
 Import-Package: java.io,java.lang,java.net,java.security,java.util,jav
- ax.xml.bind,javax.xml.datatype;version="1.0",javax.xml.transform.dom;
- version="1.0",junit.framework;version="4.12",org.apache.commons.io;ve
- rsion="2.5",org.apache.commons.logging;version="1.7.25",org.custommon
- key.xmlunit;version="0.0.0",org.jvnet.jaxb2_commons.lang;version="0.0
- .0",org.jvnet.jaxb2_commons.locator;version="0.0.0",org.w3c.dom;versi
- on="1.0"
+ ax.xml.bind;version="2.2.11",javax.xml.datatype;version="1.0",javax.x
+ ml.transform.dom;version="1.0",junit.framework;version="4.12",org.apa
+ che.commons.io;version="2.5",org.apache.commons.logging;version="1.7.
+ 25",org.custommonkey.xmlunit;version="0.0.0",org.jvnet.jaxb2_commons.
+ lang;version="0.0.0",org.jvnet.jaxb2_commons.locator;version="0.0.0",
+ org.w3c.dom;version="1.0"

@@ -1,5 +1,7 @@
 digraph dom4j_1_6_1_dependencies {
   node [shape = box, fontsize=10.0];
+  dom4j_1_6_1 -> jaxb_api_2_2_11;
+  dom4j_1_6_1 -> jaxb_xjc_2_2_11;
   dom4j_1_6_1 -> xml_apis_1_4_01;
   dom4j_1_6_1 -> xpp3_1_1_6;
 }

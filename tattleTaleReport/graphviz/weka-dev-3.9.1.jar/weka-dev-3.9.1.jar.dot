@@ -2,6 +2,7 @@ digraph weka_dev_3_9_1_dependencies {
   node [shape = box, fontsize=10.0];
   weka_dev_3_9_1 -> bounce_0_18;
   weka_dev_3_9_1 -> java_cup_11b_2015_03_26;
+  weka_dev_3_9_1 -> jaxb_api_2_2_11;
   weka_dev_3_9_1 -> mtj_1_0_4;
   weka_dev_3_9_1 -> xml_apis_1_4_01;
 }

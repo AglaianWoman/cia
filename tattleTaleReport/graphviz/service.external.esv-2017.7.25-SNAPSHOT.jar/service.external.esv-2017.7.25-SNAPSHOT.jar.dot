@@ -1,0 +1,8 @@
+digraph service_external_esv_2017_7_25_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  service_external_esv_2017_7_25_SNAPSHOT -> commons_lang3_3_6;
+  service_external_esv_2017_7_25_SNAPSHOT -> poi_3_17_beta1;
+  service_external_esv_2017_7_25_SNAPSHOT -> slf4j_api_1_7_25;
+  service_external_esv_2017_7_25_SNAPSHOT -> spring_beans_5_0_0_RC3;
+  service_external_esv_2017_7_25_SNAPSHOT -> spring_context_5_0_0_RC3;
+}

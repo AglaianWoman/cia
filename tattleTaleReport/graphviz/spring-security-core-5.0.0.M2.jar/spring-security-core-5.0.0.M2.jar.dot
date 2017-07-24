@@ -2,16 +2,16 @@ digraph spring_security_core_5_0_0_M2_dependencies {
   node [shape = box, fontsize=10.0];
   spring_security_core_5_0_0_M2 -> aspectjweaver_1_9_0_BETA_4;
   spring_security_core_5_0_0_M2 -> bcprov_jdk15on_1_57;
-  spring_security_core_5_0_0_M2 -> ehcache_2_10_4;
+  spring_security_core_5_0_0_M2 -> ehcache_2_10_4_1_4;
   spring_security_core_5_0_0_M2 -> jackson_annotations_2_9_0_pr4;
   spring_security_core_5_0_0_M2 -> jackson_core_2_9_0_pr4;
   spring_security_core_5_0_0_M2 -> jackson_databind_2_9_0_pr4;
   spring_security_core_5_0_0_M2 -> jcl_over_slf4j_1_7_25;
-  spring_security_core_5_0_0_M2 -> spring_aop_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_beans_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_context_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_core_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_expression_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_jdbc_5_0_0_BUILD_SNAPSHOT;
-  spring_security_core_5_0_0_M2 -> spring_tx_5_0_0_BUILD_SNAPSHOT;
+  spring_security_core_5_0_0_M2 -> spring_aop_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_beans_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_context_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_core_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_expression_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_jdbc_5_0_0_RC3;
+  spring_security_core_5_0_0_M2 -> spring_tx_5_0_0_RC3;
 }

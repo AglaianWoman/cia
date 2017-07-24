@@ -49,15 +49,14 @@ Import-Package: com.google.gwt.core.client;version="0.0.0",com.google.
  i18n.shared;version="0.0.0",com.google.gwt.touch.client;version="0.0.
  0",com.google.gwt.user.client;version="0.0.0",com.google.gwt.user.cli
  ent.rpc;version="0.0.0",com.google.gwt.user.client.ui;version="0.0.0"
- ,com.vaadin.client;version="8.1.0.beta3",com.vaadin.client.communicat
- ion;version="8.1.0.beta3",com.vaadin.client.event;version="8.1.0.beta
- 3",com.vaadin.client.ui;version="8.1.0.beta3",com.vaadin.client.ui.la
- yout;version="8.1.0.beta3",com.vaadin.server;version="8.1.0.beta3",co
- m.vaadin.shared;version="8.1.0.beta3",com.vaadin.shared.annotations;v
- ersion="8.1.0.beta3",com.vaadin.shared.communication;version="8.1.0.b
- eta3",com.vaadin.shared.ui;version="8.1.0.beta3",com.vaadin.ui;versio
- n="8.1.0.beta3",com.vaadin.util;version="8.1.0.beta3",com.vaadin.v7.c
- lient.ui;version="8.1.0.beta3",com.vaadin.v7.client.ui.table;version=
- "8.1.0.beta3",com.vaadin.v7.shared;version="8.1.0.beta3",com.vaadin.v
- 7.ui;version="8.1.0.beta3",java.io,java.lang,java.lang.reflect,java.t
- ext,java.util,java.util.regex
+ ,com.vaadin.client;version="8.1.0.rc2",com.vaadin.client.communicatio
+ n;version="8.1.0.rc2",com.vaadin.client.event;version="8.1.0.rc2",com
+ .vaadin.client.ui;version="8.1.0.rc2",com.vaadin.client.ui.layout;ver
+ sion="8.1.0.rc2",com.vaadin.server;version="8.1.0.rc2",com.vaadin.sha
+ red;version="8.1.0.rc2",com.vaadin.shared.annotations;version="8.1.0.
+ rc2",com.vaadin.shared.communication;version="8.1.0.rc2",com.vaadin.s
+ hared.ui;version="8.1.0.rc2",com.vaadin.ui;version="8.1.0.rc2",com.va
+ adin.util;version="8.1.0.rc2",com.vaadin.v7.client.ui;version="8.1.0.
+ rc2",com.vaadin.v7.client.ui.table;version="8.1.0.rc2",com.vaadin.v7.
+ shared;version="8.1.0.rc2",com.vaadin.v7.ui;version="8.1.0.rc2",java.
+ io,java.lang,java.lang.reflect,java.text,java.util,java.util.regex

@@ -33,15 +33,15 @@ Import-Package: com.sun.syndication.feed.synd;version="0.0.0",com.sun.
  ,java.io,java.lang,java.net,java.util,java.util.concurrent,javax.jms;
  version="1.1.1",javax.management,javax.management.openmbean,javax.man
  agement.remote,javax.naming,javax.servlet,javax.servlet.http,javax.xm
- l.bind,org.apache.activemq;version="5.15.0",org.apache.activemq.broke
- r;version="5.15.0",org.apache.activemq.broker.jmx;version="5.15.0",or
- g.apache.activemq.broker.region;version="5.15.0",org.apache.activemq.
- broker.util;version="5.15.0",org.apache.activemq.command;version="5.1
- 5.0",org.apache.activemq.util;version="5.15.0",org.apache.activemq.xb
- ean;version="5.15.0",org.eclipse.jetty.continuation,org.eclipse.jetty
- .server,org.eclipse.jetty.server.handler,org.eclipse.jetty.webapp,org
- .slf4j;version="1.7.25",org.springframework.beans.factory;version="5.
- 0.0.BUILD-SNAPSHOT",org.springframework.core.io;version="5.0.0.BUILD-
- SNAPSHOT",org.springframework.util;version="5.0.0.BUILD-SNAPSHOT",org
- .springframework.web.context.support;version="5.0.0.BUILD-SNAPSHOT",o
- rg.springframework.web.servlet;version="5.0.0.BUILD-SNAPSHOT"
+ l.bind;version="2.2.11",org.apache.activemq;version="5.15.0",org.apac
+ he.activemq.broker;version="5.15.0",org.apache.activemq.broker.jmx;ve
+ rsion="5.15.0",org.apache.activemq.broker.region;version="5.15.0",org
+ .apache.activemq.broker.util;version="5.15.0",org.apache.activemq.com
+ mand;version="5.15.0",org.apache.activemq.util;version="5.15.0",org.a
+ pache.activemq.xbean;version="5.15.0",org.eclipse.jetty.continuation,
+ org.eclipse.jetty.server,org.eclipse.jetty.server.handler,org.eclipse
+ .jetty.webapp,org.slf4j;version="1.7.25",org.springframework.beans.fa
+ ctory;version="5.0.0.RC3",org.springframework.core.io;version="5.0.0.
+ RC3",org.springframework.util;version="5.0.0.RC3",org.springframework
+ .web.context.support;version="5.0.0.RC3",org.springframework.web.serv
+ let;version="5.0.0.RC3"

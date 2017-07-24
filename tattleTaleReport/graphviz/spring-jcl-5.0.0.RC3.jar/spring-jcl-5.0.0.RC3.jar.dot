@@ -1,0 +1,4 @@
+digraph spring_jcl_5_0_0_RC3_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_jcl_5_0_0_RC3 -> slf4j_api_1_7_25;
+}

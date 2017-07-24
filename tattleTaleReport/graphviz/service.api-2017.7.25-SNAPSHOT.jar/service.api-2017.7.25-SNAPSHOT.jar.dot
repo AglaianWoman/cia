@@ -1,0 +1,6 @@
+digraph service_api_2017_7_25_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  service_api_2017_7_25_SNAPSHOT -> commons_lang3_3_6;
+  service_api_2017_7_25_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
+  service_api_2017_7_25_SNAPSHOT -> model_internal_application_user_impl_2017_7_25_SNAPSHOT;
+}
