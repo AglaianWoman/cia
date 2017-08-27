@@ -6,8 +6,8 @@ digraph spring_webmvc_5_0_0_RC3_dependencies {
   spring_webmvc_5_0_0_RC3 -> jackson_databind_2_9_0_pr4;
   spring_webmvc_5_0_0_RC3 -> jaxb_api_2_2_11;
   spring_webmvc_5_0_0_RC3 -> jcl_over_slf4j_1_7_25;
-  spring_webmvc_5_0_0_RC3 -> poi_3_17_beta1;
-  spring_webmvc_5_0_0_RC3 -> poi_ooxml_3_17_beta1;
+  spring_webmvc_5_0_0_RC3 -> poi_3_17;
+  spring_webmvc_5_0_0_RC3 -> poi_ooxml_3_17;
   spring_webmvc_5_0_0_RC3 -> spring_aop_5_0_0_RC3;
   spring_webmvc_5_0_0_RC3 -> spring_beans_5_0_0_RC3;
   spring_webmvc_5_0_0_RC3 -> spring_context_5_0_0_RC3;

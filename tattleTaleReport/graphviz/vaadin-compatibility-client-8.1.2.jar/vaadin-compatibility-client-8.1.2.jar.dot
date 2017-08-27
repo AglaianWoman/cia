@@ -1,0 +1,9 @@
+digraph vaadin_compatibility_client_8_1_2_dependencies {
+  node [shape = box, fontsize=10.0];
+  vaadin_compatibility_client_8_1_2 -> gwt_elemental_2_8_1;
+  vaadin_compatibility_client_8_1_2 -> gwt_user_2_8_1;
+  vaadin_compatibility_client_8_1_2 -> vaadin_client_8_1_2;
+  vaadin_compatibility_client_8_1_2 -> vaadin_compatibility_server_8_1_2;
+  vaadin_compatibility_client_8_1_2 -> vaadin_compatibility_shared_8_1_2;
+  vaadin_compatibility_client_8_1_2 -> vaadin_shared_8_1_2;
+}

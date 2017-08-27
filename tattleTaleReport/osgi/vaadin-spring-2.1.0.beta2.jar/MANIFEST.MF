@@ -35,23 +35,23 @@ Export-Package: com.vaadin.spring;uses:="com.vaadin.spring.annotation,
  .internal,com.vaadin.spring.navigator,com.vaadin.ui,com.vaadin.util,j
  ava.lang.invoke,java.nio.charset,java.util.function,org.springframewo
  rk.beans.factory,org.springframework.core.env"
-Import-Package: com.vaadin.navigator;version="8.1.0.rc2",com.vaadin.se
- rver;version="8.1.0.rc2",com.vaadin.server.communication;version="8.1
- .0.rc2",com.vaadin.shared;version="8.1.0.rc2",com.vaadin.ui;version="
- 8.1.0.rc2",com.vaadin.ui.declarative;version="8.1.0.rc2",com.vaadin.u
- til;version="8.1.0.rc2",java.io,java.lang,java.lang.annotation,java.l
- ang.invoke,java.lang.reflect,java.net,java.nio.charset,java.util,java
- .util.concurrent,java.util.function,java.util.stream,javax.annotation
- ,javax.servlet,javax.servlet.http,org.slf4j;version="1.7.25",org.spri
- ngframework.beans;version="5.0.0.RC3",org.springframework.beans.facto
- ry;version="5.0.0.RC3",org.springframework.beans.factory.annotation;v
- ersion="5.0.0.RC3",org.springframework.beans.factory.config;version="
- 5.0.0.RC3",org.springframework.beans.factory.support;version="5.0.0.R
- C3",org.springframework.context;version="5.0.0.RC3",org.springframewo
- rk.context.annotation;version="5.0.0.RC3",org.springframework.core.an
- notation;version="5.0.0.RC3",org.springframework.core.env;version="5.
- 0.0.RC3",org.springframework.core.type;version="5.0.0.RC3",org.spring
- framework.stereotype;version="5.0.0.RC3",org.springframework.util;ver
- sion="5.0.0.RC3",org.springframework.web.context;version="5.0.0.RC3",
- org.springframework.web.context.support;version="5.0.0.RC3",org.sprin
- gframework.web.util;version="5.0.0.RC3"
+Import-Package: com.vaadin.navigator;version="8.1.2",com.vaadin.server
+ ;version="8.1.2",com.vaadin.server.communication;version="8.1.2",com.
+ vaadin.shared;version="8.1.2",com.vaadin.ui;version="8.1.2",com.vaadi
+ n.ui.declarative;version="8.1.2",com.vaadin.util;version="8.1.2",java
+ .io,java.lang,java.lang.annotation,java.lang.invoke,java.lang.reflect
+ ,java.net,java.nio.charset,java.util,java.util.concurrent,java.util.f
+ unction,java.util.stream,javax.annotation,javax.servlet,javax.servlet
+ .http,org.slf4j;version="1.7.25",org.springframework.beans;version="5
+ .0.0.RC3",org.springframework.beans.factory;version="5.0.0.RC3",org.s
+ pringframework.beans.factory.annotation;version="5.0.0.RC3",org.sprin
+ gframework.beans.factory.config;version="5.0.0.RC3",org.springframewo
+ rk.beans.factory.support;version="5.0.0.RC3",org.springframework.cont
+ ext;version="5.0.0.RC3",org.springframework.context.annotation;versio
+ n="5.0.0.RC3",org.springframework.core.annotation;version="5.0.0.RC3"
+ ,org.springframework.core.env;version="5.0.0.RC3",org.springframework
+ .core.type;version="5.0.0.RC3",org.springframework.stereotype;version
+ ="5.0.0.RC3",org.springframework.util;version="5.0.0.RC3",org.springf
+ ramework.web.context;version="5.0.0.RC3",org.springframework.web.cont
+ ext.support;version="5.0.0.RC3",org.springframework.web.util;version=
+ "5.0.0.RC3"

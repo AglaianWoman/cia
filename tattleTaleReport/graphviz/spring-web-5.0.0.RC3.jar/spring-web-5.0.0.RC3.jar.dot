@@ -16,6 +16,6 @@ digraph spring_web_5_0_0_RC3_dependencies {
   spring_web_5_0_0_RC3 -> spring_context_5_0_0_RC3;
   spring_web_5_0_0_RC3 -> spring_core_5_0_0_RC3;
   spring_web_5_0_0_RC3 -> spring_oxm_5_0_0_RC3;
-  spring_web_5_0_0_RC3 -> validation_api_2_0_0_CR3;
+  spring_web_5_0_0_RC3 -> validation_api_2_0_0_Final;
   spring_web_5_0_0_RC3 -> xml_apis_1_4_01;
 }
