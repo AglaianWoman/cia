@@ -1,0 +1,5 @@
+digraph asm_util_6_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  asm_util_6_0 -> asm_6_0;
+  asm_util_6_0 -> asm_tree_6_0;
+}

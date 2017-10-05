@@ -1,0 +1,85 @@
+Manifest-Version: 1.0
+Implementation-Title: ehcache-clustered
+Bundle-Description: Ehcache is an open-source caching library, complia
+ nt with the JSR-107 standard.
+Bundle-License: LICENSE
+Bundle-SymbolicName: org.ehcache.ehcache-clustered
+Implementation-Version: 3.4.0 45a1f99e0d65f13bdd379e60a5ca9a7b6d3a90bc
+Built-By: jenkins-slave
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1503928416000
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-DocURL: http://ehcache.org
+Bundle-Vendor: Terracotta Inc., a wholly-owned subsidiary of Software 
+ AG USA, Inc.
+Import-Package: javax.management,javax.net,javax.net.ssl,javax.xml.bin
+ d,javax.xml.transform,javax.xml.transform.stream,org.ehcache,org.ehca
+ che.config,org.ehcache.config.builders,org.ehcache.config.units,org.e
+ hcache.core,org.ehcache.core.collections,org.ehcache.core.config,org.
+ ehcache.core.events,org.ehcache.core.exceptions,org.ehcache.core.spi.
+ function,org.ehcache.core.spi.service,org.ehcache.core.spi.store,org.
+ ehcache.core.spi.store.events,org.ehcache.core.spi.store.tiering,org.
+ ehcache.core.spi.time,org.ehcache.core.statistics,org.ehcache.expiry,
+ org.ehcache.impl.config.loaderwriter,org.ehcache.impl.store,org.ehcac
+ he.spi.persistence,org.ehcache.spi.serialization,org.ehcache.spi.serv
+ ice,org.ehcache.xml,org.ehcache.xml.exceptions,org.ehcache.xml.model,
+ org.slf4j;version="[1.7,2)",org.w3c.dom
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
+Built-JDK: 1.8.0_131
+Tool: Bnd-3.2.0.201605172007
+Export-Package: org.ehcache.clustered.client.config;uses:="org.ehcache
+ ,org.ehcache.clustered.client.service,org.ehcache.clustered.common,or
+ g.ehcache.config,org.ehcache.config.builders,org.ehcache.config.units
+ ,org.ehcache.core,org.ehcache.spi.service",org.ehcache.clustered.clie
+ nt.config.builders;uses:="org.ehcache.clustered.client.config,org.ehc
+ ache.clustered.common,org.ehcache.config,org.ehcache.config.units",or
+ g.ehcache.clustered.client.service;uses:="org.ehcache,org.ehcache.clu
+ stered.client.config,org.ehcache.clustered.common,org.ehcache.core.sp
+ i.store,org.ehcache.spi.persistence,org.ehcache.spi.service",org.ehca
+ che.clustered.common
+Bundle-Name: ehcache-clustered 3
+Bundle-Version: 3.4.0
+provider: gradle
+Private-Package: com.tc.async.api,com.tc.async.impl,com.tc.bytes,com.t
+ c.classloader,com.tc.client,com.tc.cluster,com.tc.config,com.tc.confi
+ g.schema,com.tc.config.schema.context,com.tc.config.schema.repository
+ ,com.tc.config.schema.setup,com.tc.config.schema.setup.sources,com.tc
+ .entity,com.tc.exception,com.tc.handler,com.tc.io,com.tc.l2.ha,com.tc
+ .l2.msg,com.tc.l2.state,com.tc.lang,com.tc.license,com.tc.logging,com
+ .tc.management,com.tc.management.beans,com.tc.management.beans.l1,com
+ .tc.management.beans.logging,com.tc.management.beans.sessions,com.tc.
+ management.beans.tx,com.tc.management.exposed,com.tc.net,com.tc.net.c
+ ore,com.tc.net.core.event,com.tc.net.core.security,com.tc.net.groups,
+ com.tc.net.protocol,com.tc.net.protocol.delivery,com.tc.net.protocol.
+ tcm,com.tc.net.protocol.tcm.msgs,com.tc.net.protocol.transport,com.tc
+ .net.proxy,com.tc.net.util,com.tc.object,com.tc.object.bytecode,com.t
+ c.object.compression,com.tc.object.config,com.tc.object.handler,com.t
+ c.object.handshakemanager,com.tc.object.loaders,com.tc.object.msg,com
+ .tc.object.net,com.tc.object.request,com.tc.object.session,com.tc.obj
+ ect.tx,com.tc.objectserver.api,com.tc.operatorevent,com.tc.process,co
+ m.tc.properties,com.tc.runtime,com.tc.security,com.tc.server,com.tc.s
+ tatistics.util,com.tc.stats,com.tc.stats.counter,com.tc.stats.counter
+ .sampled,com.tc.stats.counter.sampled.derived,com.tc.stats.statistics
+ ,com.tc.sysinfo,com.tc.test,com.tc.text,com.tc.tracing,com.tc.util,co
+ m.tc.util.concurrent,com.tc.util.factory,com.tc.util.io,com.tc.util.p
+ roperties,com.tc.util.runtime,com.tc.util.sequence,com.tc.util.startu
+ plock,com.tc.util.version,com.terracotta.connection,com.terracotta.co
+ nnection.api,com.terracotta.connection.client,com.terracotta.connecti
+ on.entity,com.terracotta.diagnostic,org.ehcache.clustered.client.inte
+ rnal,org.ehcache.clustered.client.internal.config,org.ehcache.cluster
+ ed.client.internal.config.xml,org.ehcache.clustered.client.internal.l
+ ock,org.ehcache.clustered.client.internal.service,org.ehcache.cluster
+ ed.client.internal.store,org.ehcache.clustered.client.internal.store.
+ operations,org.ehcache.clustered.client.internal.store.operations.cod
+ ecs,org.ehcache.clustered.common.internal,org.ehcache.clustered.commo
+ n.internal.exceptions,org.ehcache.clustered.common.internal.lock,org.
+ ehcache.clustered.common.internal.messages,org.ehcache.clustered.comm
+ on.internal.store,org.ehcache.clustered.common.internal.util,org.terr
+ acotta.connection,org.terracotta.connection.entity,org.terracotta.ent
+ ity,org.terracotta.exception,org.terracotta.runnel,org.terracotta.run
+ nel.decoding,org.terracotta.runnel.decoding.fields,org.terracotta.run
+ nel.encoding,org.terracotta.runnel.encoding.dataholders,org.terracott
+ a.runnel.metadata,org.terracotta.runnel.utils
+Build-Time: 2017-08-28T06:53:36-0700
+Created-By: 1.8.0_131 (Oracle Corporation)
+

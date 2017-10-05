@@ -5,14 +5,14 @@ Bundle-Description: Javassist (JAVA programming ASSISTant) makes Java
 Bundle-License: http://www.mozilla.org/MPL/MPL-1.1.html, http://www.gn
  u.org/licenses/lgpl-2.1.html, http://www.apache.org/licenses/
 Bundle-SymbolicName: javassist
-Built-By: tomaz
-Bnd-LastModified: 1496754168665
+Built-By: jenkins
+Bnd-LastModified: 1505147204042
 Bundle-ManifestVersion: 2
 Specification-Vendor: Shigeru Chiba, www.javassist.org
 Specification-Title: Javassist
 Bundle-Vendor: Shigeru Chiba, www.javassist.org
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"
-Tool: Bnd-3.2.0.201605172007
+Tool: Bnd-3.3.0.201609221906
 Main-Class: javassist.CtClass
 Export-Package: javassist;version="3.22.0.CR2";uses:="javassist.byteco
  de,javassist.compiler,javassist.compiler.ast,javassist.convert,javass
@@ -36,7 +36,7 @@ Export-Package: javassist;version="3.22.0.CR2";uses:="javassist.byteco
  CR2";uses:="javassist,javassist.bytecode"
 Bundle-Name: Javassist
 Bundle-Version: 3.22.0.CR2
-Build-Jdk: 9-ea
+Build-Jdk: 9
 Created-By: Apache Maven Bundle Plugin
 Specification-Version: 3.22.0-CR2
 

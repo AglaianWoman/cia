@@ -1,6 +1,6 @@
 digraph hibernate_validator_6_0_2_Final_dependencies {
   node [shape = box, fontsize=10.0];
-  hibernate_validator_6_0_2_Final -> classmate_1_3_3;
+  hibernate_validator_6_0_2_Final -> classmate_1_3_4;
   hibernate_validator_6_0_2_Final -> hibernate_jpa_2_1_api_1_0_0_Final;
   hibernate_validator_6_0_2_Final -> jaxb_api_2_2_11;
   hibernate_validator_6_0_2_Final -> jboss_logging_3_3_1_Final_redhat_1;

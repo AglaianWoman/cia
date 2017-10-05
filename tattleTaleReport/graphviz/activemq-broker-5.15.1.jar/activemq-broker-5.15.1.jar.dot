@@ -1,0 +1,12 @@
+digraph activemq_broker_5_15_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  activemq_broker_5_15_1 -> activemq_client_5_15_1;
+  activemq_broker_5_15_1 -> geronimo_jms_1_1_spec_1_1_1;
+  activemq_broker_5_15_1 -> guava_23_0;
+  activemq_broker_5_15_1 -> hawtbuf_1_11;
+  activemq_broker_5_15_1 -> jackson_databind_2_9_1;
+  activemq_broker_5_15_1 -> jboss_transaction_api_1_2_spec_1_0_1_Final;
+  activemq_broker_5_15_1 -> org_osgi_core_6_0_0;
+  activemq_broker_5_15_1 -> slf4j_api_1_7_25;
+  activemq_broker_5_15_1 -> xml_apis_1_4_01;
+}

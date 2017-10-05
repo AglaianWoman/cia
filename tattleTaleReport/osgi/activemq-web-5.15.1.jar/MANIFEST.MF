@@ -1,0 +1,47 @@
+Manifest-Version: 1.0
+Implementation-Title: ActiveMQ :: Web
+Implementation-Version: 5.15.1
+Archiver-Version: Plexus Archiver
+Built-By: cshannon
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: ActiveMQ :: Web
+Implementation-Vendor-Id: org.apache.activemq
+Created-By: Apache Maven 3.5.0
+Build-Jdk: 1.8.0_144
+Specification-Version: 5.15.1
+Implementation-Vendor: The Apache Software Foundation
+
+
+### OSGi information
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.apache.activemq.web
+Bundle-Description: activemq-web-5.15.1
+Bundle-Name: activemq-web-5.15.1
+Bundle-Version: 5.15.1
+Export-Package: org.apache.activemq.web;uses:="org.apache.activemq,org
+ .apache.activemq.broker,org.apache.activemq.broker.jmx,org.apache.act
+ ivemq.broker.region,org.apache.activemq.broker.util,org.apache.active
+ mq.command,org.apache.activemq.util,org.apache.activemq.web.config,or
+ g.apache.activemq.web.util,org.apache.activemq.web.view,org.apache.ac
+ tivemq.xbean,org.eclipse.jetty.continuation",org.apache.activemq.web.
+ config;uses:="org.apache.activemq,org.eclipse.jetty.server,org.eclips
+ e.jetty.server.handler,org.eclipse.jetty.webapp",org.apache.activemq.
+ web.util,org.apache.activemq.web.view;uses:="com.sun.syndication.feed
+ .synd,com.sun.syndication.io,com.thoughtworks.xstream"
+Import-Package: com.sun.syndication.feed.synd;version="0.0.0",com.sun.
+ syndication.io;version="0.0.0",com.thoughtworks.xstream;version="1.4"
+ ,java.io,java.lang,java.net,java.util,java.util.concurrent,javax.jms;
+ version="1.1.1",javax.management,javax.management.openmbean,javax.man
+ agement.remote,javax.naming,javax.servlet,javax.servlet.http,javax.xm
+ l.bind;version="2.2.11",org.apache.activemq;version="5.15.1",org.apac
+ he.activemq.broker;version="5.15.1",org.apache.activemq.broker.jmx;ve
+ rsion="5.15.1",org.apache.activemq.broker.region;version="5.15.1",org
+ .apache.activemq.broker.util;version="5.15.1",org.apache.activemq.com
+ mand;version="5.15.1",org.apache.activemq.util;version="5.15.1",org.a
+ pache.activemq.xbean;version="5.15.1",org.eclipse.jetty.continuation,
+ org.eclipse.jetty.server,org.eclipse.jetty.server.handler,org.eclipse
+ .jetty.webapp,org.slf4j;version="1.7.25",org.springframework.beans.fa
+ ctory;version="5.0.0.RELEASE",org.springframework.core.io;version="5.
+ 0.0.RELEASE",org.springframework.util;version="5.0.0.RELEASE",org.spr
+ ingframework.web.context.support;version="5.0.0.RELEASE",org.springfr
+ amework.web.servlet;version="5.0.0.RELEASE"

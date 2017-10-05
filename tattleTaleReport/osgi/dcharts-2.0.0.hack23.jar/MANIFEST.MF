@@ -162,12 +162,13 @@ Import-Package: com.google.gwt.core.client;version="0.0.0",com.google.
  gwt.resources.client;version="0.0.0",com.google.gwt.user.client;versi
  on="0.0.0",com.google.gwt.user.client.ui;version="0.0.0",com.google.w
  eb.bindery.event.shared;version="0.0.0",com.vaadin.client;version="8.
- 1.2",com.vaadin.client.communication;version="8.1.2",com.vaadin.clien
- t.ui;version="8.1.2",com.vaadin.client.ui.layout;version="8.1.2",com.
- vaadin.server;version="8.1.2",com.vaadin.shared;version="8.1.2",com.v
- aadin.shared.communication;version="8.1.2",com.vaadin.shared.ui;versi
- on="8.1.2",com.vaadin.ui;version="8.1.2",java.awt.image,java.io,java.
- lang,java.lang.reflect,java.net,java.text,java.util,java.util.jar,jav
- ax.imageio,org.apache.commons.codec.binary;version="1.10.0.redhat-5",
- org.apache.commons.lang3;version="3.6",org.apache.commons.lang3.math;
- version="3.6"
+ 2.0.alpha2",com.vaadin.client.communication;version="8.2.0.alpha2",co
+ m.vaadin.client.ui;version="8.2.0.alpha2",com.vaadin.client.ui.layout
+ ;version="8.2.0.alpha2",com.vaadin.server;version="8.2.0.alpha2",com.
+ vaadin.shared;version="8.2.0.alpha2",com.vaadin.shared.communication;
+ version="8.2.0.alpha2",com.vaadin.shared.ui;version="8.2.0.alpha2",co
+ m.vaadin.ui;version="8.2.0.alpha2",java.awt.image,java.io,java.lang,j
+ ava.lang.reflect,java.net,java.text,java.util,java.util.jar,javax.ima
+ geio,org.apache.commons.codec.binary;version="1.10.0.redhat-5",org.ap
+ ache.commons.lang3;version="3.6",org.apache.commons.lang3.math;versio
+ n="3.6"

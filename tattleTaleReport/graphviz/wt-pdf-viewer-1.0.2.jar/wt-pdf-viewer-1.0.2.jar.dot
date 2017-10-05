@@ -1,0 +1,7 @@
+digraph wt_pdf_viewer_1_0_2_dependencies {
+  node [shape = box, fontsize=10.0];
+  wt_pdf_viewer_1_0_2 -> gwt_user_2_8_1;
+  wt_pdf_viewer_1_0_2 -> vaadin_client_8_2_0_alpha2;
+  wt_pdf_viewer_1_0_2 -> vaadin_server_8_2_0_alpha2;
+  wt_pdf_viewer_1_0_2 -> vaadin_shared_8_2_0_alpha2;
+}

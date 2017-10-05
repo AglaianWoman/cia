@@ -1,0 +1,11 @@
+digraph spring_security_acl_5_0_0_M4_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_security_acl_5_0_0_M4 -> ehcache_2_10_4_1_4;
+  spring_security_acl_5_0_0_M4 -> jcl_over_slf4j_1_7_25;
+  spring_security_acl_5_0_0_M4 -> spring_aop_5_0_0_RELEASE;
+  spring_security_acl_5_0_0_M4 -> spring_context_5_0_0_RELEASE;
+  spring_security_acl_5_0_0_M4 -> spring_core_5_0_0_RELEASE;
+  spring_security_acl_5_0_0_M4 -> spring_jdbc_5_0_0_RELEASE;
+  spring_security_acl_5_0_0_M4 -> spring_security_core_5_0_0_M4;
+  spring_security_acl_5_0_0_M4 -> spring_tx_5_0_0_RELEASE;
+}

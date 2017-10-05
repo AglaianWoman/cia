@@ -1,0 +1,8 @@
+digraph elasticsearch_rest_client_5_6_2_dependencies {
+  node [shape = box, fontsize=10.0];
+  elasticsearch_rest_client_5_6_2 -> httpasyncclient_4_1_2;
+  elasticsearch_rest_client_5_6_2 -> httpclient_4_5_3;
+  elasticsearch_rest_client_5_6_2 -> httpcore_4_4_8;
+  elasticsearch_rest_client_5_6_2 -> httpcore_nio_4_4_5;
+  elasticsearch_rest_client_5_6_2 -> jcl_over_slf4j_1_7_25;
+}

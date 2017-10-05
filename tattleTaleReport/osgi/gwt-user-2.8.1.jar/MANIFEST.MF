@@ -600,10 +600,10 @@ Import-Package: com.gargoylesoftware.htmlunit,com.gargoylesoftware.htm
  "0.0.0",javax.validation.metadata;version="0.0.0",javax.validation.sp
  i;version="0.0.0",javax.xml.parsers;version="1.0",jsinterop.annotatio
  ns;version="0.0.0",junit.framework;version="4.12",net.sourceforge.htm
- lunit.corejs.javascript,org.apache.commons.io;version="2.5",org.apach
+ lunit.corejs.javascript,org.apache.commons.io;version="2.6",org.apach
  e.tapestry.util.text,org.eclipse.jetty.server,org.eclipse.jetty.servl
  et,org.eclipse.jetty.webapp,org.hibernate.validator.engine,org.hibern
  ate.validator.metadata,org.kohsuke.args4j,org.objectweb.asm;version="
- 0.0.0",org.objectweb.asm.commons,org.w3c.css.sac;version="0.0.0",org.
- w3c.dom;version="1.0",org.xml.sax;version="1.0",org.xml.sax.ext;versi
- on="1.0",org.xml.sax.helpers;version="1.0"
+ 6.0",org.objectweb.asm.commons,org.w3c.css.sac;version="0.0.0",org.w3
+ c.dom;version="1.0",org.xml.sax;version="1.0",org.xml.sax.ext;version
+ ="1.0",org.xml.sax.helpers;version="1.0"

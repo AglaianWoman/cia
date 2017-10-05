@@ -1,0 +1,15 @@
+digraph activemq_web_5_15_1_dependencies {
+  node [shape = box, fontsize=10.0];
+  activemq_web_5_15_1 -> activemq_broker_5_15_1;
+  activemq_web_5_15_1 -> activemq_client_5_15_1;
+  activemq_web_5_15_1 -> activemq_spring_5_15_1;
+  activemq_web_5_15_1 -> geronimo_jms_1_1_spec_1_1_1;
+  activemq_web_5_15_1 -> jaxb_api_2_2_11;
+  activemq_web_5_15_1 -> rome_1_0;
+  activemq_web_5_15_1 -> slf4j_api_1_7_25;
+  activemq_web_5_15_1 -> spring_beans_5_0_0_RELEASE;
+  activemq_web_5_15_1 -> spring_core_5_0_0_RELEASE;
+  activemq_web_5_15_1 -> spring_web_5_0_0_RELEASE;
+  activemq_web_5_15_1 -> spring_webmvc_5_0_0_RELEASE;
+  activemq_web_5_15_1 -> xstream_1_4_10;
+}

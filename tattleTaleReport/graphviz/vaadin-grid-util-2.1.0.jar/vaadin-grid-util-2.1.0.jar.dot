@@ -1,0 +1,8 @@
+digraph vaadin_grid_util_2_1_0_dependencies {
+  node [shape = box, fontsize=10.0];
+  vaadin_grid_util_2_1_0 -> gwt_elemental_2_8_1;
+  vaadin_grid_util_2_1_0 -> gwt_user_2_8_1;
+  vaadin_grid_util_2_1_0 -> vaadin_client_8_2_0_alpha2;
+  vaadin_grid_util_2_1_0 -> vaadin_server_8_2_0_alpha2;
+  vaadin_grid_util_2_1_0 -> vaadin_shared_8_2_0_alpha2;
+}
