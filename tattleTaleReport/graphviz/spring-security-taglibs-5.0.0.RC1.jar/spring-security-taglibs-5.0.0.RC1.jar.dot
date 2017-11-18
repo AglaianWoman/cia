@@ -1,0 +1,11 @@
+digraph spring_security_taglibs_5_0_0_RC1_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_security_taglibs_5_0_0_RC1 -> jcl_over_slf4j_1_8_0_beta0;
+  spring_security_taglibs_5_0_0_RC1 -> spring_beans_5_0_1_RELEASE;
+  spring_security_taglibs_5_0_0_RC1 -> spring_context_5_0_1_RELEASE;
+  spring_security_taglibs_5_0_0_RC1 -> spring_core_5_0_1_RELEASE;
+  spring_security_taglibs_5_0_0_RC1 -> spring_expression_5_0_1_RELEASE;
+  spring_security_taglibs_5_0_0_RC1 -> spring_security_core_5_0_0_RC1;
+  spring_security_taglibs_5_0_0_RC1 -> spring_security_web_5_0_0_RC1;
+  spring_security_taglibs_5_0_0_RC1 -> spring_web_5_0_1_RELEASE;
+}

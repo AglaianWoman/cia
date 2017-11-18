@@ -1,0 +1,5 @@
+digraph lucene_sandbox_5_5_5_dependencies {
+  node [shape = box, fontsize=10.0];
+  lucene_sandbox_5_5_5 -> jakarta_regexp_1_4;
+  lucene_sandbox_5_5_5 -> lucene_core_5_5_5;
+}

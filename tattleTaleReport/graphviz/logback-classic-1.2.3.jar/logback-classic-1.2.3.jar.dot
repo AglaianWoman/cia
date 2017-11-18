@@ -1,6 +1,6 @@
 digraph logback_classic_1_2_3_dependencies {
   node [shape = box, fontsize=10.0];
   logback_classic_1_2_3 -> logback_core_1_2_3;
-  logback_classic_1_2_3 -> slf4j_api_1_7_25;
+  logback_classic_1_2_3 -> slf4j_api_1_8_0_beta0;
   logback_classic_1_2_3 -> xml_apis_1_4_01;
 }

@@ -184,12 +184,12 @@ Import-Package: java.awt,java.awt.font,java.awt.geom,java.awt.image,ja
  a.security,java.security.spec,java.text,java.util,java.util.concurren
  t,java.util.logging,java.util.regex,java.util.zip,javax.crypto,javax.
  crypto.spec,javax.imageio,javax.imageio.metadata,javax.imageio.stream
- ,javax.swing,javax.xml.bind;version="2.2.11",javax.xml.bind.annotatio
- n;version="2.2.11",javax.xml.bind.annotation.adapters;version="2.2.11
- ",javax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",j
- avax.xml.stream;version="1.0",javax.xml.stream.events;version="1.0",j
- avax.xml.transform;version="1.0",javax.xml.transform.stream;version="
- 1.0",org.apache.commons.codec.digest;version="1.10.0.redhat-5",org.ap
- ache.commons.collections4;version="4.1",org.apache.commons.collection
- s4.bidimap;version="4.1",org.apache.commons.logging;version="1.7.25",
- org.w3c.dom;version="1.0"
+ ,javax.swing,javax.xml.bind;version="2.3.0",javax.xml.bind.annotation
+ ;version="2.3.0",javax.xml.bind.annotation.adapters;version="2.3.0",j
+ avax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",java
+ x.xml.stream;version="1.0",javax.xml.stream.events;version="1.0",java
+ x.xml.transform;version="1.0",javax.xml.transform.stream;version="1.0
+ ",org.apache.commons.codec.digest;version="1.11",org.apache.commons.c
+ ollections4;version="4.1",org.apache.commons.collections4.bidimap;ver
+ sion="4.1",org.apache.commons.logging;version="0.0.0",org.w3c.dom;ver
+ sion="1.0"

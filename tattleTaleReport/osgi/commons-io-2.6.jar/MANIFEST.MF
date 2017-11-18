@@ -3,12 +3,12 @@ Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-SymbolicName: org.apache.commons.io
 Archiver-Version: Plexus Archiver
 Built-By: britter
-Bnd-LastModified: 1506785388732
-Implementation-Vendor-Id: commons-io
+Bnd-LastModified: 1508061500775
 Specification-Title: Apache Commons IO
+Implementation-Vendor-Id: commons-io
 Bundle-DocURL: http://commons.apache.org/proper/commons-io/
-Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt
- =NOTICE.txt
+Include-Resource: META-INF/NOTICE.txt=NOTICE.txt,META-INF/LICENSE.txt=
+ LICENSE.txt
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
 Export-Package: org.apache.commons.io;version="1.4.9999",org.apache.co
  mmons.io.comparator;version="1.4.9999",org.apache.commons.io.filefilt
@@ -33,7 +33,7 @@ Tool: Bnd-3.0.0.201509101326
 Implementation-Vendor: The Apache Software Foundation
 Bundle-Version: 2.6.0
 Created-By: Apache Maven Bundle Plugin
-Implementation-URL: http://commons.apache.org/proper/commons-io/
-Build-Jdk: 1.7.0_79
+Build-Jdk: 1.8.0_144
 Specification-Version: 2.6
+Implementation-URL: http://commons.apache.org/proper/commons-io/
 

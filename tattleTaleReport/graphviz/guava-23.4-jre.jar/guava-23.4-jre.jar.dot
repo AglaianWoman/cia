@@ -1,0 +1,7 @@
+digraph guava_23_4_jre_dependencies {
+  node [shape = box, fontsize=10.0];
+  guava_23_4_jre -> animal_sniffer_annotations_1_14;
+  guava_23_4_jre -> error_prone_annotations_2_0_18;
+  guava_23_4_jre -> j2objc_annotations_1_1;
+  guava_23_4_jre -> jsr305_1_3_9;
+}

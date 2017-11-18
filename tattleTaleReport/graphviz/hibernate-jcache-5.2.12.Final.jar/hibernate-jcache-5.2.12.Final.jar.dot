@@ -1,0 +1,7 @@
+digraph hibernate_jcache_5_2_12_Final_dependencies {
+  node [shape = box, fontsize=10.0];
+  hibernate_jcache_5_2_12_Final -> cache_api_1_0_0;
+  hibernate_jcache_5_2_12_Final -> hibernate_core_5_2_12_Final;
+  hibernate_jcache_5_2_12_Final -> jboss_logging_3_3_1_Final_redhat_1;
+  hibernate_jcache_5_2_12_Final -> jboss_transaction_api_1_2_spec_1_0_1_Final;
+}

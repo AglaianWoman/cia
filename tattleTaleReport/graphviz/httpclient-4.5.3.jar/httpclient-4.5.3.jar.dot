@@ -1,6 +1,6 @@
 digraph httpclient_4_5_3_dependencies {
   node [shape = box, fontsize=10.0];
-  httpclient_4_5_3 -> commons_codec_1_10_0_redhat_5;
+  httpclient_4_5_3 -> commons_codec_1_11;
   httpclient_4_5_3 -> httpcore_4_4_8;
-  httpclient_4_5_3 -> jcl_over_slf4j_1_7_25;
+  httpclient_4_5_3 -> jcl_over_slf4j_1_8_0_beta0;
 }

@@ -35,16 +35,16 @@ Export-Package: org.elasticsearch.client;uses:="java.nio.charset,java.
  e.http.nio.util"
 Import-Package: java.io,java.lang,java.net,java.nio.charset,java.secur
  ity,java.util,java.util.concurrent,java.util.concurrent.atomic,org.ap
- ache.commons.logging;version="1.7.25",org.apache.http;version="4.4.8"
- ,org.apache.http.auth;version="4.5.3",org.apache.http.client;version=
- "4.5.3",org.apache.http.client.config;version="4.5.3",org.apache.http
- .client.methods;version="4.5.3",org.apache.http.client.protocol;versi
- on="4.5.3",org.apache.http.client.utils;version="4.5.3",org.apache.ht
- tp.concurrent;version="4.4.8",org.apache.http.entity;version="4.4.8",
- org.apache.http.impl.auth;version="4.5.3",org.apache.http.impl.client
- ;version="4.5.3",org.apache.http.impl.nio.client;version="4.1.2",org.
- apache.http.nio;version="4.4.5",org.apache.http.nio.client.methods;ve
- rsion="4.1.2",org.apache.http.nio.entity;version="4.4.5",org.apache.h
- ttp.nio.protocol;version="4.4.5",org.apache.http.nio.util;version="4.
- 4.5",org.apache.http.protocol;version="4.4.8",org.apache.http.util;ve
- rsion="4.4.8"
+ ache.commons.logging;version="0.0.0",org.apache.http;version="4.4.8",
+ org.apache.http.auth;version="4.5.3",org.apache.http.client;version="
+ 4.5.3",org.apache.http.client.config;version="4.5.3",org.apache.http.
+ client.methods;version="4.5.3",org.apache.http.client.protocol;versio
+ n="4.5.3",org.apache.http.client.utils;version="4.5.3",org.apache.htt
+ p.concurrent;version="4.4.8",org.apache.http.entity;version="4.4.8",o
+ rg.apache.http.impl.auth;version="4.5.3",org.apache.http.impl.client;
+ version="4.5.3",org.apache.http.impl.nio.client;version="4.1.2",org.a
+ pache.http.nio;version="4.4.5",org.apache.http.nio.client.methods;ver
+ sion="4.1.2",org.apache.http.nio.entity;version="4.4.5",org.apache.ht
+ tp.nio.protocol;version="4.4.5",org.apache.http.nio.util;version="4.4
+ .5",org.apache.http.protocol;version="4.4.8",org.apache.http.util;ver
+ sion="4.4.8"

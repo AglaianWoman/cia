@@ -45,24 +45,24 @@ Export-Package: org.hisrc.xml.xsom;uses:="org.apache.commons.lang3",or
  s.xjc.outline.concrete;uses:="org.apache.commons.lang3,org.jvnet.jaxb
  2_commons.util,org.jvnet.jaxb2_commons.xjc.outline,org.jvnet.jaxb2_co
  mmons.xml.bind.model"
-Import-Package: com.sun.codemodel;version="2.2",com.sun.codemodel.fmt;
- version="2.2",com.sun.tools.xjc;version="2.2",com.sun.tools.xjc.gener
- ator.bean;version="2.2",com.sun.tools.xjc.generator.bean.field;versio
- n="2.2",com.sun.tools.xjc.model;version="2.2",com.sun.tools.xjc.model
- .nav;version="2.2",com.sun.tools.xjc.outline;version="2.2",com.sun.xm
- l.bind.api.impl;version="2.2",com.sun.xml.bind.v2.model.core;version=
- "2.2",com.sun.xml.xsom;version="2.2",com.sun.xml.xsom.visitor;version
- ="2.2",java.io,java.lang,java.lang.reflect,java.text,java.util,javax.
- xml.bind;version="2.2.11",javax.xml.bind.annotation;version="2.2.11",
- javax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",jav
- ax.xml.transform;version="1.0",javax.xml.transform.dom;version="1.0",
- org.apache.commons.beanutils;version="1.9.3",org.apache.commons.lang3
- ;version="3.6",org.apache.commons.logging;version="1.7.25",org.jvnet.
- jaxb2_commons.lang;version="0.0.0",org.jvnet.jaxb2_commons.xml.bind;v
- ersion="0.0.0",org.jvnet.jaxb2_commons.xml.bind.model;version="0.0.0"
- ,org.jvnet.jaxb2_commons.xml.bind.model.concrete;version="0.0.0",org.
- jvnet.jaxb2_commons.xml.bind.model.concrete.origin;version="0.0.0",or
- g.jvnet.jaxb2_commons.xml.bind.model.origin;version="0.0.0",org.sprin
- gframework.beans.factory.config;version="5.0.0.RELEASE",org.springfra
- mework.context.support;version="5.0.0.RELEASE",org.w3c.dom;version="1
- .0",org.xml.sax;version="1.0"
+Import-Package: com.sun.codemodel;version="2.3",com.sun.codemodel.fmt;
+ version="2.3",com.sun.tools.xjc;version="2.3",com.sun.tools.xjc.gener
+ ator.bean;version="2.3",com.sun.tools.xjc.generator.bean.field;versio
+ n="2.3",com.sun.tools.xjc.model;version="2.3",com.sun.tools.xjc.model
+ .nav;version="2.3",com.sun.tools.xjc.outline;version="2.3",com.sun.xm
+ l.bind.api.impl;version="2.3",com.sun.xml.bind.v2.model.core;version=
+ "2.3",com.sun.xml.xsom;version="2.3",com.sun.xml.xsom.visitor;version
+ ="2.3",java.io,java.lang,java.lang.reflect,java.text,java.util,javax.
+ xml.bind;version="2.3.0",javax.xml.bind.annotation;version="2.3.0",ja
+ vax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",javax
+ .xml.transform;version="1.0",javax.xml.transform.dom;version="1.0",or
+ g.apache.commons.beanutils;version="1.9.3",org.apache.commons.lang3;v
+ ersion="3.7",org.apache.commons.logging;version="0.0.0",org.jvnet.jax
+ b2_commons.lang;version="0.0.0",org.jvnet.jaxb2_commons.xml.bind;vers
+ ion="0.0.0",org.jvnet.jaxb2_commons.xml.bind.model;version="0.0.0",or
+ g.jvnet.jaxb2_commons.xml.bind.model.concrete;version="0.0.0",org.jvn
+ et.jaxb2_commons.xml.bind.model.concrete.origin;version="0.0.0",org.j
+ vnet.jaxb2_commons.xml.bind.model.origin;version="0.0.0",org.springfr
+ amework.beans.factory.config;version="5.0.1.RELEASE",org.springframew
+ ork.context.support;version="5.0.1.RELEASE",org.w3c.dom;version="1.0"
+ ,org.xml.sax;version="1.0"

@@ -1,0 +1,10 @@
+digraph model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT_dependencies {
+  node [shape = box, fontsize=10.0];
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> hibernate_jpa_2_1_api_1_0_0_Final;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> hyperjaxb3_ejb_roundtrip_0_6_2;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> jaxb_api_2_3_0;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> jaxb2_basics_runtime_0_11_1;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> model_common_api_2017_11_13_SNAPSHOT;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> model_common_impl_2017_11_13_SNAPSHOT;
+  model_external_riksdagen_dokumentstatus_impl_2017_11_13_SNAPSHOT -> xml_apis_1_4_01;
+}

@@ -1,0 +1,4 @@
+digraph slf4j_simple_1_8_0_beta0_dependencies {
+  node [shape = box, fontsize=10.0];
+  slf4j_simple_1_8_0_beta0 -> slf4j_api_1_8_0_beta0;
+}

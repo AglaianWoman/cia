@@ -26,12 +26,12 @@ Export-Package: org.dom4j,org.dom4j.bean,org.dom4j.datatype;uses:="com
 Import-Package: com.sun.msv.datatype,com.sun.msv.datatype.xsd,java.bea
  ns,java.io,java.lang,java.lang.ref,java.lang.reflect,java.net,java.ni
  o.charset,java.util,javax.swing.table,javax.swing.tree,javax.xml.bind
- ;version="2.2.11",javax.xml.namespace;version="1.0",javax.xml.parsers
- ;version="1.0",javax.xml.stream;version="1.0",javax.xml.stream.events
- ;version="1.0",javax.xml.stream.util;version="1.0",javax.xml.transfor
- m;version="1.0",javax.xml.transform.sax;version="1.0",javax.xml.trans
- form.stream;version="1.0",org.gjt.xpp,org.jaxen,org.jaxen.dom4j,org.j
- axen.pattern,org.jaxen.saxpath,org.relaxng.datatype;version="2.2",org
- .w3c.dom;version="1.0",org.xml.sax;version="1.0",org.xml.sax.ext;vers
- ion="1.0",org.xml.sax.helpers;version="1.0",org.xmlpull.v1;version="0
- .0.0"
+ ;version="2.3.0",javax.xml.namespace;version="1.0",javax.xml.parsers;
+ version="1.0",javax.xml.stream;version="1.0",javax.xml.stream.events;
+ version="1.0",javax.xml.stream.util;version="1.0",javax.xml.transform
+ ;version="1.0",javax.xml.transform.sax;version="1.0",javax.xml.transf
+ orm.stream;version="1.0",org.gjt.xpp,org.jaxen,org.jaxen.dom4j,org.ja
+ xen.pattern,org.jaxen.saxpath,org.relaxng.datatype;version="2.3",org.
+ w3c.dom;version="1.0",org.xml.sax;version="1.0",org.xml.sax.ext;versi
+ on="1.0",org.xml.sax.helpers;version="1.0",org.xmlpull.v1;version="0.
+ 0.0"

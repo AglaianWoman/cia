@@ -55,19 +55,19 @@ Export-Package: mulan.classifier;uses:="mulan.core,mulan.data,weka.cor
  weka.filters.unsupervised.attribute",mulan.transformations.multiclass
  ;uses:="mulan.data,mulan.transformations,weka.core"
 Import-Package: java.io,java.lang,java.lang.reflect,java.net,java.text
- ,java.util,java.util.logging,javax.xml.bind;version="2.2.11",javax.xm
- l.bind.annotation;version="2.2.11",javax.xml.bind.helpers;version="2.
- 2.11",javax.xml.parsers;version="1.0",javax.xml.transform;version="1.
- 0",javax.xml.transform.dom;version="1.0",javax.xml.transform.stream;v
- ersion="1.0",javax.xml.validation;version="1.0",org.w3c.dom;version="
- 1.0",org.xml.sax;version="1.0",weka.attributeSelection;version="0.0.0
- ",weka.classifiers;version="0.0.0",weka.classifiers.bayes;version="0.
- 0.0",weka.classifiers.evaluation;version="0.0.0",weka.classifiers.fun
- ctions;version="0.0.0",weka.classifiers.lazy;version="0.0.0",weka.cla
- ssifiers.meta;version="0.0.0",weka.classifiers.rules;version="0.0.0",
- weka.classifiers.trees;version="0.0.0",weka.clusterers;version="0.0.0
- ",weka.core;version="0.0.0",weka.core.converters;version="0.0.0",weka
- .core.matrix;version="0.0.0",weka.core.neighboursearch;version="0.0.0
- ",weka.experiment;version="0.0.0",weka.filters;version="0.0.0",weka.f
- ilters.unsupervised.attribute;version="0.0.0",weka.filters.unsupervis
- ed.instance;version="0.0.0"
+ ,java.util,java.util.logging,javax.xml.bind;version="2.3.0",javax.xml
+ .bind.annotation;version="2.3.0",javax.xml.bind.helpers;version="2.3.
+ 0",javax.xml.parsers;version="1.0",javax.xml.transform;version="1.0",
+ javax.xml.transform.dom;version="1.0",javax.xml.transform.stream;vers
+ ion="1.0",javax.xml.validation;version="1.0",org.w3c.dom;version="1.0
+ ",org.xml.sax;version="1.0",weka.attributeSelection;version="0.0.0",w
+ eka.classifiers;version="0.0.0",weka.classifiers.bayes;version="0.0.0
+ ",weka.classifiers.evaluation;version="0.0.0",weka.classifiers.functi
+ ons;version="0.0.0",weka.classifiers.lazy;version="0.0.0",weka.classi
+ fiers.meta;version="0.0.0",weka.classifiers.rules;version="0.0.0",wek
+ a.classifiers.trees;version="0.0.0",weka.clusterers;version="0.0.0",w
+ eka.core;version="0.0.0",weka.core.converters;version="0.0.0",weka.co
+ re.matrix;version="0.0.0",weka.core.neighboursearch;version="0.0.0",w
+ eka.experiment;version="0.0.0",weka.filters;version="0.0.0",weka.filt
+ ers.unsupervised.attribute;version="0.0.0",weka.filters.unsupervised.
+ instance;version="0.0.0"

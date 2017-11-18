@@ -223,9 +223,9 @@ Import-Package: java.awt,java.awt.datatransfer,java.awt.event,java.awt
  geio.plugins.jpeg,javax.imageio.stream,javax.swing,javax.swing.border
  ,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swi
  ng.plaf.basic,javax.swing.table,javax.swing.text,javax.swing.tree,jav
- ax.swing.undo,javax.xml.bind;version="2.2.11",javax.xml.bind.annotati
- on;version="2.2.11",javax.xml.bind.annotation.adapters;version="2.2.1
- 1",javax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",
- javax.xml.xpath;version="1.0",no.uib.cipr.matrix;version="0.0.0",org.
- bounce.net;version="0.0.0",org.w3c.dom;version="1.0",org.xml.sax;vers
- ion="1.0"
+ ax.swing.undo,javax.xml.bind;version="2.3.0",javax.xml.bind.annotatio
+ n;version="2.3.0",javax.xml.bind.annotation.adapters;version="2.3.0",
+ javax.xml.namespace;version="1.0",javax.xml.parsers;version="1.0",jav
+ ax.xml.xpath;version="1.0",no.uib.cipr.matrix;version="0.0.0",org.bou
+ nce.net;version="0.0.0",org.w3c.dom;version="1.0",org.xml.sax;version
+ ="1.0"

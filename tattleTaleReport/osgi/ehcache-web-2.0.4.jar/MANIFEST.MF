@@ -18,4 +18,4 @@ Export-Package: net.sf.ehcache.constructs.web;uses:="net.sf.ehcache,ne
 Import-Package: java.io,java.lang,java.text,java.util,java.util.concur
  rent,java.util.zip,javax.servlet,javax.servlet.http,net.sf.ehcache;ve
  rsion="0.0.0",net.sf.ehcache.config;version="0.0.0",net.sf.ehcache.co
- nstructs.blocking;version="0.0.0",org.slf4j;version="1.7.25"
+ nstructs.blocking;version="0.0.0",org.slf4j;version="0.0.0"
