@@ -41,7 +41,7 @@ Import-Package: com.sun.syndication.feed.synd;version="0.0.0",com.sun.
  ache.activemq.xbean;version="5.15.2",org.eclipse.jetty.continuation,o
  rg.eclipse.jetty.server,org.eclipse.jetty.server.handler,org.eclipse.
  jetty.webapp,org.slf4j;version="0.0.0",org.springframework.beans.fact
- ory;version="5.0.1.RELEASE",org.springframework.core.io;version="5.0.
- 1.RELEASE",org.springframework.util;version="5.0.1.RELEASE",org.sprin
- gframework.web.context.support;version="5.0.1.RELEASE",org.springfram
- ework.web.servlet;version="5.0.1.RELEASE"
+ ory;version="5.0.2.RELEASE",org.springframework.core.io;version="5.0.
+ 2.RELEASE",org.springframework.util;version="5.0.2.RELEASE",org.sprin
+ gframework.web.context.support;version="5.0.2.RELEASE",org.springfram
+ ework.web.servlet;version="5.0.2.RELEASE"

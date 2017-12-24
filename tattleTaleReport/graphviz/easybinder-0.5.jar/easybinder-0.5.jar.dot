@@ -1,0 +1,8 @@
+digraph easybinder_0_5_dependencies {
+  node [shape = box, fontsize=10.0];
+  easybinder_0_5 -> gentyref_1_2_0_vaadin1;
+  easybinder_0_5 -> hibernate_jpa_2_1_api_1_0_0_Final;
+  easybinder_0_5 -> vaadin_server_8_2_0;
+  easybinder_0_5 -> vaadin_shared_8_2_0;
+  easybinder_0_5 -> validation_api_2_0_1_Final;
+}

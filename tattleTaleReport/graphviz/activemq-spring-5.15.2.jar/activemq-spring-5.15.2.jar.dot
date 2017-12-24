@@ -7,8 +7,8 @@ digraph activemq_spring_5_15_2_dependencies {
   activemq_spring_5_15_2 -> geronimo_jms_1_1_spec_1_1_1;
   activemq_spring_5_15_2 -> jboss_transaction_api_1_2_spec_1_0_1_Final;
   activemq_spring_5_15_2 -> slf4j_api_1_8_0_beta0;
-  activemq_spring_5_15_2 -> spring_beans_5_0_1_RELEASE;
-  activemq_spring_5_15_2 -> spring_context_5_0_1_RELEASE;
-  activemq_spring_5_15_2 -> spring_core_5_0_1_RELEASE;
-  activemq_spring_5_15_2 -> xbean_spring_4_5;
+  activemq_spring_5_15_2 -> spring_beans_5_0_2_RELEASE;
+  activemq_spring_5_15_2 -> spring_context_5_0_2_RELEASE;
+  activemq_spring_5_15_2 -> spring_core_5_0_2_RELEASE;
+  activemq_spring_5_15_2 -> xbean_spring_4_6;
 }

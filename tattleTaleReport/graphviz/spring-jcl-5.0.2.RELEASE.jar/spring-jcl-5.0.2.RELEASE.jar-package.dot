@@ -1,0 +1,5 @@
+digraph spring_jcl_5_0_2_RELEASE_package_dependencies {
+  node [shape = box, fontsize=10.0];
+  org_apache_commons_logging -> org_apache_logging_log4j;
+  org_apache_commons_logging -> org_apache_logging_log4j_spi;
+}

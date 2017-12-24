@@ -60,19 +60,19 @@ Import-Package: java.io,java.lang,java.net,java.nio,java.nio.channels,
  .concurrent,java.util.concurrent.atomic,javax.net.ssl,javax.security.
  auth.x500,org.apache.commons.logging;version="0.0.0",org.apache.http;
  version="4.4.8",org.apache.http.annotation;version="4.4.8",org.apache
- .http.auth;version="4.5.3",org.apache.http.client;version="4.5.3",org
- .apache.http.client.config;version="4.5.3",org.apache.http.client.met
- hods;version="4.5.3",org.apache.http.client.params;version="4.5.3",or
- g.apache.http.client.protocol;version="4.5.3",org.apache.http.client.
- utils;version="4.5.3",org.apache.http.concurrent;version="4.4.8",org.
+ .http.auth;version="4.5.4",org.apache.http.client;version="4.5.4",org
+ .apache.http.client.config;version="4.5.4",org.apache.http.client.met
+ hods;version="4.5.4",org.apache.http.client.params;version="4.5.4",or
+ g.apache.http.client.protocol;version="4.5.4",org.apache.http.client.
+ utils;version="4.5.4",org.apache.http.concurrent;version="4.4.8",org.
  apache.http.config;version="4.4.8",org.apache.http.conn;version="4.5.
- 3",org.apache.http.conn.params;version="4.5.3",org.apache.http.conn.r
- outing;version="4.5.3",org.apache.http.conn.ssl;version="4.5.3",org.a
- pache.http.conn.util;version="4.5.3",org.apache.http.cookie;version="
- 4.5.3",org.apache.http.entity;version="4.4.8",org.apache.http.impl;ve
- rsion="4.4.8",org.apache.http.impl.auth;version="4.5.3",org.apache.ht
- tp.impl.client;version="4.5.3",org.apache.http.impl.conn;version="4.5
- .3",org.apache.http.impl.cookie;version="4.5.3",org.apache.http.impl.
+ 4",org.apache.http.conn.params;version="4.5.4",org.apache.http.conn.r
+ outing;version="4.5.4",org.apache.http.conn.ssl;version="4.5.4",org.a
+ pache.http.conn.util;version="4.5.4",org.apache.http.cookie;version="
+ 4.5.4",org.apache.http.entity;version="4.4.8",org.apache.http.impl;ve
+ rsion="4.4.8",org.apache.http.impl.auth;version="4.5.4",org.apache.ht
+ tp.impl.client;version="4.5.4",org.apache.http.impl.conn;version="4.5
+ .4",org.apache.http.impl.cookie;version="4.5.4",org.apache.http.impl.
  nio;version="4.4.5",org.apache.http.impl.nio.codecs;version="4.4.5",o
  rg.apache.http.impl.nio.reactor;version="4.4.5",org.apache.http.messa
  ge;version="4.4.8",org.apache.http.nio;version="4.4.5",org.apache.htt

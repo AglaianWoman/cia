@@ -4,5 +4,5 @@ digraph moa_2017_06_dependencies {
   moa_2017_06 -> jama_1_0_3;
   moa_2017_06 -> meka_1_9_1;
   moa_2017_06 -> sizeofag_1_0_0;
-  moa_2017_06 -> weka_dev_3_9_1;
+  moa_2017_06 -> weka_dev_3_9_2;
 }

@@ -10,5 +10,5 @@ digraph meka_1_9_1_dependencies {
   meka_1_9_1 -> mulan_1_4_0;
   meka_1_9_1 -> scala_library_2_10_2;
   meka_1_9_1 -> trove4j_3_0_3;
-  meka_1_9_1 -> weka_dev_3_9_1;
+  meka_1_9_1 -> weka_dev_3_9_2;
 }

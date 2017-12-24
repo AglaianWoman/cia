@@ -5,5 +5,5 @@ digraph autoencoder_0_1_dependencies {
   autoencoder_0_1 -> jfreechart_1_0_13;
   autoencoder_0_1 -> scala_library_2_10_2;
   autoencoder_0_1 -> scala_swing_2_10_2;
-  autoencoder_0_1 -> weka_dev_3_9_1;
+  autoencoder_0_1 -> weka_dev_3_9_2;
 }

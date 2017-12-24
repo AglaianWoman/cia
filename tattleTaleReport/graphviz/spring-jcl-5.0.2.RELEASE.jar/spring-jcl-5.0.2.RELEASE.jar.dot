@@ -1,0 +1,4 @@
+digraph spring_jcl_5_0_2_RELEASE_dependencies {
+  node [shape = box, fontsize=10.0];
+  spring_jcl_5_0_2_RELEASE -> slf4j_api_1_8_0_beta0;
+}
